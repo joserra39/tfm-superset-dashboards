@@ -1,0 +1,95 @@
+slice_name: Mapa
+description: null
+certified_by: null
+certification_details: null
+viz_type: deck_scatter
+params:
+  datasource: 1__table
+  viz_type: deck_scatter
+  slice_id: 2
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  spatial:
+    type: latlong
+    latCol: latitude
+    lonCol: longitude
+  row_limit: 10000
+  filter_nulls: true
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_1mm54t8pj8w_5f9ge61m1ze
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: dateobserved
+  tooltip_contents:
+  - entityid
+  - no2
+  tooltip_template: ''
+  mapbox_style: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+  autozoom: true
+  viewport:
+    bearing: 0
+    latitude: 31.222656842808707
+    longitude: 6.85236157047845
+    pitch: 0
+    zoom: 1
+  point_radius_fixed:
+    type: fix
+    value: '100'
+  point_unit: square_m
+  min_radius: 5
+  max_radius: 250
+  multiplier: 1
+  legend_position: tr
+  legend_format: SMART_NUMBER
+  color_scheme_type: color_breakpoints
+  default_breakpoint_color:
+    a: 1
+    b: 102
+    g: 102
+    r: 102
+  color_breakpoints: []
+  js_columns: []
+  js_data_mutator: ''
+  js_tooltip: ''
+  js_onclick_href: ''
+  time_grain_sqla: null
+  granularity: null
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"dateobserved","op":"TEMPORAL_RANGE","val":"No
+  filter"},{"col":"longitude","op":"IS NOT NULL","val":null},{"col":"latitude","op":"IS
+  NOT NULL","val":null}],"extras":{"time_grain_sqla":null,"having":"","where":""},"applied_time_extras":{},"columns":["longitude","latitude","entityid","no2"],"metrics":[],"orderby":[],"annotation_layers":[],"row_limit":10000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"is_timeseries":false}],"form_data":{"datasource":"1__table","viz_type":"deck_scatter","slice_id":2,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","spatial":{"type":"latlong","latCol":"latitude","lonCol":"longitude"},"row_limit":10000,"filter_nulls":true,"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_1mm54t8pj8w_5f9ge61m1ze","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","sqlExpression":null,"subject":"dateobserved"}],"tooltip_contents":["entityid","no2"],"tooltip_template":"","mapbox_style":"https://tile.openstreetmap.org/{z}/{x}/{y}.png","autozoom":true,"viewport":{"bearing":0,"latitude":31.222656842808707,"longitude":6.85236157047845,"pitch":0,"zoom":1},"point_radius_fixed":{"type":"fix","value":"100"},"point_unit":"square_m","min_radius":5,"max_radius":250,"multiplier":1,"legend_position":"tr","legend_format":"SMART_NUMBER","color_scheme_type":"color_breakpoints","default_breakpoint_color":{"a":1,"b":102,"g":102,"r":102},"color_breakpoints":[],"js_columns":[],"js_data_mutator":"","js_tooltip":"","js_onclick_href":"","time_grain_sqla":null,"granularity":null,"extra_form_data":{},"dashboards":[1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 0c1885bc-6907-4332-9b8d-b20b0d7b52f9
+version: 1.0.0
+dataset_uuid: 12540c76-f1e5-43f4-83d1-bd49982296c7

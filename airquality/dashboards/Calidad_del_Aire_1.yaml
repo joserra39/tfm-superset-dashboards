@@ -1,0 +1,328 @@
+dashboard_title: Calidad del Aire
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: ebf7ec1d-64a6-432d-b58f-83b6ecb91673
+position:
+  CHART-7:
+    children: []
+    id: CHART-7
+    meta:
+      chartId: 7
+      height: 57
+      sliceName: Mapa ICA
+      uuid: caea81a3-c7a8-4289-9492-87f8e6c823b8
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-sS7E1IHTjKYOqnMQp36lF
+    - ROW-e-R3qYC7yv_f-E0Kz5IHH
+    type: CHART
+  CHART-8:
+    children: []
+    id: CHART-8
+    meta:
+      chartId: 8
+      height: 61
+      sliceName: ICA
+      uuid: f09374cc-134e-4ffa-8bca-00cab4db140a
+      width: 8
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-sS7E1IHTjKYOqnMQp36lF
+    - ROW-e-R3qYC7yv_f-E0Kz5IHH
+    type: CHART
+  CHART-explore-1-1:
+    children: []
+    id: CHART-explore-1-1
+    meta:
+      chartId: 1
+      height: 50
+      sliceName: Contaminantes
+      uuid: c636124f-b9b2-4e78-bb79-b74512299038
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - ROW-GSqi_CugXQmEKv2r0QxVg
+    type: CHART
+  CHART-explore-2-1:
+    children: []
+    id: CHART-explore-2-1
+    meta:
+      chartId: 2
+      height: 50
+      sliceName: Mapa
+      uuid: 0c1885bc-6907-4332-9b8d-b20b0d7b52f9
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - ROW-GSqi_CugXQmEKv2r0QxVg
+    type: CHART
+  CHART-explore-4-1:
+    children: []
+    id: CHART-explore-4-1
+    meta:
+      chartId: 4
+      height: 18
+      sliceName: "Di\xF3xido de Nitr\xF3geno (NO2)"
+      uuid: 899c8a4a-23fb-45c6-a086-c0e7b38a9927
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - ROW-qrrYXTyE-i64lIV8VmxwM
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-EAcgjStdX3-MElq_9hBop
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Calidad del Aire
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-GSqi_CugXQmEKv2r0QxVg:
+    children:
+    - CHART-explore-2-1
+    - CHART-explore-1-1
+    id: ROW-GSqi_CugXQmEKv2r0QxVg
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    type: ROW
+  ROW-e-R3qYC7yv_f-E0Kz5IHH:
+    children:
+    - CHART-7
+    - CHART-8
+    id: ROW-e-R3qYC7yv_f-E0Kz5IHH
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-sS7E1IHTjKYOqnMQp36lF
+    type: ROW
+  ROW-qrrYXTyE-i64lIV8VmxwM:
+    children:
+    - CHART-explore-4-1
+    id: ROW-qrrYXTyE-i64lIV8VmxwM
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    type: ROW
+  TAB-sS7E1IHTjKYOqnMQp36lF:
+    children:
+    - ROW-e-R3qYC7yv_f-E0Kz5IHH
+    id: TAB-sS7E1IHTjKYOqnMQp36lF
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: General
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    type: TAB
+  TAB-siClbnIE5qkaKKPhtksLn:
+    children:
+    - ROW-GSqi_CugXQmEKv2r0QxVg
+    - ROW-qrrYXTyE-i64lIV8VmxwM
+    id: TAB-siClbnIE5qkaKKPhtksLn
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: "Hist\xF3rico"
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    type: TAB
+  TAB-wfPVvW4tA9QF6PyJU2lrI:
+    children: []
+    id: TAB-wfPVvW4tA9QF6PyJU2lrI
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: "Predicci\xF3n"
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    type: TAB
+  TABS-EAcgjStdX3-MElq_9hBop:
+    children:
+    - TAB-sS7E1IHTjKYOqnMQp36lF
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    id: TABS-EAcgjStdX3-MElq_9hBop
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+metadata:
+  color_scheme_domain: []
+  shared_label_colors: []
+  map_label_colors:
+    NO2: '#1FA8C9'
+    PM10: '#454E7C'
+    SO2: '#5AC189'
+    O3: '#FF7F44'
+    PM2.5: '#666666'
+  label_colors: {}
+  native_filter_configuration:
+  - id: NATIVE_FILTER-MCshy2Tnkd8CysIulxflc
+    type: NATIVE_FILTER
+    name: "Estaci\xF3n"
+    filterType: filter_select
+    description: ''
+    targets:
+    - column:
+        name: entityid
+      datasetUuid: df891bbb-006b-4ebb-afb4-f1c178b6b4ea
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      creatable: true
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    sortMetric: null
+    chartsInScope:
+    - 1
+    - 2
+    - 4
+    - 7
+    - 8
+    tabsInScope:
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TAB-sS7E1IHTjKYOqnMQp36lF
+  - name: Fecha
+    filterType: filter_time
+    description: ''
+    type: NATIVE_FILTER
+    defaultValueQueriesData: null
+    requiredFirst: {}
+    controlValues:
+      enableEmptyFilter: false
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded:
+      - 7
+      - 8
+    id: NATIVE_FILTER-mlWxxBBYmx4TGzyfW-QfQ
+    chartsInScope:
+    - 1
+    - 2
+    - 4
+    tabsInScope:
+    - TAB-siClbnIE5qkaKKPhtksLn
+  chart_configuration:
+    '1':
+      id: 1
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 4
+        - 7
+        - 8
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 4
+        - 7
+        - 8
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 7
+        - 8
+    '7':
+      id: 7
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 4
+        - 8
+    '8':
+      id: 8
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 4
+        - 7
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 1
+    - 2
+    - 4
+    - 7
+    - 8
+  chart_customization_config: []
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+theme_uuid: null
+version: 1.0.0
