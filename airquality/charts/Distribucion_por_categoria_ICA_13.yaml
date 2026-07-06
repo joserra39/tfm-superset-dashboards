@@ -1,0 +1,37 @@
+slice_name: "Distribuci\xF3n por categor\xEDa ICA"
+description: "Recuento de estaciones por categor\xEDa de ICA general."
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 5__table
+  viz_type: pie
+  slice_id: 1006
+  groupby:
+  - categoria_ica_general
+  metric:
+    expressionType: SQL
+    sqlExpression: COUNT(*)
+    label: Recuento
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: dateobserved
+  row_limit: 10000
+  donut: true
+  show_labels: true
+  labels_outside: true
+  color_scheme: supersetColors
+  legendType: scroll
+  legendOrientation: right
+  extra_form_data: {}
+  dashboards:
+  - 1
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 4b5f8d0c-1006-4b3c-8a11-111111111006
+version: 1.0.0
+dataset_uuid: df891bbb-006b-4ebb-afb4-f1c178b6b4ea

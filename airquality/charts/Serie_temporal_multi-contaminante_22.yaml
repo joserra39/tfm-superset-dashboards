@@ -1,0 +1,135 @@
+slice_name: Serie temporal multi-contaminante
+description: "Evoluci\xF3n temporal de los principales contaminantes."
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  datasource: 1__table
+  viz_type: echarts_timeseries_line
+  slice_id: 22
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  x_axis: dateobserved
+  time_grain_sqla: PT1H
+  xAxisForceCategorical: false
+  metrics:
+  - aggregate: MAX
+    column:
+      column_name: no2
+      type: NUMERIC
+    expressionType: SIMPLE
+    label: NO2
+  - aggregate: MAX
+    column:
+      column_name: so2
+      type: NUMERIC
+    expressionType: SIMPLE
+    label: SO2
+  - aggregate: MAX
+    column:
+      column_name: pm25
+      type: NUMERIC
+    expressionType: SIMPLE
+    label: PM2.5
+  - aggregate: MAX
+    column:
+      column_name: pm10
+      type: NUMERIC
+    expressionType: SIMPLE
+    label: PM10
+  - aggregate: MAX
+    column:
+      column_name: o3
+      type: NUMERIC
+    expressionType: SIMPLE
+    label: O3
+  groupby: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: dateobserved
+  group_others_when_limit_reached: false
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastEnabled: false
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title: ''
+  x_axis_title_margin: 0
+  y_axis_title: ''
+  y_axis_title_margin: 0
+  y_axis_title_position: Left
+  sort_series_type: sum
+  sort_series_ascending: false
+  color_scheme: d3Category20
+  time_shift_color: true
+  show_value: false
+  only_total: true
+  percentage_threshold: 0
+  area: false
+  opacity: 0.2
+  markerEnabled: false
+  markerSize: 6
+  zoomable: true
+  minorTicks: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  legendSort: asc
+  x_axis_time_format: smart_date
+  x_axis_number_format: ~g
+  xAxisLabelRotation: 0
+  xAxisLabelInterval: auto
+  force_max_interval: false
+  rich_tooltip: true
+  showTooltipTotal: true
+  showTooltipPercentage: false
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  y_axis_format: SMART_NUMBER
+  logAxis: false
+  minorSplitLine: false
+  truncateXAxis: true
+  truncateYAxis: false
+  y_axis_bounds:
+  - null
+  - null
+  echart_options: '{}'
+  extra_form_data: {}
+  dashboards:
+  - 2
+  - 1
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"dateobserved","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"PT1H","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"PT1H","columnType":"BASE_AXIS","sqlExpression":"dateobserved","label":"dateobserved","expressionType":"SQL","isColumnReference":true}],"metrics":[{"aggregate":"MAX","column":{"column_name":"no2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"NO2"},{"aggregate":"MAX","column":{"column_name":"so2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"SO2"},{"aggregate":"MAX","column":{"column_name":"pm25","type":"NUMERIC"},"expressionType":"SIMPLE","label":"PM2.5"},{"aggregate":"MAX","column":{"column_name":"pm10","type":"NUMERIC"},"expressionType":"SIMPLE","label":"PM10"},{"aggregate":"MAX","column":{"column_name":"o3","type":"NUMERIC"},"expressionType":"SIMPLE","label":"O3"}],"orderby":[[{"aggregate":"MAX","column":{"column_name":"no2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"NO2"},false]],"annotation_layers":[],"row_limit":10000,"series_columns":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["dateobserved"],"columns":[],"aggregates":{"NO2":{"operator":"mean"},"SO2":{"operator":"mean"},"PM2.5":{"operator":"mean"},"PM10":{"operator":"mean"},"O3":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"flatten"}]}],"form_data":{"datasource":"1__table","viz_type":"echarts_timeseries_line","slice_id":22,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","x_axis":"dateobserved","time_grain_sqla":"PT1H","xAxisForceCategorical":false,"metrics":[{"aggregate":"MAX","column":{"column_name":"no2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"NO2"},{"aggregate":"MAX","column":{"column_name":"so2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"SO2"},{"aggregate":"MAX","column":{"column_name":"pm25","type":"NUMERIC"},"expressionType":"SIMPLE","label":"PM2.5"},{"aggregate":"MAX","column":{"column_name":"pm10","type":"NUMERIC"},"expressionType":"SIMPLE","label":"PM10"},{"aggregate":"MAX","column":{"column_name":"o3","type":"NUMERIC"},"expressionType":"SIMPLE","label":"O3"}],"groupby":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"dateobserved"}],"group_others_when_limit_reached":false,"order_desc":true,"row_limit":10000,"truncate_metric":true,"show_empty_columns":true,"comparison_type":"values","annotation_layers":[],"forecastEnabled":false,"forecastPeriods":10,"forecastInterval":0.8,"x_axis_title":"","x_axis_title_margin":0,"y_axis_title":"","y_axis_title_margin":0,"y_axis_title_position":"Left","sort_series_type":"sum","sort_series_ascending":false,"color_scheme":"d3Category20","time_shift_color":true,"show_value":false,"only_total":true,"percentage_threshold":0,"area":false,"opacity":0.2,"markerEnabled":false,"markerSize":6,"zoomable":true,"minorTicks":false,"show_legend":true,"legendType":"scroll","legendOrientation":"top","legendSort":"asc","x_axis_time_format":"smart_date","x_axis_number_format":"~g","xAxisLabelRotation":0,"xAxisLabelInterval":"auto","force_max_interval":false,"rich_tooltip":true,"showTooltipTotal":true,"showTooltipPercentage":false,"tooltipSortByMetric":false,"tooltipTimeFormat":"smart_date","y_axis_format":"SMART_NUMBER","logAxis":false,"minorSplitLine":false,"truncateXAxis":true,"truncateYAxis":false,"y_axis_bounds":[null,null],"echart_options":"{}","extra_form_data":{},"dashboards":[2,1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 4b5f8d0c-2001-4b3c-8a11-111111112001
+version: 1.0.0
+dataset_uuid: 12540c76-f1e5-43f4-83d1-bd49982296c7

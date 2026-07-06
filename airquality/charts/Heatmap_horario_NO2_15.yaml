@@ -1,0 +1,85 @@
+slice_name: Heatmap horario NO2
+description: "Patr\xF3n horario de NO2 para an\xE1lisis temporal."
+certified_by: null
+certification_details: null
+viz_type: heatmap_v2
+params:
+  datasource: 1__table
+  viz_type: heatmap_v2
+  slice_id: 15
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  x_axis: dateobserved
+  groupby: entityid
+  metric:
+    aggregate: AVG
+    column:
+      column_name: no2
+      type: NUMERIC
+    expressionType: SIMPLE
+    label: AVG(no2)
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: dateobserved
+  row_limit: 5000
+  sort_x_axis: alpha_asc
+  sort_y_axis: alpha_desc
+  normalize_across: heatmap
+  legend_type: continuous
+  linear_color_scheme: superset_seq_2
+  border_color:
+    a: 1
+    b: 0
+    g: 0
+    r: 0
+  border_width: 0
+  xscale_interval: -1
+  yscale_interval: -1
+  left_margin: auto
+  bottom_margin: auto
+  value_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+  x_axis_time_format: '%d-%m-%Y %H:%M:%S'
+  xAxisLabelRotation: 45
+  show_legend: true
+  show_percentage: false
+  show_values: false
+  normalized: false
+  extra_form_data: {}
+  dashboards:
+  - 2
+  - 1
+query_context: '{"datasource":{"id":1,"type":"table"},"force":false,"queries":[{"filters":[{"col":"dateobserved","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[{"columnType":"BASE_AXIS","sqlExpression":"dateobserved","label":"dateobserved","expressionType":"SQL","isColumnReference":true},"entityid"],"metrics":[{"aggregate":"AVG","column":{"column_name":"no2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"AVG(no2)"}],"orderby":[["dateobserved",true],["entityid",false]],"annotation_layers":[],"row_limit":5000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"rank","options":{"metric":"AVG(no2)"}}]}],"form_data":{"datasource":"1__table","viz_type":"heatmap_v2","slice_id":15,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","x_axis":"dateobserved","groupby":"entityid","metric":{"aggregate":"AVG","column":{"column_name":"no2","type":"NUMERIC"},"expressionType":"SIMPLE","label":"AVG(no2)"},"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","operator":"TEMPORAL_RANGE","subject":"dateobserved"}],"row_limit":5000,"sort_x_axis":"alpha_asc","sort_y_axis":"alpha_desc","normalize_across":"heatmap","legend_type":"continuous","linear_color_scheme":"superset_seq_2","border_color":{"a":1,"b":0,"g":0,"r":0},"border_width":0,"xscale_interval":-1,"yscale_interval":-1,"left_margin":"auto","bottom_margin":"auto","value_bounds":[null,null],"y_axis_format":"SMART_NUMBER","x_axis_time_format":"%d-%m-%Y
+  %H:%M:%S","xAxisLabelRotation":45,"show_legend":true,"show_percentage":false,"show_values":false,"normalized":false,"extra_form_data":{},"dashboards":[2,1],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 4b5f8d0c-2002-4b3c-8a11-111111112002
+version: 1.0.0
+dataset_uuid: 12540c76-f1e5-43f4-83d1-bd49982296c7
