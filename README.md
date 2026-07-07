@@ -61,47 +61,47 @@ En este dashboard se emplean varios charts nativos de Apache Superset:
 
 #### Máximo ICA actual
 
-![Máximo ICA actual](airquality/screenshots/Datos-generales-maximo-ICA-actual.jpg)
+![Máximo ICA actual](airquality/screenshots/Datos%20generales%20-%20máximo%20ICA%20actual.png)
 
 #### Top estaciones por ICA
 
-![Top estaciones por ICA](airquality/screenshots/Datos-generales-Top-estaciones-por-ICA.jpg)
+![Top estaciones por ICA](airquality/screenshots/Datos%20generales%20-%20Top%20estaciones%20por%20ICA.png)
 
 ### Vista histórica
 
 #### Evolución de la concentración de contaminantes
 
-![Evolución de la concentración de contaminantes](airquality/screenshots/Datos-historicos-evolucion-de-la-concentracion-de-contaminantes.jpg)
+![Evolución de la concentración de contaminantes](airquality/screenshots/Datos%20históricos%20-%20evolución%20de%20la%20concentración%20de%20contaminantes.png)
 
 #### Mapa de estaciones
 
-![Mapa de estaciones](airquality/screenshots/Datos-historicos-mapa-estaciones.jpg)
+![Mapa de estaciones](airquality/screenshots/Datos%20históricos%20-%20mapa%20estaciones.png)
 
 #### Mapa de calor por estación/hora (NO2)
 
-![Mapa de calor por estación/hora (NO2)](airquality/screenshots/Datos-historicos-Mapa-de-calor-por-estacion.jpg)
+![Mapa de calor por estación/hora (NO2)](airquality/screenshots/Datos%20históricos%20-%20Mapa%20de%20calor%20por%20estación.png)
 
 #### Navegación por contaminantes
 
-![Tabs de contaminantes](airquality/screenshots/Datos-historicos-tabs.jpg)
+![Tabs de contaminantes](airquality/screenshots/Datos%20históricos%20-%20tabs.png)
 
 ### Indicadores NO2
 
 #### Mínimo NO2
 
-![Mínimo NO2](airquality/screenshots/Datos-historicos-minimo-NO2.jpg)
+![Mínimo NO2](airquality/screenshots/Datos%20históricos%20-%20mínimo%20NO2.png)
 
 #### Media NO2
 
-![Media NO2](airquality/screenshots/Datos-historicos-media-NO2.jpg)
+![Media NO2](airquality/screenshots/Datos%20históricos%20-%20media%20NO2.png)
 
 #### Máximo NO2
 
-![Máximo NO2](airquality/screenshots/Datos-historicos-maximo-NO2.jpg)
+![Máximo NO2](airquality/screenshots/Datos%20históricos%20-%20máximo%20NO2.png)
 
 #### Máximo, media y mínimo por estación (NO2)
 
-![Máximo, media y mínimo por estación (NO2)](airquality/screenshots/Datos-historicos-Maximo-media-minimo-por-estacion.jpg)
+![Máximo, media y mínimo por estación (NO2)](airquality/screenshots/Datos%20históricos%20-%20Máximo%20media%20minimo%20por%20estación.png)
 
 
 ## Filtros e interacción
