@@ -1,99 +1,133 @@
 # AirQuality Dashboard
 
-Este directorio contiene el **export de un dashboard de Apache Superset** orientado a la visualización y análisis de datos de calidad del aire procedentes de sensores urbanos. El objetivo del paquete es permitir la reutilización, versionado e importación del dashboard en otros entornos Superset, manteniendo tanto la configuración del panel como la definición de los datasets y charts asociados. [1][2][3]
+Este directorio contiene el **export de un dashboard de Apache Superset** orientado al análisis y visualización de datos de calidad del aire. El paquete incluye la definición del dashboard, los datasets asociados y los charts necesarios para su importación y reutilización en otra instancia de Superset. [1][2][3]
 
-## Contenido del export
+## Objetivo
 
-El export incluye, al menos, los siguientes componentes funcionales:
+El dashboard permite monitorizar el estado actual de la calidad del aire y analizar su evolución histórica por estación y por contaminante. La solución está planteada como parte de una explotación analítica sobre datos urbanos reales, con foco en contaminantes como NO2, O3, PM10, PM2.5 y SO2. [2][3][4]
 
-- **Dashboard principal** `Calidad_del_Aire_1.yaml`, que define la estructura visual del cuadro de mandos, la disposición de los charts y la configuración de filtros nativos. [1]
-- **Dataset agregado de último estado** `v_airqualityobserved_lastdata_ica_5.yaml`, pensado para visualización operativa y estado actual del ICA por estación. [2]
-- **Dataset histórico** `airqualityobserved_1.yaml`, utilizado para análisis temporal y comparativa de contaminantes. [3]
-- **Charts individuales** exportados como YAML, reutilizables o importables de forma independiente en Superset. [4][5][6][7]
+## Componentes incluidos
 
-## Estructura funcional del dashboard
+El export incorpora los siguientes elementos principales:
 
-El dashboard se organiza en varias pestañas. En el estado actual del export se identifican las pestañas **General**, **Histórico** y una pestaña reservada para **Predicción**, aunque esta última no contiene charts configurados en el export adjunto. [1]
+- **Dashboard**: `Calidad_del_Aire_1.yaml`. [1]
+- **Dataset operativo**: `v_airqualityobserved_lastdata_ica_5.yaml`, orientado a estado actual e ICA. [2]
+- **Dataset histórico**: `airqualityobserved_1.yaml`, orientado a análisis temporal. [3]
+- **Charts exportados**: mapas, tablas, gauges, series temporales y visualizaciones comparativas por estación. [5][6][7][4]
 
-### Pestaña General
+## Estructura del dashboard
 
-La pestaña **General** agrupa una vista operativa del estado actual de la calidad del aire:
+La estructura actual del dashboard se organiza en pestañas **General**, **Histórico** y **Predicción**. En el export disponible, la pestaña **Predicción** figura en la estructura del dashboard, pero no contiene charts configurados. [1]
 
-- **Mapa ICA**: visualización geográfica tipo `deck_scatter` sobre coordenadas latitud/longitud, con tooltips que muestran estación, fecha observada y categoría ICA general. [4]
-- **Tabla ICA**: tabla agregada con estación, nivel ICA y categoría ICA, incluyendo formato condicional por severidad. [5]
+### General
 
-### Pestaña Histórico
+La pestaña General resume el estado actual del ICA y facilita una visión rápida del comportamiento de las estaciones:
 
-La pestaña **Histórico** concentra charts orientados al análisis temporal:
+- Indicador de **media ICA actual**. [8]
+- Indicador de **máximo ICA actual**. [9]
+- Visualización de **top estaciones por ICA**. [10]
+- Mapa operativo con estaciones y su distribución espacial. [5][11]
 
-- **Contaminantes**: serie temporal `echarts_timeseries_line` con las métricas SO2, NO2, PM2.5, PM10 y O3 sobre `dateobserved`. [7]
-- **Mapa**: existe un chart de mapa histórico referenciado por el dashboard (`chartId: 2`), aunque su YAML específico no se ha descrito en detalle en este resumen. [1]
-- **Dióxido de Nitrógeno (NO2)**: tabla agregada con media, mínimo y máximo de NO2, acompañada de formato condicional para distinguir rangos de calidad. [6]
+### Histórico
 
-### Filtros y navegación
+La pestaña Histórico concentra el análisis temporal y la exploración por contaminante:
 
-El dashboard define filtros nativos de:
+- Serie temporal de **evolución de la concentración de contaminantes**. [4][12]
+- Mapa de estaciones para análisis espacial histórico. [11]
+- Mapa de calor estación/hora para NO2. [13]
+- Indicadores gauge de **mínimo**, **media** y **máximo** de NO2. [14][15][16]
+- Comparativa de **máximo, media y mínimo por estación (NO2)**. [17]
+- Navegación por pestañas para contaminantes como NO2, O3, PM10, PM2.5 y SO2. [18]
 
-- **Estación** (`entityid`), disponible como selector multiselección. [1]
-- **Fecha**, aplicado principalmente sobre los charts históricos. [1]
-- **Cross-filters**, habilitados para interacción entre varios charts del dashboard. [1]
+## Tipos de visualización utilizados
 
-## Datasets utilizados
+En este dashboard se emplean varios charts nativos de Apache Superset:
 
-### `v_airqualityobserved_lastdata_ica`
-
-Este dataset representa una vista de **último dato disponible por estación** y contiene atributos preparados para explotación operativa, como `nivel_ica_general`, `categoria_ica_general`, `latitude`, `longitude`, `address` y valores de contaminantes principales como PM10, PM2.5, NO2, SO2 y O3. [2]
-
-### `airqualityobserved`
-
-Este dataset corresponde al histórico de observaciones y contiene series temporales con `recvtime` y `dateobserved`, identificador de entidad (`entityid`), coordenadas derivadas, dirección y un conjunto más amplio de contaminantes, incluyendo NO2, SO2, CO, NOx, PM10, PM2.5, O3 y otros compuestos adicionales. [3]
-
-## Tipos de visualización presentes
-
-En este dashboard se identifican varios tipos de visualización nativos de Apache Superset:
-
-- **Table** para resúmenes operativos y analíticos. [5][6]
-- **Deck Scatter** para representación geográfica de estaciones. [4]
-- **ECharts Time-series Line** para evolución temporal de contaminantes. [7]
-- **Filtros nativos** y configuración de interacción entre visualizaciones. [1]
-
-## Uso en repositorio
-
-Este directorio puede tratarse como un módulo independiente del repositorio de dashboards. La estructura recomendada es conservar:
-
-- el YAML del dashboard;
-- los YAML de datasets;
-- los YAML de charts;
-- y este `README.md` como documentación técnica mínima del contenido exportado. [1][2][3]
-
-Para restaurar el dashboard en otra instancia de Superset, debe importarse el conjunto completo respetando la correspondencia entre dashboard, datasets y charts. [1]
+- **Big Number / KPI** para indicadores agregados del ICA. [8][9]
+- **Bar Chart** para ranking de estaciones. [10]
+- **Deck/Map chart** para representación espacial de estaciones. [5][11]
+- **Time-series line chart** para evolución temporal de contaminantes. [4][12]
+- **Heatmap** para patrones estación/hora. [13]
+- **Gauge chart** para indicadores sintéticos por contaminante. [14][15][16]
+- **Gráfico comparativo por estación** para máximo, media y mínimo. [17]
 
 ## Capturas de pantalla
 
-No se han podido extraer **capturas reales** del dashboard únicamente a partir de los YAML, ya que los archivos describen configuración, pero no contienen renderizados visuales. [1][4][7]
+Las siguientes capturas deben ubicarse en la ruta `./airquality/screenShots` dentro del repositorio.
 
-Se recomienda añadir en este apartado, una vez desplegado el dashboard en Superset, al menos estas capturas:
+### Vista general
 
-1. Vista general de la pestaña **General** con mapa ICA y tabla resumen.
-2. Vista de la pestaña **Histórico** con serie temporal de contaminantes.
-3. Vista del chart de **NO2** con formato condicional.
-4. Vista del filtro de estación y rango temporal aplicado.
+#### Media ICA actual
 
-Ejemplo de bloque a completar en el repositorio:
 
-```md
-## Capturas
 
-### General
-![Vista general](./screenshots/airquality-general.png)
+#### Máximo ICA actual
 
-### Histórico
-![Vista histórica](./screenshots/airquality-historico.png)
 
-### NO2
-![Tabla NO2](./screenshots/airquality-no2.png)
+
+#### Top estaciones por ICA
+
+
+
+### Vista histórica
+
+#### Evolución de la concentración de contaminantes
+
+
+
+#### Mapa de estaciones
+
+
+
+#### Mapa de calor por estación/hora
+
+
+
+#### Navegación por contaminantes
+
+
+
+### Indicadores NO2
+
+#### Mínimo NO2
+
+
+
+#### Media NO2
+
+
+
+#### Máximo NO2
+
+
+
+#### Máximo, media y mínimo por estación (NO2)
+
+
+
+## Filtros e interacción
+
+El dashboard define filtros nativos de estación y fecha, además de interacción entre gráficos mediante **cross-filtering**. Esto permite analizar tanto el estado actual como el histórico desde una misma estructura de navegación. [1]
+
+## Uso del repositorio
+
+La estructura recomendada para este módulo del repositorio es:
+
+```text
+README.md
+airquality/
+├── charts/
+├── dashboards
+├── databases
+├── datasets
+├── screenShots/
+└── metadata.yaml 
 ```
 
-## Observaciones
+## Importación
 
-Desde el punto de vista de mantenimiento, este export es útil para versionar la configuración analítica del dashboard junto con el resto de componentes del proyecto. Además, encaja bien en un flujo de trabajo reproducible para el TFM, ya que permite documentar qué visualizaciones se han definido sobre datasets FIWARE/NGSI v2 transformados para explotación en Superset. [8][9]
+Para restaurar este dashboard en otra instancia de Apache Superset, es necesario importar de forma coherente el dashboard, sus datasets y los charts asociados, manteniendo la correspondencia entre identificadores y fuentes de datos. [1][2][3]
+
+## Observaciones técnicas
+
+Desde el punto de vista de mantenibilidad, este enfoque facilita el versionado del trabajo analítico y la trazabilidad de cambios sobre dashboards, datasets y visualizaciones. Además, resulta especialmente adecuado para un TFM, ya que documenta de forma reproducible la explotación de datos urbanos reales mediante Superset sobre un backend analítico derivado de NGSI v2 y FIWARE. [19][20]
