@@ -1,133 +1,110 @@
-# AirQuality Dashboard
+# Urban Context Dashboards
 
-Este directorio contiene el **export de un dashboard de Apache Superset** orientado al análisis y visualización de datos de calidad del aire. El paquete incluye la definición del dashboard, los datasets asociados y los charts necesarios para su importación y reutilización en otra instancia de Superset. [1][2][3]
+Este repositorio agrupa varios módulos de visualización basados en Apache Superset
+para el análisis de datos urbanos del Ayuntamiento de Madrid. Cada módulo corresponde
+a un ámbito específico del contexto urbano y se distribuye en un directorio propio,
+manteniendo una estructura homogénea orientada a facilitar la importación, versión
+y despliegue de los dashboards.
 
-## Objetivo
+## Módulos incluidos
 
-El dashboard permite monitorizar el estado actual de la calidad del aire y analizar su evolución histórica por estación y por contaminante. La solución está planteada como parte de una explotación analítica sobre datos urbanos reales, con foco en contaminantes como NO2, O3, PM10, PM2.5 y SO2. [2][3][4]
+Actualmente se contemplan los siguientes módulos de análisis:
 
-## Componentes incluidos
+- `airquality/`: calidad del aire (contaminantes, ICA, series temporales, mapas).
+- `noise/`: niveles de ruido ambiental y su evolución temporal.
+- `occupancy/`: aforo y ocupación de espacios públicos o equipamientos.
+- `wastewater/`: indicadores de aguas residuales asociados a actividad urbana.
+- `energy/`: consumo de energía en edificios residenciales.
 
-El export incorpora los siguientes elementos principales:
+Cada módulo contiene el export de uno o varios dashboards de Apache Superset,
+junto con los datasets, charts y conexiones a bases de datos necesarias para
+su correcta importación en otra instancia de Superset.
 
-- **Dashboard**: `Calidad_del_Aire_1.yaml`. [1]
-- **Dataset operativo**: `v_airqualityobserved_lastdata_ica_5.yaml`, orientado a estado actual e ICA. [2]
-- **Dataset histórico**: `airqualityobserved_1.yaml`, orientado a análisis temporal. [3]
-- **Charts exportados**: mapas, tablas, gauges, series temporales y visualizaciones comparativas por estación. [5][6][7][4]
+## Estructura de cada módulo
 
-## Estructura del dashboard
+Todos los módulos comparten la misma estructura de directorios, derivada del
+formato de export de Superset (`charts`, `dashboards`, `databases`, `datasets`
+y `metadata.yaml`).
 
-La estructura actual del dashboard se organiza en pestañas **General**, **Histórico** y **Predicción**. En el export disponible, la pestaña **Predicción** figura en la estructura del dashboard, pero no contiene charts configurados. [1]
+El patrón general es:
 
-### General
+```text
+<modulo>/
+├── README.md
+├── charts/
+├── dashboards/
+├── databases/
+├── datasets/
+├── screenShots/
+└── metadata.yaml
+```
 
-La pestaña General resume el estado actual del ICA y facilita una visión rápida del comportamiento de las estaciones:
+Por ejemplo, para el dashboard de calidad del aire:
 
-- Indicador de **media ICA actual**. [8]
-- Indicador de **máximo ICA actual**. [9]
-- Visualización de **top estaciones por ICA**. [10]
-- Mapa operativo con estaciones y su distribución espacial. [5][11]
+```text
+airquality/
+├── README.md
+├── charts/
+├── dashboards/
+├── databases/
+├── datasets/
+├── screenShots/
+└── metadata.yaml
+```
 
-### Histórico
+Y análogamente para ruido, aforo, aguas residuales y energía:
 
-La pestaña Histórico concentra el análisis temporal y la exploración por contaminante:
+```text
+noise/
+occupancy/
+wastewater/
+energy/
+```
 
-- Serie temporal de **evolución de la concentración de contaminantes**. [4][12]
-- Mapa de estaciones para análisis espacial histórico. [11]
-- Mapa de calor estación/hora para NO2. [13]
-- Indicadores gauge de **mínimo**, **media** y **máximo** de NO2. [14][15][16]
-- Comparativa de **máximo, media y mínimo por estación (NO2)**. [17]
-- Navegación por pestañas para contaminantes como NO2, O3, PM10, PM2.5 y SO2. [18]
+Cada directorio incluye un `metadata.yaml` que describe el export y permite
+importar el conjunto en Superset (dashboards, charts, datasets y bases de datos)
+como un bloque coherente.
 
-## Tipos de visualización utilizados
 
-En este dashboard se emplean varios charts nativos de Apache Superset:
+Se recomienda que cada módulo (`airquality`, `noise`, `occupancy`, `wastewater`,
+`energy`) disponga de su propio `README.md` explicando:
 
-- **Big Number / KPI** para indicadores agregados del ICA. [8][9]
-- **Bar Chart** para ranking de estaciones. [10]
-- **Deck/Map chart** para representación espacial de estaciones. [5][11]
-- **Time-series line chart** para evolución temporal de contaminantes. [4][12]
-- **Heatmap** para patrones estación/hora. [13]
-- **Gauge chart** para indicadores sintéticos por contaminante. [14][15][16]
-- **Gráfico comparativo por estación** para máximo, media y mínimo. [17]
+- objetivo del dashboard,
+- fuentes de datos utilizadas,
+- principales visualizaciones,
+- y pasos de importación en Superset.
 
 ## Capturas de pantalla
 
-Las siguientes capturas deben ubicarse en la ruta `./airquality/screenShots` dentro del repositorio.
+Las capturas de pantalla de los dashboards se almacenan en el subdirectorio
+`screenShots/` de cada módulo, y se referencian desde los respectivos `README.md`
+para facilitar su visualización directa en GitHub.
 
-### Vista general
-
-#### Media ICA actual
-
-
-
-#### Máximo ICA actual
-
-
-
-#### Top estaciones por ICA
-
-
-
-### Vista histórica
-
-#### Evolución de la concentración de contaminantes
-
-
-
-#### Mapa de estaciones
-
-
-
-#### Mapa de calor por estación/hora
-
-
-
-#### Navegación por contaminantes
-
-
-
-### Indicadores NO2
-
-#### Mínimo NO2
-
-
-
-#### Media NO2
-
-
-
-#### Máximo NO2
-
-
-
-#### Máximo, media y mínimo por estación (NO2)
-
-
-
-## Filtros e interacción
-
-El dashboard define filtros nativos de estación y fecha, además de interacción entre gráficos mediante **cross-filtering**. Esto permite analizar tanto el estado actual como el histórico desde una misma estructura de navegación. [1]
-
-## Uso del repositorio
-
-La estructura recomendada para este módulo del repositorio es:
+Por ejemplo, para el módulo de calidad del aire:
 
 ```text
-README.md
 airquality/
-├── charts/
-├── dashboards
-├── databases
-├── datasets
-├── screenShots/
-└── metadata.yaml 
+├── README.md
+└── screenShots/
+    ├── Datos%20generales%20-%20media%20ICA%20actual.png
+    ├── Datos%20generales%20-%20máximo%20ICA%20actual.png
+    └── ...
 ```
 
-## Importación
+## Importación en Apache Superset
 
-Para restaurar este dashboard en otra instancia de Apache Superset, es necesario importar de forma coherente el dashboard, sus datasets y los charts asociados, manteniendo la correspondencia entre identificadores y fuentes de datos. [1][2][3]
+Los directorios de cada módulo pueden utilizarse como origen (`source_dir`) para
+procesos de importación automatizados (CLI, Terraform, pipelines de CI/CD),
+importando conjuntamente dashboards, charts, datasets y bases de datos.
 
-## Observaciones técnicas
+A alto nivel, el flujo de uso típico es:
 
-Desde el punto de vista de mantenibilidad, este enfoque facilita el versionado del trabajo analítico y la trazabilidad de cambios sobre dashboards, datasets y visualizaciones. Además, resulta especialmente adecuado para un TFM, ya que documenta de forma reproducible la explotación de datos urbanos reales mediante Superset sobre un backend analítico derivado de NGSI v2 y FIWARE. [19][20]
+1. Clonar este repositorio en el entorno donde se ejecuta Superset.
+2. Seleccionar el módulo que se desea importar (`airquality/`, `noise/`, etc.).
+3. Ejecutar el comando o pipeline de importación apuntando al directorio del módulo.
+4. Verificar que los dashboards aparecen correctamente en Superset y enlazan con
+   las fuentes de datos urbanas configuradas (FIWARE, NGSI v2, bases de datos
+   analíticas, etc.).
+
+Este enfoque facilita el versionado de los dashboards urbanos y su despliegue
+reproducible en entornos de desarrollo, preproducción y producción.
