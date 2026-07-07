@@ -57,7 +57,7 @@ En este dashboard se emplean varios charts nativos de Apache Superset:
 
 #### Media ICA actual
 
-![Media ICA actual](airquality/screenshots/Datos-generales-media-ICA-actual.jpg)
+![Media ICA actual](airquality/screenshots/Datos%20generales%20-%20media%20ICA%20actual.png)
 
 #### Máximo ICA actual
 
