@@ -53,55 +53,55 @@ En este dashboard se emplean varios charts nativos de Apache Superset:
 
 ## Capturas de pantalla
 
-Las siguientes capturas deben ubicarse en la ruta `./airquality/screenShots` dentro del repositorio.
-
 ### Vista general
 
 #### Media ICA actual
 
-
+![Media ICA actual](screenshots/Datos%20generales%20-%20media%20ICA%20actual.png)
 
 #### Máximo ICA actual
 
-
+![Máximo ICA actual](screenshots/Datos%20generales%20-%20máximo%20ICA%20actual.png)
 
 #### Top estaciones por ICA
 
-
+![Top estaciones por ICA](screenshots/Datos%20generales%20-%20Top%20estaciones%20por%20ICA.png)
 
 ### Vista histórica
 
 #### Evolución de la concentración de contaminantes
 
-
+![Evolución de la concentración de contaminantes](screenshots/Datos%20históricos%20-%20evolución%20de%20la%20concentración%20de%20contaminantes.png)
 
 #### Mapa de estaciones
 
+![Mapa de estaciones](screenshots/Datos%20históricos%20-%20mapa%20estaciones.png)
 
+#### Mapa de calor por estación/hora (NO2)
 
-#### Mapa de calor por estación/hora
-
-
+![Mapa de calor por estación/hora (NO2)](screenshots/Datos%20históricos%20-%20Mapa%20de%20calor%20por%20estación.png)
 
 #### Navegación por contaminantes
 
-
+![Tabs de contaminantes](screenshots/Datos%20históricos%20-%20tabs.png)
 
 ### Indicadores NO2
 
 #### Mínimo NO2
 
-
+![Mínimo NO2](screenshots/Datos%20históricos%20-%20mínimo%20NO2.png)
 
 #### Media NO2
 
-
+![Media NO2](screenshots/Datos%20históricos%20-%20media%20NO2.png)
 
 #### Máximo NO2
 
-
+![Máximo NO2](screenshots/Datos%20históricos%20-%20máximo%20NO2.png)
 
 #### Máximo, media y mínimo por estación (NO2)
+
+![Máximo, media y mínimo por estación (NO2)](screenshots/Datos%20históricos%20-%20Máximo%20media%20minimo%20por%20estación.png)
 
 
 
