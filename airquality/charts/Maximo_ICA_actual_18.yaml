@@ -1,5 +1,6 @@
 slice_name: "M\xE1ximo ICA actual"
-description: "M\xE1ximo nivel ICA general en el \xFAltimo estado disponible."
+description: "0: Sin datos\n1: Buena, \n2: Razonablemente buena\n3: Regular\n4: Desfavorable\n\
+  5: Muy desfavorable\n6: Extremadamente desfavorable"
 certified_by: null
 certification_details: null
 viz_type: big_number_total

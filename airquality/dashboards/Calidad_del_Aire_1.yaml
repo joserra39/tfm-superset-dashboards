@@ -1,12 +1,102 @@
 dashboard_title: Calidad del Aire
 description: null
-css: null
+css: ''
 slug: null
-certified_by: null
-certification_details: null
+certified_by: ''
+certification_details: ''
 published: false
 uuid: ebf7ec1d-64a6-432d-b58f-83b6ecb91673
 position:
+  CHART--dNxbjqpeZXy0h6aKSCj2:
+    children: []
+    id: CHART--dNxbjqpeZXy0h6aKSCj2
+    meta:
+      chartId: 34
+      height: 30
+      sliceName: PM2.5
+      uuid: b85deca8-e349-406d-a253-e487dc79e038
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-H13gSIOzYdBRRJD5_E3_x
+    - ROW-n_qlR2GDlhW8qGB8Qi2Dy
+    type: CHART
+  CHART-0UVI0D7ZUR7ppLy57QNki:
+    children: []
+    id: CHART-0UVI0D7ZUR7ppLy57QNki
+    meta:
+      chartId: 35
+      height: 34
+      sliceName: SO2
+      uuid: 59e2deda-a8d6-4672-9897-625c6fdefa79
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-2wks2qHrftSCq0zpNAnVh
+    - ROW--pbAnzora7zUDA3xhJFhK
+    type: CHART
+  CHART-31:
+    children: []
+    id: CHART-31
+    meta:
+      chartId: 31
+      height: 30
+      sliceName: PM10
+      uuid: 5d8f8aa9-afd3-44fd-a941-645273e16f81
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-r5nQ2qVSuPyawoDkx1BnF
+    - ROW-kyjVcCUc4ihyQEPvSNiij
+    type: CHART
+  CHART-40:
+    children: []
+    id: CHART-40
+    meta:
+      chartId: 40
+      height: 50
+      sliceName: "M\xE1ximo NO2"
+      uuid: fa29aba8-192e-448b-ac41-a14b6ac6d748
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-uV3JLvuCPTSxjxvjgaOVW
+    - ROW-8hNiBMSris_sukHnhQbcM
+    type: CHART
+  CHART-41:
+    children: []
+    id: CHART-41
+    meta:
+      chartId: 41
+      height: 50
+      sliceName: "M\xEDnimo NO2"
+      uuid: 32d23b95-e6b3-4956-961c-a0d6fd7156e9
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-uV3JLvuCPTSxjxvjgaOVW
+    - ROW-8hNiBMSris_sukHnhQbcM
+    type: CHART
   CHART-7:
     children: []
     id: CHART-7
@@ -69,8 +159,9 @@ position:
     - GRID_ID
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    - COLUMN-OJgbtzgYKWO_8rJynSRcQ
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-0JZSwnGkxRGz1WB3j7-5H
+    - ROW-VLRkhsdXvZdzNIkSqz8Sw
     type: CHART
   CHART-EoKGOEuzQ9QXvVh1OvUyx:
     children: []
@@ -118,8 +209,9 @@ position:
     - GRID_ID
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    - COLUMN-OJgbtzgYKWO_8rJynSRcQ
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-H13gSIOzYdBRRJD5_E3_x
+    - ROW-n_qlR2GDlhW8qGB8Qi2Dy
     type: CHART
   CHART-UGx8Esm42RrjE0Mw_ltCr:
     children: []
@@ -137,7 +229,7 @@ position:
     - TAB-siClbnIE5qkaKKPhtksLn
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-uV3JLvuCPTSxjxvjgaOVW
-    - ROW-9I9RaDs1QGaD8Aw5qu8zM
+    - ROW-t1w8MdDzhXTTJoDfhwnvn
     type: CHART
   CHART-WxucC8GDvYCq2kXyMILCL:
     children: []
@@ -153,8 +245,9 @@ position:
     - GRID_ID
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    - COLUMN-4O4blhHjrMdmZ_1puQe8C
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-2wks2qHrftSCq0zpNAnVh
+    - ROW--pbAnzora7zUDA3xhJFhK
     type: CHART
   CHART-aXk7R83BSfjAUGs4FZR8v:
     children: []
@@ -193,16 +286,16 @@ position:
     id: CHART-explore-2-1
     meta:
       chartId: 2
-      height: 61
+      height: 44
       sliceName: Mapa
       uuid: 0c1885bc-6907-4332-9b8d-b20b0d7b52f9
-      width: 6
+      width: 12
     parents:
     - ROOT_ID
     - GRID_ID
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
+    - ROW-txXd5r9LBXcGmPpDwWfzR
     type: CHART
   CHART-kAj3vm12hLkDnubIUdfgG:
     children: []
@@ -220,13 +313,49 @@ position:
     - TAB-sS7E1IHTjKYOqnMQp36lF
     - ROW-YuxHrUX4Iyjuag3voKFwn
     type: CHART
+  CHART-lhRk3N6AAT4ehvAL5VvJI:
+    children: []
+    id: CHART-lhRk3N6AAT4ehvAL5VvJI
+    meta:
+      chartId: 32
+      height: 48
+      sliceName: Media NO2
+      uuid: 1d162015-7706-44f9-b8a6-254fd113049b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-uV3JLvuCPTSxjxvjgaOVW
+    - ROW-8hNiBMSris_sukHnhQbcM
+    type: CHART
+  CHART-mF4rQxtruFxs65Bh1UGov:
+    children: []
+    id: CHART-mF4rQxtruFxs65Bh1UGov
+    meta:
+      chartId: 33
+      height: 30
+      sliceName: O3
+      uuid: 5e6bf06f-108b-4684-8a2c-9488a9b9438d
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-0JZSwnGkxRGz1WB3j7-5H
+    - ROW-VLRkhsdXvZdzNIkSqz8Sw
+    type: CHART
   CHART-ohskDQDQD5LraAoMB6814:
     children: []
     id: CHART-ohskDQDQD5LraAoMB6814
     meta:
       chartId: 22
       height: 50
-      sliceName: Serie temporal multi-contaminante
+      sliceName: "Evoluci\xF3n de la concentraci\xF3n de contaminantes"
       uuid: 4b5f8d0c-2001-4b3c-8a11-111111112001
       width: 12
     parents:
@@ -252,24 +381,7 @@ position:
     - TAB-siClbnIE5qkaKKPhtksLn
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-uV3JLvuCPTSxjxvjgaOVW
-    - ROW-ou-h1lDvz5ihhxIUPLfrA
-    type: CHART
-  CHART-xCH5WGO7YbhEpEYj90DI4:
-    children: []
-    id: CHART-xCH5WGO7YbhEpEYj90DI4
-    meta:
-      chartId: 4
-      height: 19
-      sliceName: "Di\xF3xido de Nitr\xF3geno (NO2)"
-      uuid: 899c8a4a-23fb-45c6-a086-c0e7b38a9927
-      width: 3
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-EAcgjStdX3-MElq_9hBop
-    - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    - COLUMN-4O4blhHjrMdmZ_1puQe8C
+    - ROW-d6WzkNgE4zmfehiIM3K_R
     type: CHART
   CHART-xp9IbAnK0QkfDw1zvUv3N:
     children: []
@@ -285,40 +397,10 @@ position:
     - GRID_ID
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    - COLUMN-4O4blhHjrMdmZ_1puQe8C
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-r5nQ2qVSuPyawoDkx1BnF
+    - ROW-kyjVcCUc4ihyQEPvSNiij
     type: CHART
-  COLUMN-4O4blhHjrMdmZ_1puQe8C:
-    children:
-    - CHART-xCH5WGO7YbhEpEYj90DI4
-    - CHART-xp9IbAnK0QkfDw1zvUv3N
-    - CHART-WxucC8GDvYCq2kXyMILCL
-    id: COLUMN-4O4blhHjrMdmZ_1puQe8C
-    meta:
-      background: BACKGROUND_TRANSPARENT
-      width: 3
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-EAcgjStdX3-MElq_9hBop
-    - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    type: COLUMN
-  COLUMN-OJgbtzgYKWO_8rJynSRcQ:
-    children:
-    - CHART-9hCrrZGt-Jp5IZysSmPS4
-    - CHART-PMPgUthtD3VZ2ja2iMjSu
-    id: COLUMN-OJgbtzgYKWO_8rJynSRcQ
-    meta:
-      background: BACKGROUND_TRANSPARENT
-      width: 3
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-EAcgjStdX3-MElq_9hBop
-    - TAB-siClbnIE5qkaKKPhtksLn
-    - ROW-GSqi_CugXQmEKv2r0QxVg
-    type: COLUMN
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children:
@@ -330,17 +412,34 @@ position:
   HEADER_ID:
     id: HEADER_ID
     meta:
-      text: Calidad del Aire OLD
+      text: Calidad del Aire
     type: HEADER
   ROOT_ID:
     children:
     - GRID_ID
     id: ROOT_ID
     type: ROOT
-  ROW-9I9RaDs1QGaD8Aw5qu8zM:
+  ROW--pbAnzora7zUDA3xhJFhK:
     children:
-    - CHART-UGx8Esm42RrjE0Mw_ltCr
-    id: ROW-9I9RaDs1QGaD8Aw5qu8zM
+    - CHART-WxucC8GDvYCq2kXyMILCL
+    - CHART-0UVI0D7ZUR7ppLy57QNki
+    id: ROW--pbAnzora7zUDA3xhJFhK
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-2wks2qHrftSCq0zpNAnVh
+    type: ROW
+  ROW-8hNiBMSris_sukHnhQbcM:
+    children:
+    - CHART-lhRk3N6AAT4ehvAL5VvJI
+    - CHART-41
+    - CHART-40
+    id: ROW-8hNiBMSris_sukHnhQbcM
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
@@ -351,12 +450,11 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-uV3JLvuCPTSxjxvjgaOVW
     type: ROW
-  ROW-GSqi_CugXQmEKv2r0QxVg:
+  ROW-VLRkhsdXvZdzNIkSqz8Sw:
     children:
-    - CHART-explore-2-1
-    - COLUMN-4O4blhHjrMdmZ_1puQe8C
-    - COLUMN-OJgbtzgYKWO_8rJynSRcQ
-    id: ROW-GSqi_CugXQmEKv2r0QxVg
+    - CHART-9hCrrZGt-Jp5IZysSmPS4
+    - CHART-mF4rQxtruFxs65Bh1UGov
+    id: ROW-VLRkhsdXvZdzNIkSqz8Sw
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
@@ -364,6 +462,8 @@ position:
     - GRID_ID
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-0JZSwnGkxRGz1WB3j7-5H
     type: ROW
   ROW-WsA317kTtMLGdrV6Z1IYB:
     children:
@@ -405,6 +505,20 @@ position:
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-siClbnIE5qkaKKPhtksLn
     type: ROW
+  ROW-d6WzkNgE4zmfehiIM3K_R:
+    children:
+    - CHART-wt6nvRZUgX78P0Eouj-iY
+    id: ROW-d6WzkNgE4zmfehiIM3K_R
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-uV3JLvuCPTSxjxvjgaOVW
+    type: ROW
   ROW-e-R3qYC7yv_f-E0Kz5IHH:
     children:
     - CHART-7
@@ -418,10 +532,40 @@ position:
     - TABS-EAcgjStdX3-MElq_9hBop
     - TAB-sS7E1IHTjKYOqnMQp36lF
     type: ROW
-  ROW-ou-h1lDvz5ihhxIUPLfrA:
+  ROW-kyjVcCUc4ihyQEPvSNiij:
     children:
-    - CHART-wt6nvRZUgX78P0Eouj-iY
-    id: ROW-ou-h1lDvz5ihhxIUPLfrA
+    - CHART-xp9IbAnK0QkfDw1zvUv3N
+    - CHART-31
+    id: ROW-kyjVcCUc4ihyQEPvSNiij
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-r5nQ2qVSuPyawoDkx1BnF
+    type: ROW
+  ROW-n_qlR2GDlhW8qGB8Qi2Dy:
+    children:
+    - CHART-PMPgUthtD3VZ2ja2iMjSu
+    - CHART--dNxbjqpeZXy0h6aKSCj2
+    id: ROW-n_qlR2GDlhW8qGB8Qi2Dy
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    - TABS-pcT6LADoNgjkamUK_A98J
+    - TAB-H13gSIOzYdBRRJD5_E3_x
+    type: ROW
+  ROW-t1w8MdDzhXTTJoDfhwnvn:
+    children:
+    - CHART-UGx8Esm42RrjE0Mw_ltCr
+    id: ROW-t1w8MdDzhXTTJoDfhwnvn
     meta:
       background: BACKGROUND_TRANSPARENT
     parents:
@@ -432,8 +576,21 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-uV3JLvuCPTSxjxvjgaOVW
     type: ROW
+  ROW-txXd5r9LBXcGmPpDwWfzR:
+    children:
+    - CHART-explore-2-1
+    id: ROW-txXd5r9LBXcGmPpDwWfzR
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-siClbnIE5qkaKKPhtksLn
+    type: ROW
   TAB-0JZSwnGkxRGz1WB3j7-5H:
-    children: []
+    children:
+    - ROW-VLRkhsdXvZdzNIkSqz8Sw
     id: TAB-0JZSwnGkxRGz1WB3j7-5H
     meta:
       defaultText: Tab title
@@ -447,7 +604,8 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     type: TAB
   TAB-2wks2qHrftSCq0zpNAnVh:
-    children: []
+    children:
+    - ROW--pbAnzora7zUDA3xhJFhK
     id: TAB-2wks2qHrftSCq0zpNAnVh
     meta:
       defaultText: Tab title
@@ -461,7 +619,8 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     type: TAB
   TAB-H13gSIOzYdBRRJD5_E3_x:
-    children: []
+    children:
+    - ROW-n_qlR2GDlhW8qGB8Qi2Dy
     id: TAB-H13gSIOzYdBRRJD5_E3_x
     meta:
       defaultText: Tab title
@@ -475,7 +634,8 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     type: TAB
   TAB-r5nQ2qVSuPyawoDkx1BnF:
-    children: []
+    children:
+    - ROW-kyjVcCUc4ihyQEPvSNiij
     id: TAB-r5nQ2qVSuPyawoDkx1BnF
     meta:
       defaultText: Tab title
@@ -497,7 +657,7 @@ position:
     meta:
       defaultText: Tab title
       placeholder: Tab title
-      text: General
+      text: Datos generales
     parents:
     - ROOT_ID
     - GRID_ID
@@ -505,14 +665,14 @@ position:
     type: TAB
   TAB-siClbnIE5qkaKKPhtksLn:
     children:
-    - ROW-GSqi_CugXQmEKv2r0QxVg
+    - ROW-txXd5r9LBXcGmPpDwWfzR
     - ROW-Zd-j9I-DrWBXtHYuKI1gA
     - TABS-pcT6LADoNgjkamUK_A98J
     id: TAB-siClbnIE5qkaKKPhtksLn
     meta:
       defaultText: Tab title
       placeholder: Tab title
-      text: "Hist\xF3rico"
+      text: "Datos hist\xF3ricos"
     parents:
     - ROOT_ID
     - GRID_ID
@@ -520,8 +680,9 @@ position:
     type: TAB
   TAB-uV3JLvuCPTSxjxvjgaOVW:
     children:
-    - ROW-ou-h1lDvz5ihhxIUPLfrA
-    - ROW-9I9RaDs1QGaD8Aw5qu8zM
+    - ROW-8hNiBMSris_sukHnhQbcM
+    - ROW-t1w8MdDzhXTTJoDfhwnvn
+    - ROW-d6WzkNgE4zmfehiIM3K_R
     id: TAB-uV3JLvuCPTSxjxvjgaOVW
     meta:
       defaultText: Tab title
@@ -559,11 +720,11 @@ position:
     type: TABS
   TABS-pcT6LADoNgjkamUK_A98J:
     children:
-    - TAB-2wks2qHrftSCq0zpNAnVh
     - TAB-uV3JLvuCPTSxjxvjgaOVW
     - TAB-0JZSwnGkxRGz1WB3j7-5H
     - TAB-r5nQ2qVSuPyawoDkx1BnF
     - TAB-H13gSIOzYdBRRJD5_E3_x
+    - TAB-2wks2qHrftSCq0zpNAnVh
     id: TABS-pcT6LADoNgjkamUK_A98J
     meta: {}
     parents:
@@ -575,51 +736,73 @@ position:
 metadata:
   label_colors: {}
   native_filter_configuration:
-  - controlValues:
-      enableEmptyFilter: false
-    defaultValueQueriesData: null
-    description: ''
+  - name: Fecha
     filterType: filter_time
-    id: NATIVE_FILTER-mlWxxBBYmx4TGzyfW-QfQ
-    name: Fecha
+    description: ''
+    type: NATIVE_FILTER
+    defaultValueQueriesData: null
+    defaultValue: true
     requiredFirst: {}
+    controlValues:
+      enableEmptyFilter: false
     scope:
       excluded: []
       rootPath:
       - TAB-siClbnIE5qkaKKPhtksLn
-    type: NATIVE_FILTER
+    defaultDataMask:
+      extraFormData:
+        time_range: 'DATEADD(DATETIME("2026-01-06T00:00:00"), -7, day) : 2026-01-06T00:00:00'
+      filterState:
+        value: 'DATEADD(DATETIME("2026-01-06T00:00:00"), -7, day) : 2026-01-06T00:00:00'
+    id: NATIVE_FILTER-mlWxxBBYmx4TGzyfW-QfQ
     chartsInScope:
     - 2
-    - 4
     - 15
     - 28
     - 27
     - 29
     - 30
-    - 22
     - 26
+    - 22
+    - 33
+    - 31
+    - 34
+    - 35
+    - 40
+    - 41
+    - 32
     tabsInScope:
     - TAB-siClbnIE5qkaKKPhtksLn
     - TAB-uV3JLvuCPTSxjxvjgaOVW
+    - TAB-H13gSIOzYdBRRJD5_E3_x
+    - TAB-2wks2qHrftSCq0zpNAnVh
+    - TAB-r5nQ2qVSuPyawoDkx1BnF
+    - TAB-0JZSwnGkxRGz1WB3j7-5H
   - cascadeParentIds: []
     chartsInScope:
     - 2
     - 8
     - 7
-    - 4
-    - 13
     - 16
     - 18
+    - 13
     - 19
     - 17
     - 15
-    - 25
     - 28
     - 27
     - 29
     - 30
-    - 22
     - 26
+    - 25
+    - 22
+    - 33
+    - 31
+    - 34
+    - 35
+    - 40
+    - 41
+    - 32
     controlValues:
       creatable: true
       defaultToFirstItem: false
@@ -644,6 +827,10 @@ metadata:
     - TAB-siClbnIE5qkaKKPhtksLn
     - TAB-sS7E1IHTjKYOqnMQp36lF
     - TAB-uV3JLvuCPTSxjxvjgaOVW
+    - TAB-H13gSIOzYdBRRJD5_E3_x
+    - TAB-2wks2qHrftSCq0zpNAnVh
+    - TAB-r5nQ2qVSuPyawoDkx1BnF
+    - TAB-0JZSwnGkxRGz1WB3j7-5H
     targets:
     - column:
         name: entityid
@@ -655,7 +842,6 @@ metadata:
       crossFilters:
         scope: global
         chartsInScope:
-        - 4
         - 7
         - 8
         - 13
@@ -671,34 +857,19 @@ metadata:
         - 28
         - 29
         - 30
-    '4':
-      id: 4
-      crossFilters:
-        scope: global
-        chartsInScope:
-        - 2
-        - 7
-        - 8
-        - 13
-        - 15
-        - 16
-        - 17
-        - 18
-        - 19
-        - 22
-        - 25
-        - 26
-        - 27
-        - 28
-        - 29
-        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '7':
       id: 7
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 8
         - 13
         - 15
@@ -713,13 +884,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '8':
       id: 8
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 13
         - 15
@@ -734,13 +911,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '13':
       id: 13
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 15
@@ -755,13 +938,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '22':
       id: 22
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -776,13 +965,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '25':
       id: 25
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -797,13 +992,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '26':
       id: 26
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -818,13 +1019,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '27':
       id: 27
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -839,13 +1046,19 @@ metadata:
         - 28
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '28':
       id: 28
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -860,13 +1073,19 @@ metadata:
         - 27
         - 29
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '29':
       id: 29
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -881,13 +1100,19 @@ metadata:
         - 27
         - 28
         - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
     '30':
       id: 30
       crossFilters:
         scope: global
         chartsInScope:
         - 2
-        - 4
         - 7
         - 8
         - 13
@@ -902,6 +1127,202 @@ metadata:
         - 27
         - 28
         - 29
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
+    '31':
+      id: 31
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
+    '32':
+      id: 32
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 33
+        - 34
+        - 35
+        - 40
+        - 41
+    '33':
+      id: 33
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 34
+        - 35
+        - 40
+        - 41
+    '34':
+      id: 34
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 35
+        - 40
+        - 41
+    '35':
+      id: 35
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 40
+        - 41
+    '40':
+      id: 40
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 41
+    '41':
+      id: 41
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 27
+        - 28
+        - 29
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 40
   global_chart_configuration:
     scope:
       rootPath:
@@ -909,7 +1330,6 @@ metadata:
       excluded: []
     chartsInScope:
     - 2
-    - 4
     - 7
     - 8
     - 13
@@ -925,6 +1345,13 @@ metadata:
     - 28
     - 29
     - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 40
+    - 41
   chart_customization_config: []
   color_scheme: ''
   refresh_frequency: 0
@@ -933,8 +1360,36 @@ metadata:
   cross_filters_enabled: true
   default_filters: '{}'
   show_chart_timestamps: false
-  shared_label_colors: []
-  map_label_colors: {}
+  shared_label_colors:
+  - ''
+  map_label_colors:
+    Razonablemente buena: '#6BD3B3'
+    Regular: '#FCC550'
+    Desfavorable: '#408184'
+    Buena: '#66CBE2'
+    MAX(nivel_ica_general): '#6BD3B3'
+    Madrid-28079004: '#FCC550'
+    Madrid-28079008: '#408184'
+    Madrid-28079011: '#66CBE2'
+    Madrid-28079016: '#EE5960'
+    Madrid-28079017: '#484E5A'
+    Madrid-28079018: '#FF874E'
+    Madrid-28079024: '#03748E'
+    Madrid-28079035: '#C9BBAB'
+    Madrid-28079036: '#B17BAA'
+    Madrid-28079038: '#B5E9D9'
+    Madrid-28079039: '#FDE2A7'
+    Madrid-28079040: '#9FC0C1'
+    ? ''
+    : '#3366cc'
+    NO2: '#6BD3B3'
+    PM10: '#FCC550'
+    O3: '#408184'
+    SO2: '#66CBE2'
+    PM2.5: '#EE5960'
+    "M\xE1ximo": '#EA0B8C'
+    Media: '#6C838E'
+    "M\xEDnimo": '#29ABE2'
   color_scheme_domain: []
 theme_uuid: null
 version: 1.0.0
