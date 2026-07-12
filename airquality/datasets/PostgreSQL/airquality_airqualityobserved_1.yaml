@@ -1,5 +1,5 @@
-table_name: airqualityobserved
-main_dttm_col: recvtime
+table_name: airquality_airqualityobserved
+main_dttm_col: dateobserved
 currency_code_column: null
 description: null
 default_endpoint: null
@@ -12,7 +12,10 @@ params: null
 template_params: null
 filter_select_enabled: true
 fetch_values_predicate: null
-extra: null
+extra:
+  certification:
+    certified_by: "TFM FIWARE \u2013 Calidad del aire"
+    details: "Dataset validado para el Trabajo Fin de M\xE1ster"
 normalize_columns: false
 always_filter_main_dttm: false
 folders: null

@@ -1,10 +1,10 @@
 dashboard_title: Calidad del Aire
 description: null
 css: ''
-slug: null
+slug: airquality
 certified_by: ''
 certification_details: ''
-published: false
+published: true
 uuid: ebf7ec1d-64a6-432d-b58f-83b6ecb91673
 position:
   CHART--dNxbjqpeZXy0h6aKSCj2:
@@ -103,7 +103,7 @@ position:
     meta:
       chartId: 7
       height: 57
-      sliceName: Mapa Estaciones
+      sliceName: Mapa de estaciones
       uuid: caea81a3-c7a8-4289-9492-87f8e6c823b8
       width: 7
     parents:
@@ -219,7 +219,7 @@ position:
     meta:
       chartId: 26
       height: 50
-      sliceName: "Dispersi\xF3n NO2"
+      sliceName: "M\xE1ximo, Media y M\xEDnimo por Estaci\xF3n (NO2)"
       uuid: 4b5f8d0c-2003-4b3c-8a11-111111112003
       width: 12
     parents:
@@ -287,7 +287,7 @@ position:
     meta:
       chartId: 2
       height: 44
-      sliceName: Mapa
+      sliceName: Mapa de estaciones
       uuid: 0c1885bc-6907-4332-9b8d-b20b0d7b52f9
       width: 12
     parents:
@@ -371,7 +371,7 @@ position:
     meta:
       chartId: 15
       height: 65
-      sliceName: Heatmap horario NO2
+      sliceName: "Mapa de calor Estaci\xF3n/hora (NO2)"
       uuid: 4b5f8d0c-2002-4b3c-8a11-111111112002
       width: 12
     parents:
@@ -701,7 +701,7 @@ position:
     meta:
       defaultText: Tab title
       placeholder: Tab title
-      text: "Predicci\xF3n"
+      text: Predictiva
     parents:
     - ROOT_ID
     - GRID_ID
@@ -741,7 +741,6 @@ metadata:
     description: ''
     type: NATIVE_FILTER
     defaultValueQueriesData: null
-    defaultValue: true
     requiredFirst: {}
     controlValues:
       enableEmptyFilter: false
@@ -751,20 +750,20 @@ metadata:
       - TAB-siClbnIE5qkaKKPhtksLn
     defaultDataMask:
       extraFormData:
-        time_range: 'DATEADD(DATETIME("2026-01-06T00:00:00"), -7, day) : 2026-01-06T00:00:00'
+        time_range: 'DATEADD(DATETIME("2026-06-30T00:00:00"), -1, month) : 2026-06-30T00:00:00'
       filterState:
-        value: 'DATEADD(DATETIME("2026-01-06T00:00:00"), -7, day) : 2026-01-06T00:00:00'
+        value: 'DATEADD(DATETIME("2026-06-30T00:00:00"), -1, month) : 2026-06-30T00:00:00'
     id: NATIVE_FILTER-mlWxxBBYmx4TGzyfW-QfQ
     chartsInScope:
     - 2
-    - 15
     - 28
     - 27
-    - 29
     - 30
-    - 26
     - 22
     - 33
+    - 15
+    - 29
+    - 26
     - 31
     - 34
     - 35
@@ -773,11 +772,11 @@ metadata:
     - 32
     tabsInScope:
     - TAB-siClbnIE5qkaKKPhtksLn
-    - TAB-uV3JLvuCPTSxjxvjgaOVW
     - TAB-H13gSIOzYdBRRJD5_E3_x
     - TAB-2wks2qHrftSCq0zpNAnVh
-    - TAB-r5nQ2qVSuPyawoDkx1BnF
     - TAB-0JZSwnGkxRGz1WB3j7-5H
+    - TAB-uV3JLvuCPTSxjxvjgaOVW
+    - TAB-r5nQ2qVSuPyawoDkx1BnF
   - cascadeParentIds: []
     chartsInScope:
     - 2
@@ -787,8 +786,8 @@ metadata:
     - 18
     - 13
     - 19
-    - 17
     - 15
+    - 17
     - 28
     - 27
     - 29
@@ -1353,43 +1352,64 @@ metadata:
     - 40
     - 41
   chart_customization_config: []
-  color_scheme: ''
+  color_scheme: supersetColors
   refresh_frequency: 0
   expanded_slices: {}
   timed_refresh_immune_slices: []
   cross_filters_enabled: true
   default_filters: '{}'
   show_chart_timestamps: false
+  color_scheme_domain:
+  - '#1FA8C9'
+  - '#454E7C'
+  - '#5AC189'
+  - '#FF7F44'
+  - '#666666'
+  - '#E04355'
+  - '#FCC700'
+  - '#A868B7'
+  - '#3CCCCB'
+  - '#A38F79'
+  - '#8FD3E4'
+  - '#A1A6BD'
+  - '#ACE1C4'
+  - '#FEC0A1'
+  - '#B2B2B2'
+  - '#EFA1AA'
+  - '#FDE380'
+  - '#D3B3DA'
+  - '#9EE5E5'
+  - '#D1C6BC'
   shared_label_colors:
   - ''
   map_label_colors:
-    Razonablemente buena: '#6BD3B3'
-    Regular: '#FCC550'
-    Desfavorable: '#408184'
-    Buena: '#66CBE2'
-    MAX(nivel_ica_general): '#6BD3B3'
-    Madrid-28079004: '#FCC550'
-    Madrid-28079008: '#408184'
-    Madrid-28079011: '#66CBE2'
-    Madrid-28079016: '#EE5960'
-    Madrid-28079017: '#484E5A'
-    Madrid-28079018: '#FF874E'
-    Madrid-28079024: '#03748E'
-    Madrid-28079035: '#C9BBAB'
-    Madrid-28079036: '#B17BAA'
-    Madrid-28079038: '#B5E9D9'
-    Madrid-28079039: '#FDE2A7'
-    Madrid-28079040: '#9FC0C1'
-    ? ''
-    : '#3366cc'
-    NO2: '#6BD3B3'
-    PM10: '#FCC550'
-    O3: '#408184'
-    SO2: '#66CBE2'
-    PM2.5: '#EE5960'
-    "M\xE1ximo": '#EA0B8C'
-    Media: '#6C838E'
-    "M\xEDnimo": '#29ABE2'
-  color_scheme_domain: []
+    MAX(nivel_ica_general): '#1FA8C9'
+    Madrid-28079004: '#454E7C'
+    Madrid-28079008: '#5AC189'
+    Madrid-28079011: '#FF7F44'
+    Madrid-28079016: '#666666'
+    Madrid-28079017: '#E04355'
+    Madrid-28079018: '#FCC700'
+    Madrid-28079024: '#A868B7'
+    Madrid-28079027: '#3CCCCB'
+    Madrid-28079035: '#3CCCCB'
+    Madrid-28079036: '#A38F79'
+    Madrid-28079038: '#8FD3E4'
+    Madrid-28079039: '#A1A6BD'
+    Madrid-28079040: '#ACE1C4'
+    Madrid-28079047: '#FEC0A1'
+    Madrid-28079048: '#B2B2B2'
+    Madrid-28079049: '#EFA1AA'
+    Madrid-28079050: '#FDE380'
+    Madrid-28079054: '#D3B3DA'
+    Madrid-28079055: '#9EE5E5'
+    Madrid-28079056: '#D1C6BC'
+    Madrid-28079057: '#454E7C'
+    Madrid-28079058: '#A38F79'
+    Madrid-28079059: '#8FD3E4'
+    Madrid-28079060: '#A1A6BD'
+    Razonablemente buena: '#1FA8C9'
+    Regular: '#454E7C'
+    Buena: '#FF7F44'
 theme_uuid: null
 version: 1.0.0

@@ -1,4 +1,4 @@
-table_name: v_airqualityobserved_lastdata_ica
+table_name: v_airquality_airqualityobserved_lastdata_ica
 main_dttm_col: dateobserved
 currency_code_column: null
 description: null
@@ -7,7 +7,7 @@ offset: 0
 cache_timeout: null
 catalog: fiwaredb
 schema: madrid
-sql: null
+sql: ''
 params: null
 template_params: null
 filter_select_enabled: true
@@ -25,7 +25,8 @@ metrics:
   description: null
   d3format: null
   currency: null
-  extra: null
+  extra:
+    warning_markdown: ''
   warning_text: null
 columns:
 - column_name: dateobserved
@@ -36,11 +37,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: entityid
   verbose_name: null
   is_dttm: false
@@ -49,11 +50,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: pm10
   verbose_name: null
   is_dttm: false
@@ -62,11 +63,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: nivel_ica_pm10
   verbose_name: null
   is_dttm: false
@@ -75,11 +76,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: categoria_ica_pm10
   verbose_name: null
   is_dttm: false
@@ -88,11 +89,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: pm25
   verbose_name: null
   is_dttm: false
@@ -101,11 +102,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: nivel_ica_pm25
   verbose_name: null
   is_dttm: false
@@ -114,11 +115,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: categoria_ica_pm25
   verbose_name: null
   is_dttm: false
@@ -127,11 +128,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: no2
   verbose_name: null
   is_dttm: false
@@ -140,11 +141,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: so2
   verbose_name: null
   is_dttm: false
@@ -153,11 +154,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: nivel_ica_no2
   verbose_name: null
   is_dttm: false
@@ -166,11 +167,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: nivel_ica_so2
   verbose_name: null
   is_dttm: false
@@ -179,11 +180,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: categoria_ica_no2
   verbose_name: null
   is_dttm: false
@@ -192,11 +193,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: categoria_ica_so2
   verbose_name: null
   is_dttm: false
@@ -205,11 +206,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: o3
   verbose_name: null
   is_dttm: false
@@ -218,11 +219,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: nivel_ica_o3
   verbose_name: null
   is_dttm: false
@@ -231,11 +232,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: categoria_ica_o3
   verbose_name: null
   is_dttm: false
@@ -244,11 +245,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: latitude
   verbose_name: null
   is_dttm: false
@@ -257,11 +258,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: longitude
   verbose_name: null
   is_dttm: false
@@ -270,11 +271,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: nivel_ica_general
   verbose_name: null
   is_dttm: false
@@ -283,11 +284,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: categoria_ica_general
   verbose_name: null
   is_dttm: false
@@ -296,11 +297,11 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 - column_name: address
   verbose_name: null
   is_dttm: false
@@ -309,10 +310,10 @@ columns:
   advanced_data_type: null
   groupby: true
   filterable: true
-  expression: null
+  expression: ''
   description: null
   python_date_format: null
   datetime_format: null
-  extra: null
+  extra: {}
 version: 1.0.0
 database_uuid: a432c522-4f65-4a3b-b1dc-cdd40404b745
