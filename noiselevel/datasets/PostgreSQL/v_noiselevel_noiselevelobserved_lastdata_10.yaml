@@ -198,6 +198,19 @@ columns:
   python_date_format: null
   datetime_format: null
   extra: {}
+- column_name: heightaverage
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: TEXT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra: {}
 - column_name: name
   verbose_name: null
   is_dttm: false

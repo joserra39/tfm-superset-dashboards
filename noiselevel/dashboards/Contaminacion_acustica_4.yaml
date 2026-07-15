@@ -1,9 +1,9 @@
 dashboard_title: "Contaminaci\xF3n ac\xFAstica"
 description: null
-css: null
-slug: null
-certified_by: null
-certification_details: null
+css: ''
+slug: noiselevel
+certified_by: ''
+certification_details: ''
 published: true
 uuid: 6f2b13db-f229-44c6-93c5-ba28ea92e8b6
 position:
@@ -103,6 +103,70 @@ position:
     - TAB-M2hB7pqQ-ceV0f90xlxSx
     - ROW-WifvYuEGHPWjsoloXFdhE
     type: CHART
+  CHART-50:
+    children: []
+    id: CHART-50
+    meta:
+      chartId: 50
+      height: 44
+      sliceName: Mapa de estaciones
+      uuid: ca650c12-7f74-4edb-b51b-fc8027a366ec
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    - ROW-xySDYfuzRD1z6-O2y2Ufi
+    type: CHART
+  CHART-51:
+    children: []
+    id: CHART-51
+    meta:
+      chartId: 51
+      height: 50
+      sliceName: "Evoluci\xF3n del nivel de ruido"
+      uuid: b1f65e69-0ffb-461f-94ba-5af8c4d34f41
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    - ROW-OfN0OhDCL4rawXQMEO02j
+    type: CHART
+  CHART-52:
+    children: []
+    id: CHART-52
+    meta:
+      chartId: 52
+      height: 56
+      sliceName: Valores de los indicadores por periodo
+      uuid: d3cb3b88-157f-44b5-9e3a-27ab2b12fa6b
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    - ROW-Q5GNyuSMUjTBKI-qlKCFi
+    type: CHART
+  CHART-53:
+    children: []
+    id: CHART-53
+    meta:
+      chartId: 53
+      height: 90
+      sliceName: "Mapa de calor Estaci\xF3n/d\xEDa(L1)"
+      uuid: f4c75d85-5d93-4329-a6c1-52bc998ca5f3
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    - ROW-SgwctPQlebakvTVVCO0TL
+    type: CHART
   CHART-explore-42-1:
     children: []
     id: CHART-explore-42-1
@@ -153,6 +217,30 @@ position:
     - GRID_ID
     id: ROOT_ID
     type: ROOT
+  ROW-OfN0OhDCL4rawXQMEO02j:
+    children:
+    - CHART-51
+    id: ROW-OfN0OhDCL4rawXQMEO02j
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    type: ROW
+  ROW-Q5GNyuSMUjTBKI-qlKCFi:
+    children:
+    - CHART-52
+    id: ROW-Q5GNyuSMUjTBKI-qlKCFi
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    type: ROW
   ROW-RcCKJqvZ2fA5MyEBXr_zf:
     children:
     - CHART-explore-42-1
@@ -167,6 +255,18 @@ position:
     - GRID_ID
     - TABS-rSt-bxBS70-1bH3p79_kr
     - TAB-M2hB7pqQ-ceV0f90xlxSx
+    type: ROW
+  ROW-SgwctPQlebakvTVVCO0TL:
+    children:
+    - CHART-53
+    id: ROW-SgwctPQlebakvTVVCO0TL
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
     type: ROW
   ROW-WifvYuEGHPWjsoloXFdhE:
     children:
@@ -194,8 +294,24 @@ position:
     - TABS-rSt-bxBS70-1bH3p79_kr
     - TAB-M2hB7pqQ-ceV0f90xlxSx
     type: ROW
+  ROW-xySDYfuzRD1z6-O2y2Ufi:
+    children:
+    - CHART-50
+    id: ROW-xySDYfuzRD1z6-O2y2Ufi
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-rSt-bxBS70-1bH3p79_kr
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    type: ROW
   TAB-LIgSNoNSLR8dl4ANE-SkT:
-    children: []
+    children:
+    - ROW-xySDYfuzRD1z6-O2y2Ufi
+    - ROW-OfN0OhDCL4rawXQMEO02j
+    - ROW-Q5GNyuSMUjTBKI-qlKCFi
+    - ROW-SgwctPQlebakvTVVCO0TL
     id: TAB-LIgSNoNSLR8dl4ANE-SkT
     meta:
       defaultText: Tab title
@@ -258,6 +374,10 @@ metadata:
         - 47
         - 48
         - 49
+        - 50
+        - 51
+        - 52
+        - 53
     '46':
       id: 46
       crossFilters:
@@ -270,6 +390,10 @@ metadata:
         - 47
         - 48
         - 49
+        - 50
+        - 51
+        - 52
+        - 53
     '48':
       id: 48
       crossFilters:
@@ -282,6 +406,10 @@ metadata:
         - 46
         - 47
         - 49
+        - 50
+        - 51
+        - 52
+        - 53
     '49':
       id: 49
       crossFilters:
@@ -294,6 +422,58 @@ metadata:
         - 46
         - 47
         - 48
+        - 50
+        - 51
+        - 52
+        - 53
+    '50':
+      id: 50
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 51
+        - 52
+        - 53
+    '51':
+      id: 51
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 52
+        - 53
+    '52':
+      id: 52
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 42
+        - 43
+        - 44
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 53
   global_chart_configuration:
     scope:
       rootPath:
@@ -308,33 +488,37 @@ metadata:
     - 47
     - 48
     - 49
+    - 50
+    - 51
+    - 52
+    - 53
   native_filter_configuration:
-  - id: NATIVE_FILTER-YOIydBWVpAAD-U4NwhQ3f
-    type: NATIVE_FILTER
-    name: "Estaci\xF3n"
-    filterType: filter_select
+  - name: Fecha
+    filterType: filter_time
     description: ''
-    targets:
-    - column:
-        name: name
-      datasetUuid: 2bade7ea-112d-4fca-8af6-31d38b54a488
-    scope:
-      rootPath:
-      - ROOT_ID
-      excluded: []
+    type: NATIVE_FILTER
+    defaultValueQueriesData: null
+    requiredFirst: {}
     controlValues:
       enableEmptyFilter: false
-      defaultToFirstItem: false
-      creatable: true
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
+    scope:
+      excluded: []
+      rootPath:
+      - TAB-LIgSNoNSLR8dl4ANE-SkT
     defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    sortMetric: null
+      extraFormData:
+        time_range: '2026-01-01T00:00:00 : 2026-07-07T00:00:00'
+      filterState:
+        value: '2026-01-01T00:00:00 : 2026-07-07T00:00:00'
+    id: NATIVE_FILTER-PjKEPaSKWfhk6wNyKVwxT
+    chartsInScope:
+    - 50
+    - 51
+    - 52
+    - 53
+    tabsInScope:
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+  - cascadeParentIds: []
     chartsInScope:
     - 42
     - 43
@@ -344,8 +528,38 @@ metadata:
     - 47
     - 48
     - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    controlValues:
+      creatable: true
+      defaultToFirstItem: false
+      enableEmptyFilter: false
+      inverseSelection: false
+      multiSelect: true
+      searchAllOptions: false
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    description: ''
+    filterType: filter_select
+    id: NATIVE_FILTER-YOIydBWVpAAD-U4NwhQ3f
+    name: "Estaci\xF3n"
+    scope:
+      excluded: []
+      rootPath:
+      - ROOT_ID
+    sortMetric: null
     tabsInScope:
     - TAB-M2hB7pqQ-ceV0f90xlxSx
+    - TAB-LIgSNoNSLR8dl4ANE-SkT
+    targets:
+    - column:
+        name: name
+      datasetUuid: 2bade7ea-112d-4fca-8af6-31d38b54a488
+    type: NATIVE_FILTER
   chart_customization_config: []
   color_scheme: ''
   refresh_frequency: 0
@@ -355,8 +569,23 @@ metadata:
   cross_filters_enabled: true
   default_filters: '{}'
   show_chart_timestamps: false
-  shared_label_colors: []
-  map_label_colors: {}
+  shared_label_colors:
+  - Alto
+  - Bajo
+  - L1
+  - L10
+  - L50
+  - L90
+  - L99
+  - LAeq
+  - Moderado
+  map_label_colors:
+    L1: '#1FA8C9'
+    LAeq: '#454E7C'
+    L10: '#5AC189'
+    L50: '#FF7F44'
+    L90: '#666666'
+    L99: '#E04355'
   color_scheme_domain: []
 theme_uuid: null
 version: 1.0.0
