@@ -1382,6 +1382,9 @@ metadata:
   - '#D1C6BC'
   shared_label_colors:
   - ''
+  - Buena
+  - Razonablemente buena
+  - Regular
   map_label_colors:
     MAX(nivel_ica_general): '#1FA8C9'
     Madrid-28079004: '#454E7C'
