@@ -1,0 +1,667 @@
+dashboard_title: Afluencia de peatones y bicicletas
+description: null
+css: ''
+slug: crowdflow
+certified_by: ''
+certification_details: ''
+published: true
+uuid: 880282a1-36fc-4b3c-b622-382fad566b68
+position:
+  CHART-54:
+    children: []
+    id: CHART-54
+    meta:
+      chartId: 54
+      height: 18
+      sliceName: Estaciones activas
+      uuid: e5448cfb-e2fa-461b-ab59-b577b733e2ef
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-f4P1S1wxBa99nnYN9LKks
+    type: CHART
+  CHART-55:
+    children: []
+    id: CHART-55
+    meta:
+      chartId: 55
+      height: 18
+      sliceName: Media afluencia bicicletas
+      uuid: 86eb8d3d-ad6c-4de9-a942-fb0d0268f073
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-f4P1S1wxBa99nnYN9LKks
+    type: CHART
+  CHART-56:
+    children: []
+    id: CHART-56
+    meta:
+      chartId: 56
+      height: 18
+      sliceName: Media afluencia peatones
+      uuid: faacb4a8-724e-4c09-b507-77d30b258505
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-f4P1S1wxBa99nnYN9LKks
+    type: CHART
+  CHART-57:
+    children: []
+    id: CHART-57
+    meta:
+      chartId: 57
+      height: 18
+      sliceName: "Fecha \xFAltimo dato"
+      uuid: 3f92c060-df7d-4a6c-81ce-3147a87e334a
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-f4P1S1wxBa99nnYN9LKks
+    type: CHART
+  CHART-58:
+    children: []
+    id: CHART-58
+    meta:
+      chartId: 58
+      height: 57
+      sliceName: Mapa de estaciones
+      uuid: 0b5f7719-28db-4eaa-ae92-b3ceeb3882b0
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-hiq9HnAzYxpgUA71ZHx--
+    type: CHART
+  CHART-59:
+    children: []
+    id: CHART-59
+    meta:
+      chartId: 59
+      height: 56
+      sliceName: Listado estaciones
+      uuid: 75ebe935-50d3-4ad1-9335-2e54b4735b07
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-hiq9HnAzYxpgUA71ZHx--
+    type: CHART
+  CHART-60:
+    children: []
+    id: CHART-60
+    meta:
+      chartId: 60
+      height: 50
+      sliceName: "Distribuci\xF3n por categor\xEDa"
+      uuid: 27e43e9a-61c9-4201-af02-9a71a8eb8045
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-5B91wZTZ1BNUZ2X7M48yb
+    type: CHART
+  CHART-61:
+    children: []
+    id: CHART-61
+    meta:
+      chartId: 61
+      height: 50
+      sliceName: "Top afluencia por estaci\xF3n"
+      uuid: 6fb9178c-038b-441c-a95c-e167e9a5b943
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - ROW-5B91wZTZ1BNUZ2X7M48yb
+    type: CHART
+  CHART-62:
+    children: []
+    id: CHART-62
+    meta:
+      chartId: 62
+      height: 44
+      sliceName: Mapa de estaciones
+      uuid: e867e7ed-5d11-4be8-866f-edc40efd63e2
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    - ROW-HwOMXOfoyhmzmI7b8YQmx
+    type: CHART
+  CHART-63:
+    children: []
+    id: CHART-63
+    meta:
+      chartId: 63
+      height: 50
+      sliceName: "Evoluci\xF3n del aforo"
+      uuid: a9387a37-884a-4573-8a7c-8c47cb96089e
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    - ROW-buOEa05oHajVM-XuLzeLB
+    type: CHART
+  CHART-64:
+    children: []
+    id: CHART-64
+    meta:
+      chartId: 64
+      height: 50
+      sliceName: "Mapa de calor Estaci\xF3n/hora"
+      uuid: 5e93e128-4d72-4a0d-b932-8fd7a42a0e5d
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    - ROW-aq5QVc73Yr3CBk7hEU1Qq
+    type: CHART
+  CHART-65:
+    children: []
+    id: CHART-65
+    meta:
+      chartId: 65
+      height: 50
+      sliceName: "Top aforo por estaci\xF3n"
+      uuid: 4ebfd89e-5516-4084-b049-4e0d7c7cce13
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    - ROW-Bc_HDG0Qlio8rz02d0_F_
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Afluencia de peatones y bicicletas
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-5B91wZTZ1BNUZ2X7M48yb:
+    children:
+    - CHART-60
+    - CHART-61
+    id: ROW-5B91wZTZ1BNUZ2X7M48yb
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    type: ROW
+  ROW-Bc_HDG0Qlio8rz02d0_F_:
+    children:
+    - CHART-65
+    id: ROW-Bc_HDG0Qlio8rz02d0_F_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    type: ROW
+  ROW-HwOMXOfoyhmzmI7b8YQmx:
+    children:
+    - CHART-62
+    id: ROW-HwOMXOfoyhmzmI7b8YQmx
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    type: ROW
+  ROW-aq5QVc73Yr3CBk7hEU1Qq:
+    children:
+    - CHART-64
+    id: ROW-aq5QVc73Yr3CBk7hEU1Qq
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    type: ROW
+  ROW-buOEa05oHajVM-XuLzeLB:
+    children:
+    - CHART-63
+    id: ROW-buOEa05oHajVM-XuLzeLB
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    type: ROW
+  ROW-f4P1S1wxBa99nnYN9LKks:
+    children:
+    - CHART-54
+    - CHART-56
+    - CHART-55
+    - CHART-57
+    id: ROW-f4P1S1wxBa99nnYN9LKks
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    type: ROW
+  ROW-hiq9HnAzYxpgUA71ZHx--:
+    children:
+    - CHART-58
+    - CHART-59
+    id: ROW-hiq9HnAzYxpgUA71ZHx--
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    type: ROW
+  TAB-6Sl4YkxGPgr6Zd0V-EV7n:
+    children:
+    - ROW-f4P1S1wxBa99nnYN9LKks
+    - ROW-hiq9HnAzYxpgUA71ZHx--
+    - ROW-5B91wZTZ1BNUZ2X7M48yb
+    id: TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Datos generales
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    type: TAB
+  TAB-DuVmVgUNq2evB1eO61xO0:
+    children:
+    - ROW-HwOMXOfoyhmzmI7b8YQmx
+    - ROW-buOEa05oHajVM-XuLzeLB
+    - ROW-Bc_HDG0Qlio8rz02d0_F_
+    - ROW-aq5QVc73Yr3CBk7hEU1Qq
+    id: TAB-DuVmVgUNq2evB1eO61xO0
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: "Datos hist\xF3ricos"
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    type: TAB
+  TAB-f0BI_b-PBhpvHPGUAxlh3:
+    children: []
+    id: TAB-f0BI_b-PBhpvHPGUAxlh3
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Predictiva
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-Lo4pP1KohwVX8xRsLTzcn
+    type: TAB
+  TABS-Lo4pP1KohwVX8xRsLTzcn:
+    children:
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - TAB-DuVmVgUNq2evB1eO61xO0
+    - TAB-f0BI_b-PBhpvHPGUAxlh3
+    id: TABS-Lo4pP1KohwVX8xRsLTzcn
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '58':
+      id: 58
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 59
+        - 60
+        - 61
+        - 62
+        - 63
+        - 64
+        - 65
+    '59':
+      id: 59
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 58
+        - 60
+        - 61
+        - 62
+        - 63
+        - 64
+        - 65
+    '60':
+      id: 60
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 58
+        - 59
+        - 61
+        - 62
+        - 63
+        - 64
+        - 65
+    '61':
+      id: 61
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 58
+        - 59
+        - 60
+        - 62
+        - 63
+        - 64
+        - 65
+    '62':
+      id: 62
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 58
+        - 59
+        - 60
+        - 61
+        - 63
+        - 64
+        - 65
+    '63':
+      id: 63
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 58
+        - 59
+        - 60
+        - 61
+        - 62
+        - 64
+        - 65
+    '65':
+      id: 65
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 54
+        - 55
+        - 56
+        - 57
+        - 58
+        - 59
+        - 60
+        - 61
+        - 62
+        - 63
+        - 64
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 54
+    - 55
+    - 56
+    - 57
+    - 58
+    - 59
+    - 60
+    - 61
+    - 62
+    - 63
+    - 64
+    - 65
+  native_filter_configuration:
+  - name: Fecha
+    filterType: filter_time
+    description: ''
+    type: NATIVE_FILTER
+    defaultValueQueriesData: null
+    requiredFirst: {}
+    controlValues:
+      enableEmptyFilter: false
+    scope:
+      excluded: []
+      rootPath:
+      - TAB-DuVmVgUNq2evB1eO61xO0
+    defaultDataMask:
+      extraFormData:
+        time_range: 'DATEADD(DATETIME("2024-06-30T00:00:00"), -7, day) : 2024-06-30T00:00:00'
+      filterState:
+        value: 'DATEADD(DATETIME("2024-06-30T00:00:00"), -7, day) : 2024-06-30T00:00:00'
+    id: NATIVE_FILTER-0VpMG60DjqDQKF5V-_xEv
+    chartsInScope:
+    - 62
+    - 63
+    - 64
+    - 65
+    tabsInScope:
+    - TAB-DuVmVgUNq2evB1eO61xO0
+  - id: NATIVE_FILTER-h-gLLsgNPH0tOqHQv1rVm
+    type: NATIVE_FILTER
+    name: "Estaci\xF3n"
+    filterType: filter_select
+    description: ''
+    targets:
+    - column:
+        name: entityid
+      datasetUuid: d27661b7-ebd7-445f-8558-f0bcab92e788
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      creatable: true
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    sortMetric: null
+    chartsInScope:
+    - 54
+    - 55
+    - 56
+    - 57
+    - 58
+    - 59
+    - 60
+    - 61
+    - 62
+    - 63
+    - 64
+    - 65
+    tabsInScope:
+    - TAB-6Sl4YkxGPgr6Zd0V-EV7n
+    - TAB-DuVmVgUNq2evB1eO61xO0
+  chart_customization_config: []
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  show_chart_timestamps: false
+  shared_label_colors:
+  - Bicicletas
+  - Peatones
+  map_label_colors:
+    Peatones: '#1FA8C9'
+    Bicicletas: '#454E7C'
+    Afluencia: '#1FA8C9'
+    PERM_PEA08_PM02: '#454E7C'
+    PERM_PEA08_PM01: '#5AC189'
+    PERM_PEA19_PM01: '#FF7F44'
+    PERM_PEA05_PM01: '#666666'
+    PERM_PEA18_PM01: '#E04355'
+    PERM_PEA01_PM01: '#FCC700'
+    PERM_PEA02_PM01: '#A868B7'
+    PERM_PEA16_PM01: '#3CCCCB'
+    PERM_PEA07_PM01: '#A38F79'
+    PERM_PEA10_PM01: '#8FD3E4'
+    PERM_PEA04_PM01: '#A1A6BD'
+    PERM_PEA26_PM01: '#ACE1C4'
+    PERM_PEA13_PM01: '#FEC0A1'
+    PERM_PEA14_PM01: '#B2B2B2'
+    PERM_PEA06_PM01: '#EFA1AA'
+    PERM_PEA09_PM01: '#FDE380'
+    PERM_PEA25_PM01: '#D3B3DA'
+    PERM_PEA12_PM01: '#9EE5E5'
+    PERM_PEA28_PM01: '#D1C6BC'
+    PERM_PEA24_PM01: '#454E7C'
+    PERM_PEA20_PM01: '#5AC189'
+    PERM_PEA03_PM01: '#FF7F44'
+    PERM_PEA11_PM01: '#666666'
+    PERM_PEA27_PM01: '#E04355'
+    PERM_BICI09_PM01: '#FCC700'
+    PERM_PEA29_PM01: '#A868B7'
+    PERM_PEA17_PM01: '#3CCCCB'
+    PERM_PEA15_PM01: '#A38F79'
+    PERM_BICI31_PM01: '#8FD3E4'
+    PERM_BICI09_PM02: '#A1A6BD'
+    PERM_BICI22_PM01: '#ACE1C4'
+    PERM_BICI02_PM01: '#FEC0A1'
+    PERM_PEA23_PM01: '#B2B2B2'
+    PERM_BICI04_PM02: '#EFA1AA'
+    PERM_BICI10_PM02: '#FDE380'
+    PERM_BICI21_PM01: '#D3B3DA'
+    PERM_BICI03_PM01: '#9EE5E5'
+    PERM_BICI04_PM01: '#D1C6BC'
+    PERM_BICI14_PM02: '#D1C6BC'
+    PERM_BICI06_PM01: '#454E7C'
+    PERM_BICI22_PM02: '#5AC189'
+    PERM_BICI23_PM02: '#FF7F44'
+    PERM_PEA22_PM01: '#666666'
+    PERM_BICI23_PM01: '#E04355'
+    PERM_BICI06_PM02: '#FCC700'
+    PERM_BICI03_PM02: '#A868B7'
+    PERM_BICI05_PM01: '#3CCCCB'
+    PERM_PEA21_PM01: '#A38F79'
+    PERM_BICI27_PM02: '#8FD3E4'
+    PERM_BICI16_PM02: '#A1A6BD'
+    PERM_BICI10_PM01: '#ACE1C4'
+    PERM_BICI30_PM02: '#FEC0A1'
+    PERM_PEA21_PM02: '#B2B2B2'
+    PERM_BICI17_PM01: '#EFA1AA'
+    PERM_BICI21_PM02: '#FDE380'
+    PERM_BICI01_PM01: '#D3B3DA'
+    PERM_BICI27_PM01: '#9EE5E5'
+    PERM_BICI19_PM02: '#9EE5E5'
+    PERM_BICI20_PM01: '#D1C6BC'
+    PERM_BICI12_PM02: '#454E7C'
+    PERM_BICI18_PM01: '#5AC189'
+    PERM_BICI29_PM01: '#FF7F44'
+    PERM_BICI29_PM02: '#666666'
+    PERM_BICI19_PM01: '#E04355'
+    PERM_BICI16_PM01: '#FCC700'
+    PERM_BICI12_PM01: '#A868B7'
+    PERM_BICI17_PM02: '#3CCCCB'
+    PERM_BICI28_PM02: '#A38F79'
+    PERM_BICI29_PM06: '#8FD3E4'
+    PERM_BICI29_PM03: '#A1A6BD'
+    PERM_BICI07_PM01: '#ACE1C4'
+    PERM_BICI08_PM01: '#FEC0A1'
+    PERM_BICI08_PM02: '#B2B2B2'
+    PERM_BICI11_PM01: '#EFA1AA'
+    PERM_BICI11_PM02: '#FDE380'
+    PERM_BICI30_PM01: '#D3B3DA'
+    PERM_BICI29_PM05: '#D3B3DA'
+    PERM_BICI20_PM02: '#9EE5E5'
+    PERM_BICI13_PM01: '#D1C6BC'
+    PERM_BICI13_PM02: '#454E7C'
+    PERM_BICI14_PM01: '#5AC189'
+    PERM_BICI15_PM01: '#FF7F44'
+    PERM_BICI15_PM02: '#666666'
+    PERM_BICI28_PM01: '#E04355'
+    PERM_BICI26_PM01: '#FCC700'
+    PERM_BICI29_PM04: '#A868B7'
+  color_scheme_domain: []
+theme_uuid: null
+version: 1.0.0
