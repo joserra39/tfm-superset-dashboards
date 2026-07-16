@@ -1,0 +1,365 @@
+dashboard_title: Calidad del vertido de las aguas residuales depuradas
+description: null
+css: ''
+slug: waterquality
+certified_by: ''
+certification_details: ''
+published: true
+uuid: e72942bb-206e-451c-b07b-a2f2604cd1ec
+position:
+  CHART-78:
+    children: []
+    id: CHART-78
+    meta:
+      chartId: 78
+      height: 18
+      sliceName: Estaciones activas
+      uuid: f3d26a70-c476-4023-823b-d11154562025
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-mjPqA4ZLJJ4GSr0b3nRur
+    type: CHART
+  CHART-79:
+    children: []
+    id: CHART-79
+    meta:
+      chartId: 79
+      height: 18
+      sliceName: "Fecha \xFAltimo dato"
+      uuid: b3fde7f8-9acd-4d95-a039-3562a479fa7f
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-mjPqA4ZLJJ4GSr0b3nRur
+    type: CHART
+  CHART-80:
+    children: []
+    id: CHART-80
+    meta:
+      chartId: 80
+      height: 57
+      sliceName: Mapa de estaciones
+      uuid: fa68e1ac-b75f-4144-9318-eb693d864413
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-z70BH9hDolGdrAO_3_x4B
+    type: CHART
+  CHART-81:
+    children: []
+    id: CHART-81
+    meta:
+      chartId: 81
+      height: 55
+      sliceName: ICA
+      uuid: f4af05f9-de4c-415b-85d2-289ff6afcbdb
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-z70BH9hDolGdrAO_3_x4B
+    type: CHART
+  CHART-82:
+    children: []
+    id: CHART-82
+    meta:
+      chartId: 82
+      height: 50
+      sliceName: "Distribuci\xF3n por categor\xEDa ICA"
+      uuid: 665d113a-22c2-4986-bc36-b6c672adede2
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-VnOVQGTx1VVDuSr9WkaPv
+    type: CHART
+  CHART-83:
+    children: []
+    id: CHART-83
+    meta:
+      chartId: 83
+      height: 50
+      sliceName: Top estaciones por ICA
+      uuid: dee2f404-6cb1-4d72-a11a-3620d6a7f9f3
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-VnOVQGTx1VVDuSr9WkaPv
+    type: CHART
+  CHART-84:
+    children: []
+    id: CHART-84
+    meta:
+      chartId: 84
+      height: 18
+      sliceName: "M\xE1ximo ICA actual"
+      uuid: 9da65af0-a9c0-427e-8407-57b2c521f8cd
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-mjPqA4ZLJJ4GSr0b3nRur
+    type: CHART
+  CHART-85:
+    children: []
+    id: CHART-85
+    meta:
+      chartId: 85
+      height: 19
+      sliceName: Media ICA actual
+      uuid: fdefd5c1-89d7-4ee6-a0f5-b7601b64ec63
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - ROW-mjPqA4ZLJJ4GSr0b3nRur
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Calidad del vertido de las aguas residuales depuradas
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-VnOVQGTx1VVDuSr9WkaPv:
+    children:
+    - CHART-82
+    - CHART-83
+    id: ROW-VnOVQGTx1VVDuSr9WkaPv
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    type: ROW
+  ROW-mjPqA4ZLJJ4GSr0b3nRur:
+    children:
+    - CHART-78
+    - CHART-84
+    - CHART-85
+    - CHART-79
+    id: ROW-mjPqA4ZLJJ4GSr0b3nRur
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    type: ROW
+  ROW-z70BH9hDolGdrAO_3_x4B:
+    children:
+    - CHART-80
+    - CHART-81
+    id: ROW-z70BH9hDolGdrAO_3_x4B
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    type: ROW
+  TAB-AGp1ww7GdkcdI0X_a-j9e:
+    children: []
+    id: TAB-AGp1ww7GdkcdI0X_a-j9e
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: "Datos hist\xF3ricos"
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    type: TAB
+  TAB-RNfxRRIatE_VKLES7kMlT:
+    children: []
+    id: TAB-RNfxRRIatE_VKLES7kMlT
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Predictiva
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    type: TAB
+  TAB-gkSA_FCgxWvG_GPtnKRHz:
+    children:
+    - ROW-mjPqA4ZLJJ4GSr0b3nRur
+    - ROW-z70BH9hDolGdrAO_3_x4B
+    - ROW-VnOVQGTx1VVDuSr9WkaPv
+    id: TAB-gkSA_FCgxWvG_GPtnKRHz
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Datos generales
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    type: TAB
+  TABS-0q54BCYNvHgSDFzmGh0-4:
+    children:
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TAB-RNfxRRIatE_VKLES7kMlT
+    id: TABS-0q54BCYNvHgSDFzmGh0-4
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+metadata:
+  label_colors: {}
+  chart_configuration:
+    '80':
+      id: 80
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+    '81':
+      id: 81
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 82
+        - 83
+        - 84
+        - 85
+    '82':
+      id: 82
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 83
+        - 84
+        - 85
+    '83':
+      id: 83
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 84
+        - 85
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 78
+    - 79
+    - 80
+    - 81
+    - 82
+    - 83
+    - 84
+    - 85
+  native_filter_configuration:
+  - id: NATIVE_FILTER-gQJ0kwZwry9aKazsoke_v
+    type: NATIVE_FILTER
+    name: "Estaci\xF3n"
+    filterType: filter_select
+    description: ''
+    targets:
+    - column:
+        name: name
+      datasetUuid: 084e10db-cec1-4276-a155-5e58c406cb96
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      creatable: true
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    sortMetric: null
+    chartsInScope:
+    - 78
+    - 79
+    - 80
+    - 81
+    - 82
+    - 83
+    - 84
+    - 85
+    tabsInScope:
+    - TAB-gkSA_FCgxWvG_GPtnKRHz
+  chart_customization_config: []
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  show_chart_timestamps: false
+  shared_label_colors:
+  - Buena
+  map_label_colors:
+    Buena: '#1FA8C9'
+    Nivel ICA general: '#1FA8C9'
+  color_scheme_domain: []
+theme_uuid: null
+version: 1.0.0
