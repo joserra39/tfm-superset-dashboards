@@ -75,7 +75,7 @@ params:
   start_angle: '180'
   end_angle: '0'
   color_scheme: supersetColors
-  font_size: 10
+  font_size: 14
   number_format: SMART_NUMBER
   currency_format:
     symbolPosition: suffix
@@ -128,7 +128,7 @@ query_context: "{\"datasource\":{\"id\":1,\"type\":\"table\"},\"force\":false,\"
   :\"filter_899ey012kri_za3sedqjhr\",\"isExtra\":false,\"isNew\":false,\"operator\"\
   :\"TEMPORAL_RANGE\",\"operatorId\":\"TEMPORAL_RANGE\",\"sqlExpression\":null,\"\
   subject\":\"dateobserved\"}],\"row_limit\":10,\"min_val\":0,\"max_val\":350,\"start_angle\"\
-  :\"180\",\"end_angle\":\"0\",\"color_scheme\":\"supersetColors\",\"font_size\":10,\"\
+  :\"180\",\"end_angle\":\"0\",\"color_scheme\":\"supersetColors\",\"font_size\":14,\"\
   number_format\":\"SMART_NUMBER\",\"currency_format\":{\"symbolPosition\":\"suffix\"\
   },\"value_formatter\":\"{value} \u03BCg/m\xB3\",\"show_pointer\":true,\"animation\"\
   :true,\"show_axis_tick\":false,\"show_split_line\":false,\"split_number\":10,\"\

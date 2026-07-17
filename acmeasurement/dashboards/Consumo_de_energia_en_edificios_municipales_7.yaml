@@ -4,7 +4,7 @@ css: ''
 slug: acmeasurement
 certified_by: ''
 certification_details: ''
-published: false
+published: true
 uuid: 9589cd18-0fac-46cf-8155-3c20902d6cf2
 position:
   CHART-66:
@@ -109,7 +109,7 @@ position:
     meta:
       chartId: 73
       height: 50
-      sliceName: Top consumo por edificio
+      sliceName: Top 20 consumo por edificio
       uuid: 063e30be-b814-4793-95f9-ace009849de1
       width: 6
     parents:
@@ -118,6 +118,70 @@ position:
     - TABS-m589Eg49JpTlztCaEwvW7
     - TAB-c5Sy80faZU0NRi-_nllXU
     - ROW-Wcumb2eOD-vutIibF3YXc
+    type: CHART
+  CHART-74:
+    children: []
+    id: CHART-74
+    meta:
+      chartId: 74
+      height: 44
+      sliceName: Mapa de edificios
+      uuid: 31f69553-bc88-4f88-9cda-348e368041bd
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    - ROW-4g_DmQLAq1jh9vSUlgz7n
+    type: CHART
+  CHART-75:
+    children: []
+    id: CHART-75
+    meta:
+      chartId: 75
+      height: 50
+      sliceName: "Evoluci\xF3n consumo"
+      uuid: 3e2e0de2-630a-49f7-8f73-0da1e37148c5
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    - ROW-RFXBo_74r2rKRCeG-ZNlu
+    type: CHART
+  CHART-76:
+    children: []
+    id: CHART-76
+    meta:
+      chartId: 76
+      height: 50
+      sliceName: "Top consumo por estaci\xF3n"
+      uuid: 25222d66-4012-487a-8fa0-d324ab32325e
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    - ROW-FKX0y4CVfieluUJD5ayhC
+    type: CHART
+  CHART-77:
+    children: []
+    id: CHART-77
+    meta:
+      chartId: 77
+      height: 50
+      sliceName: Mapa de calor Edificio/mes
+      uuid: 9acccc73-f962-44b3-9ca3-81e59ced6362
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    - ROW-aN0Clf7CgzaMhBUaV8eYL
     type: CHART
   CHART-explore-72-1:
     children: []
@@ -153,6 +217,18 @@ position:
     - GRID_ID
     id: ROOT_ID
     type: ROOT
+  ROW-4g_DmQLAq1jh9vSUlgz7n:
+    children:
+    - CHART-74
+    id: ROW-4g_DmQLAq1jh9vSUlgz7n
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    type: ROW
   ROW-6_rT342QN7i_gaX61OM5B:
     children:
     - CHART-70
@@ -165,6 +241,30 @@ position:
     - GRID_ID
     - TABS-m589Eg49JpTlztCaEwvW7
     - TAB-c5Sy80faZU0NRi-_nllXU
+    type: ROW
+  ROW-FKX0y4CVfieluUJD5ayhC:
+    children:
+    - CHART-76
+    id: ROW-FKX0y4CVfieluUJD5ayhC
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    type: ROW
+  ROW-RFXBo_74r2rKRCeG-ZNlu:
+    children:
+    - CHART-75
+    id: ROW-RFXBo_74r2rKRCeG-ZNlu
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
     type: ROW
   ROW-Wcumb2eOD-vutIibF3YXc:
     children:
@@ -194,8 +294,24 @@ position:
     - TABS-m589Eg49JpTlztCaEwvW7
     - TAB-c5Sy80faZU0NRi-_nllXU
     type: ROW
+  ROW-aN0Clf7CgzaMhBUaV8eYL:
+    children:
+    - CHART-77
+    id: ROW-aN0Clf7CgzaMhBUaV8eYL
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-m589Eg49JpTlztCaEwvW7
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    type: ROW
   TAB-6Msd6djT7Dxyu_5-VcGjI:
-    children: []
+    children:
+    - ROW-4g_DmQLAq1jh9vSUlgz7n
+    - ROW-RFXBo_74r2rKRCeG-ZNlu
+    - ROW-FKX0y4CVfieluUJD5ayhC
+    - ROW-aN0Clf7CgzaMhBUaV8eYL
     id: TAB-6Msd6djT7Dxyu_5-VcGjI
     meta:
       defaultText: Tab title
@@ -258,6 +374,10 @@ metadata:
         - 71
         - 72
         - 73
+        - 74
+        - 75
+        - 76
+        - 77
     '71':
       id: 71
       crossFilters:
@@ -270,6 +390,10 @@ metadata:
         - 70
         - 72
         - 73
+        - 74
+        - 75
+        - 76
+        - 77
     '72':
       id: 72
       crossFilters:
@@ -282,6 +406,10 @@ metadata:
         - 70
         - 71
         - 73
+        - 74
+        - 75
+        - 76
+        - 77
     '73':
       id: 73
       crossFilters:
@@ -294,6 +422,58 @@ metadata:
         - 70
         - 71
         - 72
+        - 74
+        - 75
+        - 76
+        - 77
+    '74':
+      id: 74
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 66
+        - 67
+        - 68
+        - 69
+        - 70
+        - 71
+        - 72
+        - 73
+        - 75
+        - 76
+        - 77
+    '75':
+      id: 75
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 66
+        - 67
+        - 68
+        - 69
+        - 70
+        - 71
+        - 72
+        - 73
+        - 74
+        - 76
+        - 77
+    '76':
+      id: 76
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 66
+        - 67
+        - 68
+        - 69
+        - 70
+        - 71
+        - 72
+        - 73
+        - 74
+        - 75
+        - 77
   global_chart_configuration:
     scope:
       rootPath:
@@ -308,33 +488,40 @@ metadata:
     - 71
     - 72
     - 73
+    - 74
+    - 75
+    - 76
+    - 77
   native_filter_configuration:
-  - id: NATIVE_FILTER-57UfrNzGkNqV0-xhnGBLo
-    type: NATIVE_FILTER
-    name: Edificio
-    filterType: filter_select
+  - controlValues:
+      enableEmptyFilter: false
+    defaultValueQueriesData: null
     description: ''
-    targets:
-    - column:
-        name: buildingname
-      datasetUuid: 92a37dc0-a3fc-4876-a46a-8038747483a3
+    filterType: filter_time
+    id: NATIVE_FILTER-_UHtF_60FjwW9OQTPOfUl
+    name: Fecha
+    requiredFirst: {}
     scope:
+      excluded:
+      - 66
+      - 67
+      - 68
+      - 69
+      - 70
+      - 71
+      - 72
+      - 73
       rootPath:
       - ROOT_ID
-      excluded: []
-    controlValues:
-      enableEmptyFilter: false
-      defaultToFirstItem: false
-      creatable: true
-      multiSelect: true
-      searchAllOptions: false
-      inverseSelection: false
-    defaultDataMask:
-      extraFormData: {}
-      filterState: {}
-      ownState: {}
-    cascadeParentIds: []
-    sortMetric: null
+    type: NATIVE_FILTER
+    chartsInScope:
+    - 74
+    - 75
+    - 76
+    - 77
+    tabsInScope:
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+  - cascadeParentIds: []
     chartsInScope:
     - 66
     - 67
@@ -344,8 +531,38 @@ metadata:
     - 71
     - 72
     - 73
+    - 74
+    - 75
+    - 76
+    - 77
+    controlValues:
+      creatable: true
+      defaultToFirstItem: false
+      enableEmptyFilter: false
+      inverseSelection: false
+      multiSelect: true
+      searchAllOptions: false
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    description: ''
+    filterType: filter_select
+    id: NATIVE_FILTER-57UfrNzGkNqV0-xhnGBLo
+    name: Edificio
+    scope:
+      excluded: []
+      rootPath:
+      - ROOT_ID
+    sortMetric: null
     tabsInScope:
     - TAB-c5Sy80faZU0NRi-_nllXU
+    - TAB-6Msd6djT7Dxyu_5-VcGjI
+    targets:
+    - column:
+        name: buildingname
+      datasetUuid: 92a37dc0-a3fc-4876-a46a-8038747483a3
+    type: NATIVE_FILTER
   chart_customization_config: []
   color_scheme: ''
   refresh_frequency: 0
@@ -355,274 +572,56 @@ metadata:
   cross_filters_enabled: true
   default_filters: '{}'
   show_chart_timestamps: false
-  shared_label_colors: []
+  shared_label_colors:
+  - ARGANZUELA
+  - BARAJAS
+  - CARABANCHEL
+  - CENTRO
+  - CHAMARTIN
+  - CHAMBERI
+  - CIUDAD LINEAL
+  - "Energ\xEDa Reactiva"
+  - "Energ\xEDa activa"
+  - FUENCARRAL - EL PARDO
+  - Gas
+  - HORTALEZA
+  - LATINA
+  - MONCLOA - ARAVACA
+  - MORATALAZ
+  - PUENTE DE VALLECAS
+  - RETIRO
+  - SALAMANCA
+  - SAN BLAS - CANILLEJAS
+  - TETUAN
+  - USERA
+  - VICALVARO
+  - VILLA DE VALLECAS
+  - VILLAVERDE
   map_label_colors:
-    MONCLOA - ARAVACA: '#1FA8C9'
-    LATINA: '#454E7C'
-    FUENCARRAL - EL PARDO: '#5AC189'
-    CARABANCHEL: '#FF7F44'
-    USERA: '#666666'
-    ARGANZUELA: '#E04355'
-    VILLAVERDE: '#FCC700'
-    CENTRO: '#A868B7'
-    TETUAN: '#3CCCCB'
-    CHAMBERI: '#A38F79'
-    RETIRO: '#8FD3E4'
-    CHAMARTIN: '#A1A6BD'
-    SALAMANCA: '#ACE1C4'
-    PUENTE DE VALLECAS: '#FEC0A1'
-    HORTALEZA: '#B2B2B2'
-    CIUDAD LINEAL: '#EFA1AA'
-    MORATALAZ: '#FDE380'
-    SAN BLAS - CANILLEJAS: '#D3B3DA'
-    VICALVARO: '#9EE5E5'
-    VILLA DE VALLECAS: '#D1C6BC'
-    BARAJAS: '#454E7C'
     "Energ\xEDa activa": '#1FA8C9'
     "Energ\xEDa Reactiva": '#454E7C'
     Gas: '#5AC189'
-    SUM(energy): '#1FA8C9'
-    Palacio Cibeles: '#454E7C'
-    CDM Moratalaz: '#5AC189'
-    CC Conde Duque: '#FF7F44'
-    CDM Aluche: '#666666'
-    CDM Gallur: '#E04355'
-    CDM San Blas: '#FCC700'
-    Sede AG Hacienda: '#A868B7'
-    "CDM Gimnasio Moscard\xF3": '#3CCCCB'
-    Complejo La Vaguada: '#A38F79'
-    "CDM Dao\xEDz y Velarde": '#8FD3E4'
-    Museo de Historia: '#A1A6BD'
-    "CC Fernando de los R\xEDos Y Biblioteca Aluche": '#ACE1C4'
-    CDI Arganzuela: '#FEC0A1'
-    Planetario de Madrid: '#B2B2B2'
-    CDM Palomeras: '#EFA1AA'
-    Samur Base 0: '#FDE380'
-    "CDM La Mas\xF3": '#D3B3DA'
-    CDM Samaranch: '#9EE5E5'
-    "CDM Cerro Almod\xF3var": '#D1C6BC'
-    "Complejo Albarrac\xEDn 33 - Movilidad y Sede IAM": '#454E7C'
-    "CDM Francisco Fern\xE1ndez Ochoa": '#5AC189'
-    JMD Villaverde: '#FF7F44'
-    Jefatura del Cuerpo y Parque de Bomberos 2: '#666666'
-    Vivero de Empresas de Carabanchel (Madrid Emprende): '#E04355'
-    "CDM Luis Aragon\xE9s": '#FCC700'
-    "JMD Tetu\xE1n": '#A868B7'
-    "CDM Margot Mol\xE9s - Vic\xE1lvaro": '#3CCCCB'
-    "CDM Wilfred Agbonavbare - Alberto Garc\xEDa": '#A38F79'
-    CDM Barajas: '#8FD3E4'
-    "CDM Plata y Casta\xF1ar": '#A1A6BD'
-    CDM Casa de Campo: '#ACE1C4'
-    Complejo Sanchinarro: '#FEC0A1'
-    CDM La Mina: '#B2B2B2'
-    Sede AG Hacienda y Personal - Tesoreria del Ayuntamiento: '#EFA1AA'
-    "CDM Jos\xE9 Mar\xEDa Cagigal": '#FDE380'
-    "CDM Antonio D\xEDaz Miguel": '#D3B3DA'
-    "Pabell\xF3n Jes\xFAs Roll\xE1n": '#9EE5E5'
-    "CDM Entrev\xEDas": '#D1C6BC'
-    CDM Hortaleza: '#D1C6BC'
-    CDM Vicente del Bosque: '#454E7C'
-    JMD Ciudad Lineal: '#5AC189'
-    CDM Las Cruces: '#FF7F44'
-    CDM Orcasitas: '#666666'
-    CDM Alfredo Goyeneche: '#E04355'
-    "CC Eduardo \xDArculo & Biblioteca Mar\xEDa Zambrano": '#FCC700'
-    CDM Pradillo: '#A868B7'
-    Sede AG Seguridad y Emergencias: '#3CCCCB'
-    CDM La Elipa: '#A38F79'
-    Centro de Acogida San Isidro: '#8FD3E4'
-    "CDM Concepci\xF3n": '#A1A6BD'
-    CDM Faustina Valladolid - Valdebernardo: '#ACE1C4'
-    JMD Centro: '#FEC0A1'
-    "CDM Fernando Mart\xEDn": '#B2B2B2'
-    CC Eduardo Chillida y Biblioteca Miguel Delibes: '#EFA1AA'
-    "Biblioteca Eugenio Tr\xEDas": '#FDE380'
-    JMD Arganzuela: '#D3B3DA'
-    CC Lope de Vega -  Ag. Empleo: '#9EE5E5'
-    CC La Vaguada: '#9EE5E5'
-    Complejo Antonio Machado (CC, CM, Bib y EM): '#D1C6BC'
-    Complejo Moratalaz: '#454E7C'
-    CDM Pueblo Nuevo: '#5AC189'
-    CS Teresa de Calcuta: '#FF7F44'
-    JMD Moratalaz: '#666666'
-    "CSS Entrev\xEDas": '#E04355'
-    CDM Playa Victoria: '#FCC700'
-    CSS Guindalera: '#A868B7'
-    "Centro Integral de Formaci\xF3n de Seguridad y Emergencias": '#3CCCCB'
-    JMD Latina: '#A38F79'
-    JMD Retiro: '#8FD3E4'
-    CDM Fuente del Berro: '#A1A6BD'
-    CDM El Espinillo: '#ACE1C4'
-    CC Valdebernardo y Biblioteca Francisco Ayala: '#FEC0A1'
-    JMD Usera: '#B2B2B2'
-    JMD Villa de Vallecas: '#EFA1AA'
-    "JMD Chamber\xED": '#FDE380'
-    CMM Orcasur: '#D3B3DA'
-    CMM El Almendro: '#D3B3DA'
-    Biblioteca Pablo Neruda: '#9EE5E5'
-    CC/BPM Gloria Fuertes: '#D1C6BC'
-    CDM La Almudena: '#454E7C'
-    CDM San Juan Bautista: '#5AC189'
-    Apartamentos Tutelados Retiro: '#FF7F44'
-    CMM Antonio Mingote: '#666666'
-    "CDM Mar\xEDa Jes\xFAs Rosa": '#E04355'
-    Biblioteca Mario Vargas Llosa: '#FCC700'
-    CDM Orcasur: '#A868B7'
-    "CDM \xC1ngel Nieto - Puente de Vallecas": '#3CCCCB'
-    CC Rafael Altamira: '#A38F79'
-    CC Santa Petronila: '#8FD3E4'
-    EI Osa Menor: '#A1A6BD'
-    "CC Fernando L\xE1zaro Carreter": '#ACE1C4'
-    "JMD Chamart\xEDn": '#FEC0A1'
-    CEIP Rufino Blanco: '#B2B2B2'
-    Centro de Mayores San Francisco: '#EFA1AA'
-    "CSS Jos\xE9 Villarreal": '#FDE380'
-    CDM La mina: '#FDE380'
-    "Biblioteca Ana Mar\xEDa Matute": '#D3B3DA'
-    CD Gertrudis de la Fuente: '#9EE5E5'
-    JMD San Blas: '#D1C6BC'
-    CC Carril del Conde: '#454E7C'
-    Complejo Ascao - Pablo Neruda: '#5AC189'
-    "CC El Madro\xF1o + Bib. Vic\xE1lvaro": '#FF7F44'
-    Parque de Bomberos 7: '#666666'
-    CMM Acuario: '#E04355'
-    JMD Hortaleza: '#FCC700'
-    "Biblioteca \xC1ngel Gonz\xE1lez": '#A868B7'
-    JMD San Blas-Canillejas: '#3CCCCB'
-    "CSC Rosario de Acu\xF1a": '#A38F79'
-    Parque de Bomberos 8: '#8FD3E4'
-    "CC Fernando de los R\xEDos": '#A1A6BD'
-    "CDM Ra\xFAl Gonz\xE1lez": '#ACE1C4'
-    CC La Elipa y CSS Santa Felicidad: '#FEC0A1'
-    CC Galileo: '#B2B2B2'
-    "Centro de Protecci\xF3n Animal": '#EFA1AA'
-    Sede Madrid Salud: '#EFA1AA'
-    CC Las Californias: '#FDE380'
-    CSC Montecarmelo: '#D3B3DA'
-    CC Sara Montiel: '#9EE5E5'
-    CC Bib Buena Vista: '#D1C6BC'
-    CDM Miguel Guillen Prim: '#454E7C'
-    Madrid Emprende: '#5AC189'
-    "Biblioteca Gabriel Garc\xEDa M\xE1rquez": '#FF7F44'
-    CMM y CSS Luis Vives: '#666666'
-    Centro de Apoyo a las Familias CAF 2 Josefina Represa: '#E04355'
-    CC San Francisco La Prensa: '#FCC700'
-    CC Orcasur y Biblioteca Gabriel Garcia Marquez: '#A868B7'
-    "CC Pr\xEDncipe de Asturias": '#3CCCCB'
-    Museo Imprenta Municipal: '#A38F79'
-    CSS San Vicente de Paul: '#8FD3E4'
-    CMM Villa Vallecas: '#A1A6BD'
-    "CC Jos\xE9 Luis L\xF3pez V\xE1zquez": '#ACE1C4'
-    "Biblioteca Iv\xE1n de Vargas": '#FEC0A1'
-    Biblioteca La Chata: '#B2B2B2'
-    CSS San Filiberto: '#B2B2B2'
-    Parque de Bomberos 11: '#EFA1AA'
-    Biblioteca Miguel Delibes: '#FDE380'
-    CC Buero Vallejo y Biblioteca Canillejas: '#D3B3DA'
-    "Biblioteca Manuel V\xE1zquez Montalb\xE1n": '#9EE5E5'
-    "CC Nicol\xE1s Salmer\xF3n (CC, EM Mar\xEDa Rodrigo y Bib. Fco. Ib\xE1\xF1ez)": '#D1C6BC'
-    "Biblioteca Jos\xE9 Hierro": '#454E7C'
-    CC El Torito: '#5AC189'
-    CSS Puerto de las Pilas: '#FF7F44'
-    CC Alfredo Kraus: '#666666'
-    Biblioteca La Elipa - Islas Filipinas: '#E04355'
-    "Almac\xE9n de la Villa": '#FCC700'
-    Casa Consistorial - Casa de la Villa: '#A868B7'
-    CSC Alfonso XII: '#3CCCCB'
-    CC Casa de Vacas: '#A38F79'
-    JMD Barajas: '#8FD3E4'
-    "CC Rub\xE9n Dar\xEDo (ahora CAF2)": '#A1A6BD'
-    IDM La Bombilla: '#ACE1C4'
-    "CSC \xC1gata": '#FEC0A1'
-    "CC Pozo del T\xEDo Raimundo": '#FEC0A1'
-    CC y CM San Juan Bautista: '#B2B2B2'
-    Centro Municipal de Salud Comunitaria Villaverde: '#EFA1AA'
-    CDM Arganzuela La Fundi: '#FDE380'
-    CC Nuevas Dependencias Casa del Reloj: '#D3B3DA'
-    "CDM F\xE9lix Rubio": '#9EE5E5'
-    CC Casa del Reloj: '#D1C6BC'
-    "Biblioteca Mar\xEDa Lej\xE1rraga": '#454E7C'
-    Complejo La Elipa - Islas Filipinas: '#5AC189'
-    CEIP Residencia San Ildefonso: '#FF7F44'
-    JMD Puente de Vallecas: '#666666'
-    "CC Julio Cort\xE1zar": '#E04355'
-    CSC Oporto: '#FCC700'
-    "CC Alberto S\xE1nchez+Biblioteca Portazgo": '#A868B7'
-    Biblioteca Gerardo Diego: '#3CCCCB'
-    Parque de Bomberos 6: '#A38F79'
-    JMD Fuencarral: '#8FD3E4'
-    UID Moncloa-Aravaca: '#A1A6BD'
-    CC Hortaleza: '#ACE1C4'
-    "CMM La Estrella - Carmen Mart\xEDn Gaite": '#ACE1C4'
-    CSC Almirante Churruca: '#FEC0A1'
-    CC Bohemios: '#B2B2B2'
-    CEIP Ntra Sra de la Paloma: '#EFA1AA'
-    "Biblioteca P\xEDo Baroja": '#FDE380'
-    "CEIP Fernando el Cat\xF3lico": '#D3B3DA'
-    "CC Juan Genov\xE9s": '#9EE5E5'
-    Biblioteca Huerta de la Salud: '#D1C6BC'
-    "CEIP Crist\xF3bal Col\xF3n": '#454E7C'
-    "CSC Jos\xE9 Espronceda": '#5AC189'
-    JMD Carabanchel: '#FF7F44'
-    CC Los Rosales: '#666666'
-    Vivero de la Casa de Campo: '#E04355'
-    "CDM San Crist\xF3bal": '#FCC700'
-    "Mares Villaverde Mares de Alimentaci\xF3n y Cuidado": '#A868B7'
-    CC Meseta de Orcasitas: '#3CCCCB'
-    "CSC C\xE1novas del Castillo": '#A38F79'
-    CSCJ Moratalaz: '#8FD3E4'
-    "CSC Garc\xEDa Lorca": '#A1A6BD'
-    "CC Lavapi\xE9s": '#A1A6BD'
-    "JMD Vic\xE1lvaro": '#ACE1C4'
-    "CEIP Jos\xE9 Calvo Sotelo": '#FEC0A1'
-    CC Mercado de Ibiza: '#B2B2B2'
-    Vivero de La Rosaleda (Parque del Oeste): '#EFA1AA'
-    CMM Islas Filipinas: '#FDE380'
-    "CEIP Madro\xF1o": '#D3B3DA'
-    CEIP Ntra Sra Fuencisla: '#9EE5E5'
-    "CEIP Concepci\xF3n Arenal": '#D1C6BC'
-    CC Villa de Barajas (ampliacion): '#454E7C'
-    Edificio Anexo al Escenario del Auditorio Cerro Almodovar: '#5AC189'
-    CEIP Pradolongo: '#FF7F44'
-    CEIP Claudio Moyano: '#666666'
-    CEIP Ciudad de Roma: '#E04355'
-    "Biblioteca Jos\xE9 Saramago": '#FCC700'
-    "Biblioteca D\xE1maso Alonso": '#A868B7'
-    CEIP Patriarca Obispo Elio Garay: '#3CCCCB'
-    CEIP Isaac Peral: '#A38F79'
-    Biblioteca Gloria Fuertes: '#8FD3E4'
-    Instituto Fabiola de Mora y Aragon: '#8FD3E4'
-    CEIP Puerto Rico: '#A1A6BD'
-    "CC Agust\xEDn D\xEDaz": '#ACE1C4'
-    CC Federico Chueca: '#FEC0A1'
-    "CEIP V\xE1zquez de Mella": '#B2B2B2'
-    CEIP Pi i Margall: '#EFA1AA'
-    "CDM Antiguo Can\xF3dromo": '#FDE380'
-    UID Villa de Vallecas: '#D3B3DA'
-    CEIP San Isidoro: '#9EE5E5'
-    CEIP San Juan de la Cruz: '#D1C6BC'
-    CEIP Escuelas Aguirre: '#454E7C'
-    "CEIP Arquitecto Gaud\xED": '#5AC189'
-    CEIP Padre Poveda: '#FF7F44'
-    CSC Villa de Barajas: '#666666'
-    Biblioteca Francisco Ayala: '#E04355'
-    CEIP Bolivia: '#FCC700'
-    Samur Base 14: '#A868B7'
-    "Centro de d\xEDa Ascao": '#3CCCCB'
-    "CEIP Joaqu\xEDn Dicenta": '#A38F79'
-    CSC Marconi: '#A38F79'
-    CEIP Alberto Alcocer: '#8FD3E4'
-    Vivero de Migas Calientes: '#A1A6BD'
-    CC Francisco Fatou: '#ACE1C4'
-    "CEIP Isaac Alb\xE9niz": '#FEC0A1'
-    CDI Arganzuela Mayores: '#B2B2B2'
-    Silo Biblioteca Huerta de la Salud: '#EFA1AA'
-    Aula de la Naturaleza de la Villa: '#FDE380'
-    CSC La Elipa - Islas Filipinas: '#D3B3DA'
-    JMD Villaverde Anexo: '#9EE5E5'
-    CEIP Ntra Sra de la Almudena: '#D1C6BC'
-    Vivero de Estufas del Retiro: '#454E7C'
-    Centro Municipal de Salud Comunitaria Fuencarral: '#5AC189'
+    VILLA DE VALLECAS: '#1FA8C9'
+    PUENTE DE VALLECAS: '#454E7C'
+    SALAMANCA: '#5AC189'
+    VILLAVERDE: '#FF7F44'
+    MORATALAZ: '#666666'
+    CIUDAD LINEAL: '#E04355'
+    RETIRO: '#FCC700'
+    CENTRO: '#A868B7'
+    CARABANCHEL: '#3CCCCB'
+    BARAJAS: '#A38F79'
+    USERA: '#8FD3E4'
+    CHAMARTIN: '#A1A6BD'
+    FUENCARRAL - EL PARDO: '#ACE1C4'
+    HORTALEZA: '#FEC0A1'
+    LATINA: '#B2B2B2'
+    TETUAN: '#EFA1AA'
+    ARGANZUELA: '#FDE380'
+    SAN BLAS - CANILLEJAS: '#D3B3DA'
+    VICALVARO: '#9EE5E5'
+    CHAMBERI: '#D1C6BC'
+    MONCLOA - ARAVACA: '#454E7C'
   color_scheme_domain: []
 theme_uuid: null
 version: 1.0.0
