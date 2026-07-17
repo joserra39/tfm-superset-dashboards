@@ -7,6 +7,150 @@ certification_details: ''
 published: true
 uuid: e72942bb-206e-451c-b07b-a2f2604cd1ec
 position:
+  CHART-120:
+    children: []
+    id: CHART-120
+    meta:
+      chartId: 120
+      height: 50
+      sliceName: "M\xE1ximo, Media y M\xEDnimo por Estaci\xF3n (SS)"
+      uuid: dcd855c7-b93c-4d19-89a0-b8c1ed68b520
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - ROW-PVYQpurFuqCBcF-2vrkdO
+    type: CHART
+  CHART-121:
+    children: []
+    id: CHART-121
+    meta:
+      chartId: 121
+      height: 50
+      sliceName: "M\xE1ximo, Media y M\xEDnimo por Estaci\xF3n (DBO5)"
+      uuid: 89768412-d900-4813-b5ba-57b11e7a97a6
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - ROW-EngBi9vTxR6d0YiCrQhEo
+    type: CHART
+  CHART-122:
+    children: []
+    id: CHART-122
+    meta:
+      chartId: 122
+      height: 50
+      sliceName: "M\xE1ximo, Media y M\xEDnimo por Estaci\xF3n (NT)"
+      uuid: 5b0b2741-30da-438c-9794-d049282f9e0d
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - ROW-9DMV1rmll5U4rVCs7MeFB
+    type: CHART
+  CHART-123:
+    children: []
+    id: CHART-123
+    meta:
+      chartId: 123
+      height: 50
+      sliceName: "M\xE1ximo, Media y M\xEDnimo por Estaci\xF3n (PT)"
+      uuid: c95abd6b-b09e-4c74-9b0d-4b4bd6f6973d
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    - ROW-phukrs0KRZXqInnWDAsQ_
+    type: CHART
+  CHART-124:
+    children: []
+    id: CHART-124
+    meta:
+      chartId: 124
+      height: 50
+      sliceName: "Mapa de calor Estaci\xF3n/d\xEDa (SS)"
+      uuid: b2248147-c3b3-4db6-984d-9fd598ac7da6
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - ROW-Msfku4GrhfNx3KO8xec2J
+    type: CHART
+  CHART-125:
+    children: []
+    id: CHART-125
+    meta:
+      chartId: 125
+      height: 50
+      sliceName: "Mapa de calor Estaci\xF3n/d\xEDa (DBO5)"
+      uuid: a7476fd6-5b4e-4d45-a614-2301156dc430
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - ROW-VvupCA3G3iwTmHX1dznwv
+    type: CHART
+  CHART-126:
+    children: []
+    id: CHART-126
+    meta:
+      chartId: 126
+      height: 50
+      sliceName: "Mapa de calor Estaci\xF3n/d\xEDa (NT)"
+      uuid: f7b4eec0-2130-4917-ae00-9c4c2ff4b8e3
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - ROW-ict2q1D5ZsgU0RtAjm-AR
+    type: CHART
+  CHART-127:
+    children: []
+    id: CHART-127
+    meta:
+      chartId: 127
+      height: 50
+      sliceName: "Mapa de calor Estaci\xF3n/d\xEDa (PT)"
+      uuid: a4a85538-b8ae-47f1-8346-56d2d5d96d47
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    - ROW-0rJTzk1yKnXccLdDqyR5_
+    type: CHART
   CHART-78:
     children: []
     id: CHART-78
@@ -135,6 +279,254 @@ position:
     - TAB-gkSA_FCgxWvG_GPtnKRHz
     - ROW-mjPqA4ZLJJ4GSr0b3nRur
     type: CHART
+  CHART-86:
+    children: []
+    id: CHART-86
+    meta:
+      chartId: 86
+      height: 44
+      sliceName: Mapa de estaciones
+      uuid: 279cc6de-6354-4d60-814b-696358b9309b
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - ROW-_Wc6CxX51drwuLT740c7S
+    type: CHART
+  CHART-87:
+    children: []
+    id: CHART-87
+    meta:
+      chartId: 87
+      height: 50
+      sliceName: "Evoluci\xF3n de par\xE1metros de control (MAX)"
+      uuid: 6f98983e-3d02-4033-8dda-ccf6838f37d0
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - ROW-tTvGzUjL93fN7upsXAqCv
+    type: CHART
+  CHART-88:
+    children: []
+    id: CHART-88
+    meta:
+      chartId: 88
+      height: 50
+      sliceName: Media NT
+      uuid: 4665b0a4-002e-4389-9f23-2568686a0361
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - ROW-j1E4p-kP0GjDGjm0PtKe9
+    type: CHART
+  CHART-89:
+    children: []
+    id: CHART-89
+    meta:
+      chartId: 89
+      height: 50
+      sliceName: "M\xEDnimo NT"
+      uuid: 6c128b2b-5e51-468b-b591-218c9655a220
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - ROW-j1E4p-kP0GjDGjm0PtKe9
+    type: CHART
+  CHART-90:
+    children: []
+    id: CHART-90
+    meta:
+      chartId: 90
+      height: 50
+      sliceName: "M\xE1ximo NT"
+      uuid: bcdf9420-93af-4843-ba47-ec010e8a6c20
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - ROW-j1E4p-kP0GjDGjm0PtKe9
+    type: CHART
+  CHART-91:
+    children: []
+    id: CHART-91
+    meta:
+      chartId: 91
+      height: 50
+      sliceName: Media SS
+      uuid: 47f2d41d-81cc-464d-bee3-d49d3ebf4e7b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - ROW-OJ04a9yzJCBvm08LCWli8
+    type: CHART
+  CHART-92:
+    children: []
+    id: CHART-92
+    meta:
+      chartId: 92
+      height: 50
+      sliceName: Media DBO5
+      uuid: 489af45f-e871-44d5-bf7d-95bff666b859
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - ROW-TWx4ONB6eie8tlQ9tkb7N
+    type: CHART
+  CHART-93:
+    children: []
+    id: CHART-93
+    meta:
+      chartId: 93
+      height: 50
+      sliceName: Media PT
+      uuid: bb3f1671-7ff8-4adf-ac1e-3c22210df9c9
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    - ROW-QRigNjiJMaSq-2Md6yAog
+    type: CHART
+  CHART-94:
+    children: []
+    id: CHART-94
+    meta:
+      chartId: 94
+      height: 50
+      sliceName: "M\xEDnimo SS"
+      uuid: 09d787d4-7ecf-4e32-a1bd-b6c96a97c5ec
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - ROW-OJ04a9yzJCBvm08LCWli8
+    type: CHART
+  CHART-95:
+    children: []
+    id: CHART-95
+    meta:
+      chartId: 95
+      height: 50
+      sliceName: "M\xE1ximo SS"
+      uuid: 6e09af07-78bd-4076-a61f-f7a4ee3c3f3c
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - ROW-OJ04a9yzJCBvm08LCWli8
+    type: CHART
+  CHART-96:
+    children: []
+    id: CHART-96
+    meta:
+      chartId: 96
+      height: 50
+      sliceName: Minimo DBO5
+      uuid: b3315fe5-81b1-4ca2-892d-d8c1773b268d
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - ROW-TWx4ONB6eie8tlQ9tkb7N
+    type: CHART
+  CHART-97:
+    children: []
+    id: CHART-97
+    meta:
+      chartId: 97
+      height: 50
+      sliceName: "M\xE1ximo DBO5"
+      uuid: 404d0f02-2d4e-404d-b843-e22f22f9bd3b
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - ROW-TWx4ONB6eie8tlQ9tkb7N
+    type: CHART
+  CHART-98:
+    children: []
+    id: CHART-98
+    meta:
+      chartId: 98
+      height: 50
+      sliceName: "M\xEDnimo PT"
+      uuid: f98858ec-84c9-4aa9-99e3-7778c75fccbb
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    - ROW-QRigNjiJMaSq-2Md6yAog
+    type: CHART
+  CHART-99:
+    children: []
+    id: CHART-99
+    meta:
+      chartId: 99
+      height: 50
+      sliceName: "M\xE1ximo PT"
+      uuid: b5d197cd-973f-48e3-aba7-72a4e82114eb
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    - ROW-QRigNjiJMaSq-2Md6yAog
+    type: CHART
   DASHBOARD_VERSION_KEY: v2
   GRID_ID:
     children:
@@ -153,6 +545,124 @@ position:
     - GRID_ID
     id: ROOT_ID
     type: ROOT
+  ROW-0rJTzk1yKnXccLdDqyR5_:
+    children:
+    - CHART-127
+    id: ROW-0rJTzk1yKnXccLdDqyR5_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    type: ROW
+  ROW-9DMV1rmll5U4rVCs7MeFB:
+    children:
+    - CHART-122
+    id: ROW-9DMV1rmll5U4rVCs7MeFB
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    type: ROW
+  ROW-EngBi9vTxR6d0YiCrQhEo:
+    children:
+    - CHART-121
+    id: ROW-EngBi9vTxR6d0YiCrQhEo
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    type: ROW
+  ROW-Msfku4GrhfNx3KO8xec2J:
+    children:
+    - CHART-124
+    id: ROW-Msfku4GrhfNx3KO8xec2J
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    type: ROW
+  ROW-OJ04a9yzJCBvm08LCWli8:
+    children:
+    - CHART-91
+    - CHART-94
+    - CHART-95
+    id: ROW-OJ04a9yzJCBvm08LCWli8
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    type: ROW
+  ROW-PVYQpurFuqCBcF-2vrkdO:
+    children:
+    - CHART-120
+    id: ROW-PVYQpurFuqCBcF-2vrkdO
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    type: ROW
+  ROW-QRigNjiJMaSq-2Md6yAog:
+    children:
+    - CHART-93
+    - CHART-98
+    - CHART-99
+    id: ROW-QRigNjiJMaSq-2Md6yAog
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    type: ROW
+  ROW-TWx4ONB6eie8tlQ9tkb7N:
+    children:
+    - CHART-92
+    - CHART-96
+    - CHART-97
+    id: ROW-TWx4ONB6eie8tlQ9tkb7N
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    type: ROW
   ROW-VnOVQGTx1VVDuSr9WkaPv:
     children:
     - CHART-82
@@ -165,6 +675,62 @@ position:
     - GRID_ID
     - TABS-0q54BCYNvHgSDFzmGh0-4
     - TAB-gkSA_FCgxWvG_GPtnKRHz
+    type: ROW
+  ROW-VvupCA3G3iwTmHX1dznwv:
+    children:
+    - CHART-125
+    id: ROW-VvupCA3G3iwTmHX1dznwv
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    type: ROW
+  ROW-_Wc6CxX51drwuLT740c7S:
+    children:
+    - CHART-86
+    id: ROW-_Wc6CxX51drwuLT740c7S
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    type: ROW
+  ROW-ict2q1D5ZsgU0RtAjm-AR:
+    children:
+    - CHART-126
+    id: ROW-ict2q1D5ZsgU0RtAjm-AR
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    type: ROW
+  ROW-j1E4p-kP0GjDGjm0PtKe9:
+    children:
+    - CHART-88
+    - CHART-89
+    - CHART-90
+    id: ROW-j1E4p-kP0GjDGjm0PtKe9
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
     type: ROW
   ROW-mjPqA4ZLJJ4GSr0b3nRur:
     children:
@@ -181,6 +747,32 @@ position:
     - TABS-0q54BCYNvHgSDFzmGh0-4
     - TAB-gkSA_FCgxWvG_GPtnKRHz
     type: ROW
+  ROW-phukrs0KRZXqInnWDAsQ_:
+    children:
+    - CHART-123
+    id: ROW-phukrs0KRZXqInnWDAsQ_
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    type: ROW
+  ROW-tTvGzUjL93fN7upsXAqCv:
+    children:
+    - CHART-87
+    id: ROW-tTvGzUjL93fN7upsXAqCv
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    type: ROW
   ROW-z70BH9hDolGdrAO_3_x4B:
     children:
     - CHART-80
@@ -195,7 +787,10 @@ position:
     - TAB-gkSA_FCgxWvG_GPtnKRHz
     type: ROW
   TAB-AGp1ww7GdkcdI0X_a-j9e:
-    children: []
+    children:
+    - ROW-_Wc6CxX51drwuLT740c7S
+    - ROW-tTvGzUjL93fN7upsXAqCv
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
     id: TAB-AGp1ww7GdkcdI0X_a-j9e
     meta:
       defaultText: Tab title
@@ -205,6 +800,23 @@ position:
     - ROOT_ID
     - GRID_ID
     - TABS-0q54BCYNvHgSDFzmGh0-4
+    type: TAB
+  TAB-I9R04pIIS4nrmV0pgtOY2:
+    children:
+    - ROW-OJ04a9yzJCBvm08LCWli8
+    - ROW-PVYQpurFuqCBcF-2vrkdO
+    - ROW-Msfku4GrhfNx3KO8xec2J
+    id: TAB-I9R04pIIS4nrmV0pgtOY2
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: SS
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
     type: TAB
   TAB-RNfxRRIatE_VKLES7kMlT:
     children: []
@@ -233,6 +845,57 @@ position:
     - GRID_ID
     - TABS-0q54BCYNvHgSDFzmGh0-4
     type: TAB
+  TAB-hut2GC1-yP9oBZ5DqRyK6:
+    children:
+    - ROW-j1E4p-kP0GjDGjm0PtKe9
+    - ROW-9DMV1rmll5U4rVCs7MeFB
+    - ROW-ict2q1D5ZsgU0RtAjm-AR
+    id: TAB-hut2GC1-yP9oBZ5DqRyK6
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: NT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    type: TAB
+  TAB-lwQzeUTBFNdDEZgjaP6ie:
+    children:
+    - ROW-QRigNjiJMaSq-2Md6yAog
+    - ROW-phukrs0KRZXqInnWDAsQ_
+    - ROW-0rJTzk1yKnXccLdDqyR5_
+    id: TAB-lwQzeUTBFNdDEZgjaP6ie
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: PT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    type: TAB
+  TAB-pIAoqiyjwLhowM28ZlmJT:
+    children:
+    - ROW-TWx4ONB6eie8tlQ9tkb7N
+    - ROW-EngBi9vTxR6d0YiCrQhEo
+    - ROW-VvupCA3G3iwTmHX1dznwv
+    id: TAB-pIAoqiyjwLhowM28ZlmJT
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: DBO5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TABS-IGyUJ0KbkEvnKG0uYv1fd
+    type: TAB
   TABS-0q54BCYNvHgSDFzmGh0-4:
     children:
     - TAB-gkSA_FCgxWvG_GPtnKRHz
@@ -243,6 +906,20 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
+    type: TABS
+  TABS-IGyUJ0KbkEvnKG0uYv1fd:
+    children:
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
+    id: TABS-IGyUJ0KbkEvnKG0uYv1fd
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-0q54BCYNvHgSDFzmGh0-4
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
     type: TABS
 metadata:
   label_colors: {}
@@ -259,6 +936,28 @@ metadata:
         - 83
         - 84
         - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
     '81':
       id: 81
       crossFilters:
@@ -271,6 +970,28 @@ metadata:
         - 83
         - 84
         - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
     '82':
       id: 82
       crossFilters:
@@ -283,6 +1004,28 @@ metadata:
         - 83
         - 84
         - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
     '83':
       id: 83
       crossFilters:
@@ -295,6 +1038,640 @@ metadata:
         - 82
         - 84
         - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '86':
+      id: 86
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '87':
+      id: 87
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '88':
+      id: 88
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '89':
+      id: 89
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '90':
+      id: 90
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '91':
+      id: 91
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '92':
+      id: 92
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '93':
+      id: 93
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '94':
+      id: 94
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '95':
+      id: 95
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '96':
+      id: 96
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '97':
+      id: 97
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '98':
+      id: 98
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 99
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '99':
+      id: 99
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '120':
+      id: 120
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '121':
+      id: 121
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '122':
+      id: 122
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+    '123':
+      id: 123
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 78
+        - 79
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 120
+        - 121
+        - 122
+        - 124
+        - 125
+        - 126
+        - 127
   global_chart_configuration:
     scope:
       rootPath:
@@ -309,7 +1686,71 @@ metadata:
     - 83
     - 84
     - 85
+    - 86
+    - 87
+    - 88
+    - 89
+    - 90
+    - 91
+    - 92
+    - 93
+    - 94
+    - 95
+    - 96
+    - 97
+    - 98
+    - 99
+    - 120
+    - 121
+    - 122
+    - 123
+    - 124
+    - 125
+    - 126
+    - 127
   native_filter_configuration:
+  - name: Fecha
+    filterType: filter_time
+    description: ''
+    type: NATIVE_FILTER
+    defaultValueQueriesData: null
+    requiredFirst: {}
+    controlValues:
+      enableEmptyFilter: false
+    scope:
+      rootPath:
+      - TAB-AGp1ww7GdkcdI0X_a-j9e
+      excluded: []
+    id: NATIVE_FILTER-FrWFH-HthTnjoAx2_clx-
+    chartsInScope:
+    - 92
+    - 89
+    - 86
+    - 87
+    - 90
+    - 88
+    - 91
+    - 94
+    - 95
+    - 93
+    - 96
+    - 97
+    - 98
+    - 99
+    - 121
+    - 122
+    - 123
+    - 120
+    - 124
+    - 125
+    - 126
+    - 127
+    tabsInScope:
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
   - id: NATIVE_FILTER-gQJ0kwZwry9aKazsoke_v
     type: NATIVE_FILTER
     name: "Estaci\xF3n"
@@ -337,16 +1778,43 @@ metadata:
     cascadeParentIds: []
     sortMetric: null
     chartsInScope:
+    - 92
+    - 89
     - 78
-    - 79
     - 80
+    - 79
     - 81
     - 82
     - 83
     - 84
     - 85
+    - 86
+    - 87
+    - 90
+    - 88
+    - 91
+    - 94
+    - 95
+    - 93
+    - 96
+    - 97
+    - 98
+    - 99
+    - 121
+    - 122
+    - 123
+    - 120
+    - 124
+    - 125
+    - 126
+    - 127
     tabsInScope:
+    - TAB-AGp1ww7GdkcdI0X_a-j9e
+    - TAB-pIAoqiyjwLhowM28ZlmJT
+    - TAB-hut2GC1-yP9oBZ5DqRyK6
     - TAB-gkSA_FCgxWvG_GPtnKRHz
+    - TAB-I9R04pIIS4nrmV0pgtOY2
+    - TAB-lwQzeUTBFNdDEZgjaP6ie
   chart_customization_config: []
   color_scheme: ''
   refresh_frequency: 0
@@ -356,10 +1824,29 @@ metadata:
   default_filters: '{}'
   show_chart_timestamps: false
   shared_label_colors:
+  - ''
   - Buena
+  - Media
+  - "M\xE1ximo"
+  - "M\xEDnimo"
   map_label_colors:
-    Buena: '#1FA8C9'
-    Nivel ICA general: '#1FA8C9'
+    EDAR La China: '#1FA8C9'
+    EDAR Valdebebas: '#454E7C'
+    EDAR Rejas: '#5AC189'
+    EDAR Viveros de la Villa: '#FF7F44'
+    EDAR Sur Oriental: '#666666'
+    EDAR Butarque: '#E04355'
+    EDAR Sur: '#FCC700'
+    EDAR La Gavia: '#A868B7'
+    ? ''
+    : '#1FA8C9'
+    SS: '#1FA8C9'
+    DBO5: '#454E7C'
+    NT: '#5AC189'
+    PT: '#FF7F44'
+    "M\xE1ximo": '#1FA8C9'
+    Media: '#454E7C'
+    "M\xEDnimo": '#5AC189'
   color_scheme_domain: []
 theme_uuid: null
 version: 1.0.0
