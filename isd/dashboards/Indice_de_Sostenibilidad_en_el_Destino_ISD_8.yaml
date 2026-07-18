@@ -1,0 +1,102 @@
+dashboard_title: "\xCDndice de Sostenibilidad en el Destino (ISD)"
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 5bb923aa-a4a4-4fe1-8f4c-1bb8880d1017
+position:
+  CHART-explore-129-1:
+    children: []
+    id: CHART-explore-129-1
+    meta:
+      chartId: 129
+      height: 50
+      sliceName: Mapa Distritos
+      uuid: bdca40a0-d50a-497a-8a1b-12b8535aa1ac
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-9eSZGny18WPTmV8Y2yzsH
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-BBFkgUKWrjbjH6HPy_-dU
+    - ROW-9eSZGny18WPTmV8Y2yzsH
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: "\xCDndice de Sostenibilidad en el Destino (ISD)"
+    type: HEADER
+  MARKDOWN-vBHeh-OIY2qBNu_jVWpCf:
+    children: []
+    id: MARKDOWN-vBHeh-OIY2qBNu_jVWpCf
+    meta:
+      code: '![Escala relativa del ISD](/static/assets/images/superset-logo-horiz.png)'
+      height: 12
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-BBFkgUKWrjbjH6HPy_-dU
+    type: MARKDOWN
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-9eSZGny18WPTmV8Y2yzsH:
+    children:
+    - CHART-explore-129-1
+    id: ROW-9eSZGny18WPTmV8Y2yzsH
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-BBFkgUKWrjbjH6HPy_-dU:
+    children:
+    - MARKDOWN-vBHeh-OIY2qBNu_jVWpCf
+    id: ROW-BBFkgUKWrjbjH6HPy_-dU
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '129':
+      id: 129
+      crossFilters:
+        scope: global
+        chartsInScope: []
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 129
+  native_filter_configuration: []
+  chart_customization_config: []
+  map_label_colors: {}
+  color_scheme: ''
+  refresh_frequency: 0
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  shared_label_colors: []
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+theme_uuid: null
+version: 1.0.0
