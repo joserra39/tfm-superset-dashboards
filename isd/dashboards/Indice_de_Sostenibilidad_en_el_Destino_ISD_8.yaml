@@ -1,0 +1,271 @@
+dashboard_title: "\xCDndice de Sostenibilidad en el Destino (ISD)"
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: true
+uuid: 5bb923aa-a4a4-4fe1-8f4c-1bb8880d1017
+position:
+  CHART-explore-129-1:
+    children: []
+    id: CHART-explore-129-1
+    meta:
+      chartId: 129
+      height: 50
+      sliceName: Mapa Distritos
+      uuid: bdca40a0-d50a-497a-8a1b-12b8535aa1ac
+      width: 9
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-9eSZGny18WPTmV8Y2yzsH
+    type: CHART
+  CHART-explore-130-1:
+    children: []
+    id: CHART-explore-130-1
+    meta:
+      chartId: 130
+      height: 22
+      sliceName: Media ISD general
+      uuid: 95383464-d763-4600-85ed-f469d0bc428b
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    type: CHART
+  CHART-explore-131-1:
+    children: []
+    id: CHART-explore-131-1
+    meta:
+      chartId: 131
+      height: 22
+      sliceName: Media ISD airquality
+      uuid: b91ac293-8f97-4631-8bd3-74d12f4a9691
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    type: CHART
+  CHART-explore-132-1:
+    children: []
+    id: CHART-explore-132-1
+    meta:
+      chartId: 132
+      height: 22
+      sliceName: Media ISD noiselevel
+      uuid: bb7b1115-363a-435b-8c9f-7112b48fd6b5
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    type: CHART
+  CHART-explore-133-1:
+    children: []
+    id: CHART-explore-133-1
+    meta:
+      chartId: 133
+      height: 50
+      sliceName: ISD por distritos
+      uuid: f535d4bb-d41a-4cfa-9691-2e4e64361881
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-IY7M2pHXgSwZ-eTm0tD1P
+    type: CHART
+  CHART-explore-134-1:
+    children: []
+    id: CHART-explore-134-1
+    meta:
+      chartId: 134
+      height: 22
+      sliceName: Media ISD crowdflow
+      uuid: cd766e24-522b-4929-bc56-fbf2881cf82a
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    type: CHART
+  CHART-explore-135-1:
+    children: []
+    id: CHART-explore-135-1
+    meta:
+      chartId: 135
+      height: 22
+      sliceName: Media ISD energyconsumption
+      uuid: b75b54d9-840e-4c2f-a9c1-2ebd74204f47
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    type: CHART
+  CHART-explore-136-1:
+    children: []
+    id: CHART-explore-136-1
+    meta:
+      chartId: 136
+      height: 22
+      sliceName: Media ISD waterquality
+      uuid: 9aa2fb73-acf0-40fc-a7a1-e72131a13f9b
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-9eSZGny18WPTmV8Y2yzsH
+    - ROW-yKjKHkKbxx50qKxbpIygu
+    - ROW-IY7M2pHXgSwZ-eTm0tD1P
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: "\xCDndice de Sostenibilidad en el Destino (ISD)"
+    type: HEADER
+  MARKDOWN-vBHeh-OIY2qBNu_jVWpCf:
+    children: []
+    id: MARKDOWN-vBHeh-OIY2qBNu_jVWpCf
+    meta:
+      code: "<div style=\"text-align:center;\">\r\n  <img src=\"/static/assets/images/custom/escala_isd.png\"\
+        \ alt=\"Escala relativa del ISD\" width=\"280\">\r\n</div>"
+      height: 16
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-9eSZGny18WPTmV8Y2yzsH
+    type: MARKDOWN
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-9eSZGny18WPTmV8Y2yzsH:
+    children:
+    - CHART-explore-129-1
+    - MARKDOWN-vBHeh-OIY2qBNu_jVWpCf
+    id: ROW-9eSZGny18WPTmV8Y2yzsH
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-IY7M2pHXgSwZ-eTm0tD1P:
+    children:
+    - CHART-explore-133-1
+    id: ROW-IY7M2pHXgSwZ-eTm0tD1P
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-yKjKHkKbxx50qKxbpIygu:
+    children:
+    - CHART-explore-130-1
+    - CHART-explore-131-1
+    - CHART-explore-132-1
+    - CHART-explore-134-1
+    - CHART-explore-135-1
+    - CHART-explore-136-1
+    id: ROW-yKjKHkKbxx50qKxbpIygu
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '129':
+      id: 129
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 130
+        - 131
+        - 132
+        - 133
+        - 134
+        - 135
+        - 136
+    '133':
+      id: 133
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 129
+        - 130
+        - 131
+        - 132
+        - 134
+        - 135
+        - 136
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 129
+    - 130
+    - 131
+    - 132
+    - 133
+    - 134
+    - 135
+    - 136
+  native_filter_configuration:
+  - id: NATIVE_FILTER-ADfXzgqwa-DlOd6WUOjNU
+    type: NATIVE_FILTER
+    name: Distrito
+    filterType: filter_select
+    description: ''
+    targets:
+    - column:
+        name: district_name
+      datasetUuid: 3c79a28a-394d-4d03-9c24-747dc3a59ef4
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      creatable: true
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    sortMetric: null
+  chart_customization_config: []
+  color_scheme: ''
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  show_chart_timestamps: false
+  shared_label_colors: []
+  map_label_colors: {}
+  color_scheme_domain: []
+theme_uuid: null
+version: 1.0.0
