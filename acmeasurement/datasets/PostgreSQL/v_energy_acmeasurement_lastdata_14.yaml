@@ -276,5 +276,18 @@ columns:
   python_date_format: null
   datetime_format: null
   extra: {}
+- column_name: isd
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: NUMERIC
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra: {}
 version: 1.0.0
 database_uuid: a432c522-4f65-4a3b-b1dc-cdd40404b745

@@ -322,18 +322,6 @@ position:
     - GRID_ID
     - TABS-m589Eg49JpTlztCaEwvW7
     type: TAB
-  TAB-BxIstAmBGhYkvUjAJ_SCQ:
-    children: []
-    id: TAB-BxIstAmBGhYkvUjAJ_SCQ
-    meta:
-      defaultText: Tab title
-      placeholder: Tab title
-      text: Predictiva
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-m589Eg49JpTlztCaEwvW7
-    type: TAB
   TAB-c5Sy80faZU0NRi-_nllXU:
     children:
     - ROW-XgrDouqa5ly6vnYKy2u7_
@@ -353,7 +341,6 @@ position:
     children:
     - TAB-c5Sy80faZU0NRi-_nllXU
     - TAB-6Msd6djT7Dxyu_5-VcGjI
-    - TAB-BxIstAmBGhYkvUjAJ_SCQ
     id: TABS-m589Eg49JpTlztCaEwvW7
     meta: {}
     parents:
@@ -573,55 +560,76 @@ metadata:
   default_filters: '{}'
   show_chart_timestamps: false
   shared_label_colors:
-  - ARGANZUELA
-  - BARAJAS
-  - CARABANCHEL
-  - CENTRO
-  - CHAMARTIN
-  - CHAMBERI
-  - CIUDAD LINEAL
+  - Arganzuela
+  - Barajas
+  - Carabanchel
+  - Centro
+  - Chamartin
+  - Chamberi
+  - Ciudad Lineal
   - "Energ\xEDa Reactiva"
   - "Energ\xEDa activa"
-  - FUENCARRAL - EL PARDO
+  - Fuencarral - El Pardo
   - Gas
-  - HORTALEZA
-  - LATINA
-  - MONCLOA - ARAVACA
-  - MORATALAZ
-  - PUENTE DE VALLECAS
-  - RETIRO
-  - SALAMANCA
-  - SAN BLAS - CANILLEJAS
-  - TETUAN
-  - USERA
-  - VICALVARO
-  - VILLA DE VALLECAS
-  - VILLAVERDE
+  - Hortaleza
+  - Latina
+  - Moncloa - Aravaca
+  - Moratalaz
+  - Puente de Vallecas
+  - Retiro
+  - Salamanca
+  - San Blas - Canillejas
+  - Tetuan
+  - Usera
+  - Vicalvaro
+  - Villa de Vallecas
+  - Villaverde
   map_label_colors:
+    Moncloa - Aravaca: '#1FA8C9'
+    Latina: '#454E7C'
+    Fuencarral - El Pardo: '#5AC189'
+    Carabanchel: '#FF7F44'
+    Usera: '#666666'
+    Arganzuela: '#E04355'
+    Villaverde: '#FCC700'
+    Centro: '#A868B7'
+    Tetuan: '#3CCCCB'
+    Chamberi: '#A38F79'
+    Retiro: '#8FD3E4'
+    Chamartin: '#A1A6BD'
+    Salamanca: '#ACE1C4'
+    Puente de Vallecas: '#FEC0A1'
+    Hortaleza: '#B2B2B2'
+    Ciudad Lineal: '#EFA1AA'
+    Moratalaz: '#FDE380'
+    San Blas - Canillejas: '#D3B3DA'
+    Vicalvaro: '#9EE5E5'
+    Villa de Vallecas: '#D1C6BC'
+    Barajas: '#454E7C'
     "Energ\xEDa activa": '#1FA8C9'
     "Energ\xEDa Reactiva": '#454E7C'
     Gas: '#5AC189'
-    VILLA DE VALLECAS: '#1FA8C9'
-    PUENTE DE VALLECAS: '#454E7C'
-    SALAMANCA: '#5AC189'
-    VILLAVERDE: '#FF7F44'
-    MORATALAZ: '#666666'
-    CIUDAD LINEAL: '#E04355'
-    RETIRO: '#FCC700'
-    CENTRO: '#A868B7'
-    CARABANCHEL: '#3CCCCB'
-    BARAJAS: '#A38F79'
-    USERA: '#8FD3E4'
-    CHAMARTIN: '#A1A6BD'
-    FUENCARRAL - EL PARDO: '#ACE1C4'
-    HORTALEZA: '#FEC0A1'
-    LATINA: '#B2B2B2'
-    TETUAN: '#EFA1AA'
-    ARGANZUELA: '#FDE380'
-    SAN BLAS - CANILLEJAS: '#D3B3DA'
-    VICALVARO: '#9EE5E5'
-    CHAMBERI: '#D1C6BC'
-    MONCLOA - ARAVACA: '#454E7C'
+    Consumo: '#1FA8C9'
+    Palacio Cibeles: '#454E7C'
+    CDM Moratalaz: '#5AC189'
+    CC Conde Duque: '#FF7F44'
+    CDM Aluche: '#666666'
+    CDM Gallur: '#E04355'
+    CDM San Blas: '#FCC700'
+    Sede AG Hacienda: '#A868B7'
+    "CDM Gimnasio Moscard\xF3": '#3CCCCB'
+    Complejo La Vaguada: '#A38F79'
+    "CDM Dao\xEDz y Velarde": '#8FD3E4'
+    Museo de Historia: '#A1A6BD'
+    "CC Fernando de los R\xEDos Y Biblioteca Aluche": '#ACE1C4'
+    CDI Arganzuela: '#FEC0A1'
+    Planetario de Madrid: '#B2B2B2'
+    CDM Palomeras: '#EFA1AA'
+    Samur Base 0: '#FDE380'
+    "CDM La Mas\xF3": '#D3B3DA'
+    CDM Samaranch: '#9EE5E5'
+    "CDM Cerro Almod\xF3var": '#D1C6BC'
+    "Complejo Albarrac\xEDn 33 - Movilidad y Sede IAM": '#454E7C'
   color_scheme_domain: []
 theme_uuid: null
 version: 1.0.0

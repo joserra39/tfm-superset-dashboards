@@ -1,0 +1,275 @@
+slice_name: "Evoluci\xF3n del ISD Medio"
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_line
+params:
+  datasource: 20__table
+  viz_type: echarts_timeseries_line
+  slice_id: 138
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  x_axis: dateobserved
+  time_grain_sqla: P1D
+  xAxisForceCategorical: false
+  x_axis_sort_asc: true
+  metrics:
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: isdairquality
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 482
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: e6c61957-6a13-48da-a0a0-db7026ff85cc
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: ISD airquality
+    optionName: metric_kldz9m93hnh_6t5d227b80v
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: isdnoiselevel
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 484
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: 35a97914-0b80-40c7-bf50-0f252d7cb5e9
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: ISD noiselevel
+    optionName: metric_p5kxkyulbha_akv60f5c6fo
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: isdcrowdflow
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 486
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: 657d054f-6cb9-4634-89bc-ab5e72de7f89
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: ISD crowdflow
+    optionName: metric_xlktvi05lul_9zffdd65xal
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: isdenergyconsumption
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 488
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: 28cfe731-3211-46fa-a51e-40144a0de930
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: ISD energyconsumption
+    optionName: metric_c6a4o4ufkyu_0mba07w11hho
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: isdwaterquality
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 490
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: 38a0c447-af53-42ac-a497-43f7e0ec0599
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: ISD waterquality
+    optionName: metric_ja0v8x1s7_hxrwtcqr6ln
+    sqlExpression: null
+  - aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: isdgeneral
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 502
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: 4f4c4ea1-abb6-4b15-bc89-a179bf6c396e
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: true
+    label: ISD general
+    optionName: metric_3nb2e9uvyo1_xse9aqskntq
+    sqlExpression: null
+  groupby: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_2ioxwzl5fye_tdjgv9vjg6
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: dateobserved
+  group_others_when_limit_reached: false
+  order_desc: true
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastEnabled: false
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title: ''
+  x_axis_title_margin: 0
+  y_axis_title: ''
+  y_axis_title_margin: 0
+  y_axis_title_position: Left
+  sort_series_type: sum
+  sort_series_ascending: false
+  color_scheme: supersetColors
+  time_shift_color: true
+  show_value: false
+  only_total: true
+  percentage_threshold: 0
+  area: false
+  opacity: 0.2
+  markerEnabled: false
+  markerSize: 6
+  zoomable: true
+  minorTicks: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: right
+  x_axis_time_format: '%d/%m/%Y'
+  x_axis_number_format: ~g
+  xAxisLabelRotation: 45
+  xAxisLabelInterval: auto
+  force_max_interval: false
+  rich_tooltip: true
+  showTooltipTotal: false
+  showTooltipPercentage: false
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  y_axis_format: SMART_NUMBER
+  logAxis: false
+  minorSplitLine: false
+  truncateXAxis: true
+  truncateYAxis: false
+  y_axis_bounds:
+  - null
+  - null
+  echart_options: '{}'
+  extra_form_data: {}
+  dashboards:
+  - 8
+query_context: '{"datasource":{"id":20,"type":"table"},"force":false,"queries":[{"filters":[{"col":"dateobserved","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1D","columnType":"BASE_AXIS","sqlExpression":"dateobserved","label":"dateobserved","expressionType":"SQL","isColumnReference":true}],"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdairquality","description":null,"expression":null,"filterable":true,"groupby":true,"id":482,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"e6c61957-6a13-48da-a0a0-db7026ff85cc","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  airquality","optionName":"metric_kldz9m93hnh_6t5d227b80v","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdnoiselevel","description":null,"expression":null,"filterable":true,"groupby":true,"id":484,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"35a97914-0b80-40c7-bf50-0f252d7cb5e9","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  noiselevel","optionName":"metric_p5kxkyulbha_akv60f5c6fo","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdcrowdflow","description":null,"expression":null,"filterable":true,"groupby":true,"id":486,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"657d054f-6cb9-4634-89bc-ab5e72de7f89","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  crowdflow","optionName":"metric_xlktvi05lul_9zffdd65xal","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdenergyconsumption","description":null,"expression":null,"filterable":true,"groupby":true,"id":488,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"28cfe731-3211-46fa-a51e-40144a0de930","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  energyconsumption","optionName":"metric_c6a4o4ufkyu_0mba07w11hho","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdwaterquality","description":null,"expression":null,"filterable":true,"groupby":true,"id":490,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"38a0c447-af53-42ac-a497-43f7e0ec0599","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  waterquality","optionName":"metric_ja0v8x1s7_hxrwtcqr6ln","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdgeneral","description":null,"expression":null,"filterable":true,"groupby":true,"id":502,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"4f4c4ea1-abb6-4b15-bc89-a179bf6c396e","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  general","optionName":"metric_3nb2e9uvyo1_xse9aqskntq","sqlExpression":null}],"orderby":[[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdairquality","description":null,"expression":null,"filterable":true,"groupby":true,"id":482,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"e6c61957-6a13-48da-a0a0-db7026ff85cc","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  airquality","optionName":"metric_kldz9m93hnh_6t5d227b80v","sqlExpression":null},false]],"annotation_layers":[],"row_limit":10000,"series_columns":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"time_offsets":[],"post_processing":[{"operation":"pivot","options":{"index":["dateobserved"],"columns":[],"aggregates":{"ISD
+  airquality":{"operator":"mean"},"ISD noiselevel":{"operator":"mean"},"ISD crowdflow":{"operator":"mean"},"ISD
+  energyconsumption":{"operator":"mean"},"ISD waterquality":{"operator":"mean"},"ISD
+  general":{"operator":"mean"}},"drop_missing_columns":false}},{"operation":"flatten"}]}],"form_data":{"datasource":"20__table","viz_type":"echarts_timeseries_line","slice_id":138,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","x_axis":"dateobserved","time_grain_sqla":"P1D","xAxisForceCategorical":false,"x_axis_sort_asc":true,"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdairquality","description":null,"expression":null,"filterable":true,"groupby":true,"id":482,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"e6c61957-6a13-48da-a0a0-db7026ff85cc","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  airquality","optionName":"metric_kldz9m93hnh_6t5d227b80v","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdnoiselevel","description":null,"expression":null,"filterable":true,"groupby":true,"id":484,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"35a97914-0b80-40c7-bf50-0f252d7cb5e9","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  noiselevel","optionName":"metric_p5kxkyulbha_akv60f5c6fo","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdcrowdflow","description":null,"expression":null,"filterable":true,"groupby":true,"id":486,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"657d054f-6cb9-4634-89bc-ab5e72de7f89","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  crowdflow","optionName":"metric_xlktvi05lul_9zffdd65xal","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdenergyconsumption","description":null,"expression":null,"filterable":true,"groupby":true,"id":488,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"28cfe731-3211-46fa-a51e-40144a0de930","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  energyconsumption","optionName":"metric_c6a4o4ufkyu_0mba07w11hho","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdwaterquality","description":null,"expression":null,"filterable":true,"groupby":true,"id":490,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"38a0c447-af53-42ac-a497-43f7e0ec0599","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  waterquality","optionName":"metric_ja0v8x1s7_hxrwtcqr6ln","sqlExpression":null},{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"isdgeneral","description":null,"expression":null,"filterable":true,"groupby":true,"id":502,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"4f4c4ea1-abb6-4b15-bc89-a179bf6c396e","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":true,"label":"ISD
+  general","optionName":"metric_3nb2e9uvyo1_xse9aqskntq","sqlExpression":null}],"groupby":[],"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_2ioxwzl5fye_tdjgv9vjg6","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","sqlExpression":null,"subject":"dateobserved"}],"group_others_when_limit_reached":false,"order_desc":true,"row_limit":10000,"truncate_metric":true,"show_empty_columns":true,"comparison_type":"values","annotation_layers":[],"forecastEnabled":false,"forecastPeriods":10,"forecastInterval":0.8,"x_axis_title":"","x_axis_title_margin":0,"y_axis_title":"","y_axis_title_margin":0,"y_axis_title_position":"Left","sort_series_type":"sum","sort_series_ascending":false,"color_scheme":"supersetColors","time_shift_color":true,"show_value":false,"only_total":true,"percentage_threshold":0,"area":false,"opacity":0.2,"markerEnabled":false,"markerSize":6,"zoomable":true,"minorTicks":false,"show_legend":true,"legendType":"scroll","legendOrientation":"right","x_axis_time_format":"%d/%m/%Y","x_axis_number_format":"~g","xAxisLabelRotation":45,"xAxisLabelInterval":"auto","force_max_interval":false,"rich_tooltip":true,"showTooltipTotal":false,"showTooltipPercentage":false,"tooltipSortByMetric":false,"tooltipTimeFormat":"smart_date","y_axis_format":"SMART_NUMBER","logAxis":false,"minorSplitLine":false,"truncateXAxis":true,"truncateYAxis":false,"y_axis_bounds":[null,null],"echart_options":"{}","extra_form_data":{},"dashboards":[8],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 0f19ff8f-6954-41de-a051-6d086538df2e
+version: 1.0.0
+dataset_uuid: 24d4c248-1a0d-4841-b8a4-ad6c9d057cfd

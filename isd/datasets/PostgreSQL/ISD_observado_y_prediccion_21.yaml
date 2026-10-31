@@ -1,0 +1,258 @@
+table_name: "ISD observado y predicci\xF3n"
+main_dttm_col: fecha
+currency_code_column: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: fiwaredb
+schema: madrid
+sql: "WITH observado AS (\r\n    SELECT DISTINCT ON (\r\n        fiwareservicepath,\r\
+  \n        entityid,\r\n        (dateobserved AT TIME ZONE 'UTC')::date\r\n    )\r\
+  \n        fiwareservicepath,\r\n        entityid,\r\n        (dateobserved AT TIME\
+  \ ZONE 'UTC')::date AS fecha,\r\n        isdgeneral AS isd_calculado,\r\n      \
+  \  isdairquality AS isd_aire_calculado,\r\n        isdnoiselevel AS isd_ruido_calculado,\r\
+  \n        isdcrowdflow AS isd_movilidad_calculado,\r\n        isdenergyconsumption\
+  \ AS isd_energia_calculado,\r\n        isdwaterquality AS isd_agua_calculado,\r\n\
+  \        recvtime AS recepcion_observado\r\n    FROM madrid.isd_districtisdobserved\r\
+  \n    WHERE fiwareservicepath = '/isd'\r\n      AND aggregationlevel = 'day'\r\n\
+  \    ORDER BY\r\n        fiwareservicepath,\r\n        entityid,\r\n        (dateobserved\
+  \ AT TIME ZONE 'UTC')::date,\r\n        recvtime DESC,\r\n        dateobserved DESC\r\
+  \n),\r\nprediccion AS (\r\n    SELECT DISTINCT ON (\r\n        fiwareservicepath,\r\
+  \n        entityid,\r\n        (dateobserved AT TIME ZONE 'UTC')::date\r\n    )\r\
+  \n        fiwareservicepath,\r\n        entityid,\r\n        (dateobserved AT TIME\
+  \ ZONE 'UTC')::date AS fecha,\r\n        isdgeneral AS isd_prediccion,\r\n     \
+  \   isdairquality AS isd_aire_prediccion,\r\n        isdnoiselevel AS isd_ruido_prediccion,\r\
+  \n        isdcrowdflow AS isd_movilidad_prediccion,\r\n        isdenergyconsumption\
+  \ AS isd_energia_prediccion,\r\n        isdwaterquality AS isd_agua_prediccion,\r\
+  \n        recvtime AS recepcion_prediccion\r\n    FROM madrid.isd_districtisdforecast\r\
+  \n    WHERE fiwareservicepath = '/isd'\r\n      AND aggregationlevel = 'day'\r\n\
+  \    ORDER BY\r\n        fiwareservicepath,\r\n        entityid,\r\n        (dateobserved\
+  \ AT TIME ZONE 'UTC')::date,\r\n        recvtime DESC,\r\n        dateobserved DESC\r\
+  \n)\r\nSELECT\r\n    COALESCE(o.entityid, p.entityid) AS district_name,\r\n    COALESCE(o.fecha,\
+  \ p.fecha) AS fecha,\r\n    o.isd_calculado,\r\n    p.isd_prediccion,\r\n    o.isd_aire_calculado,\r\
+  \n    p.isd_aire_prediccion,\r\n    o.isd_ruido_calculado,\r\n    p.isd_ruido_prediccion,\r\
+  \n    o.isd_movilidad_calculado,\r\n    p.isd_movilidad_prediccion,\r\n    o.isd_energia_calculado,\r\
+  \n    p.isd_energia_prediccion,\r\n    o.isd_agua_calculado,\r\n    p.isd_agua_prediccion\r\
+  \nFROM observado AS o\r\nFULL OUTER JOIN prediccion AS p\r\n    ON  o.fiwareservicepath\
+  \ = p.fiwareservicepath\r\n    AND o.entityid = p.entityid\r\n    AND o.fecha =\
+  \ p.fecha;"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+folders: null
+uuid: a2570107-4fdc-444e-bdcc-66334701afa7
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra:
+    warning_markdown: ''
+  warning_text: null
+columns:
+- column_name: isd_agua_calculado
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_movilidad_calculado
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_energia_calculado
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_aire_calculado
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_ruido_calculado
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_agua_prediccion
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_movilidad_prediccion
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_energia_prediccion
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_aire_prediccion
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_ruido_prediccion
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_calculado
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: isd_prediccion
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: DECIMAL
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: fecha
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATE
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+- column_name: district_name
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: ''
+  description: null
+  python_date_format: null
+  datetime_format: null
+  extra:
+    warning_markdown: null
+version: 1.0.0
+database_uuid: a432c522-4f65-4a3b-b1dc-cdd40404b745

@@ -157,7 +157,7 @@ position:
     meta:
       chartId: 63
       height: 50
-      sliceName: "Evoluci\xF3n del aforo"
+      sliceName: "Evoluci\xF3n de la afluencia"
       uuid: a9387a37-884a-4573-8a7c-8c47cb96089e
       width: 12
     parents:
@@ -189,7 +189,7 @@ position:
     meta:
       chartId: 65
       height: 50
-      sliceName: "Top aforo por estaci\xF3n"
+      sliceName: "Top afluencia por estaci\xF3n"
       uuid: 4ebfd89e-5516-4084-b049-4e0d7c7cce13
       width: 12
     parents:
@@ -337,23 +337,10 @@ position:
     - GRID_ID
     - TABS-Lo4pP1KohwVX8xRsLTzcn
     type: TAB
-  TAB-f0BI_b-PBhpvHPGUAxlh3:
-    children: []
-    id: TAB-f0BI_b-PBhpvHPGUAxlh3
-    meta:
-      defaultText: Tab title
-      placeholder: Tab title
-      text: Predictiva
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-Lo4pP1KohwVX8xRsLTzcn
-    type: TAB
   TABS-Lo4pP1KohwVX8xRsLTzcn:
     children:
     - TAB-6Sl4YkxGPgr6Zd0V-EV7n
     - TAB-DuVmVgUNq2evB1eO61xO0
-    - TAB-f0BI_b-PBhpvHPGUAxlh3
     id: TABS-Lo4pP1KohwVX8xRsLTzcn
     meta: {}
     parents:

@@ -6,6 +6,7 @@ viz_type: big_number_total
 params:
   datasource: 10__table
   viz_type: big_number_total
+  slice_id: 42
   matrixify_enable: false
   matrixify_mode_columns: disabled
   matrixify_dimension_selection_mode_columns: members
@@ -30,26 +31,26 @@ params:
   matrixify_charts_per_row: 4
   matrixify_cell_title_template: ''
   metric:
-    expressionType: SQL
-    sqlExpression: COUNT(DISTINCT entityid)
-    column: null
     aggregate: null
+    column: null
     datasourceWarning: false
+    expressionType: SQL
     hasCustomLabel: false
     label: COUNT(DISTINCT entityid)
     optionName: metric_9chb6qggye_ujypersufg
+    sqlExpression: COUNT(DISTINCT entityid)
   adhoc_filters:
-  - expressionType: SIMPLE
-    subject: dateobserved
-    operator: TEMPORAL_RANGE
-    operatorId: TEMPORAL_RANGE
+  - clause: WHERE
     comparator: No filter
-    clause: WHERE
-    sqlExpression: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_5v62u6ubnmk_n77nkzfpc1
     isExtra: false
     isNew: false
-    datasourceWarning: false
-    filterOptionName: filter_5v62u6ubnmk_n77nkzfpc1
+    operator: TEMPORAL_RANGE
+    operatorId: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: dateobserved
   header_font_size: 0.6
   subtitle_font_size: 0.125
   show_metric_name: false
@@ -62,12 +63,11 @@ params:
   dashboards:
   - 4
 query_context: '{"datasource":{"id":10,"type":"table"},"force":false,"queries":[{"filters":[{"col":"dateobserved","op":"TEMPORAL_RANGE","val":"No
-  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"expressionType":"SQL","sqlExpression":"COUNT(DISTINCT
-  entityid)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"COUNT(DISTINCT
-  entityid)","optionName":"metric_9chb6qggye_ujypersufg"}],"annotation_layers":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"10__table","viz_type":"big_number_total","matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","metric":{"expressionType":"SQL","sqlExpression":"COUNT(DISTINCT
-  entityid)","column":null,"aggregate":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"COUNT(DISTINCT
-  entityid)","optionName":"metric_9chb6qggye_ujypersufg"},"adhoc_filters":[{"expressionType":"SIMPLE","subject":"dateobserved","operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","comparator":"No
-  filter","clause":"WHERE","sqlExpression":null,"isExtra":false,"isNew":false,"datasourceWarning":false,"filterOptionName":"filter_5v62u6ubnmk_n77nkzfpc1"}],"header_font_size":0.6,"subtitle_font_size":0.125,"show_metric_name":false,"metric_name_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","force_timestamp_formatting":false,"conditional_formatting":[],"extra_form_data":{},"dashboards":[4],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"COUNT(DISTINCT
+  entityid)","optionName":"metric_9chb6qggye_ujypersufg","sqlExpression":"COUNT(DISTINCT
+  entityid)"}],"annotation_layers":[],"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"10__table","viz_type":"big_number_total","slice_id":42,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","metric":{"aggregate":null,"column":null,"datasourceWarning":false,"expressionType":"SQL","hasCustomLabel":false,"label":"COUNT(DISTINCT
+  entityid)","optionName":"metric_9chb6qggye_ujypersufg","sqlExpression":"COUNT(DISTINCT
+  entityid)"},"adhoc_filters":[{"clause":"WHERE","comparator":"No filter","datasourceWarning":false,"expressionType":"SIMPLE","filterOptionName":"filter_5v62u6ubnmk_n77nkzfpc1","isExtra":false,"isNew":false,"operator":"TEMPORAL_RANGE","operatorId":"TEMPORAL_RANGE","sqlExpression":null,"subject":"dateobserved"}],"header_font_size":0.6,"subtitle_font_size":0.125,"show_metric_name":false,"metric_name_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","force_timestamp_formatting":false,"conditional_formatting":[],"extra_form_data":{},"dashboards":[4],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
 cache_timeout: null
 uuid: b0ac0dc4-75be-4c6b-8fae-701d177a427e
 version: 1.0.0

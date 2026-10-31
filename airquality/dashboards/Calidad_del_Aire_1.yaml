@@ -367,6 +367,86 @@ position:
     - TAB-2wks2qHrftSCq0zpNAnVh
     - ROW-aX0akDoYrzRcdvKmmUWkC
     type: CHART
+  CHART-198:
+    children: []
+    id: CHART-198
+    meta:
+      chartId: 198
+      height: 50
+      sliceName: ISD medio
+      uuid: 328c4671-6de9-4605-8ab9-80a9090178ec
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    - ROW-GR_07XQqd_d6idkJpirDW
+    type: CHART
+  CHART-199:
+    children: []
+    id: CHART-199
+    meta:
+      chartId: 199
+      height: 50
+      sliceName: "ISD m\xEDnimo"
+      uuid: 062b0b88-cd3f-4110-9f62-fa44691d3aea
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    - ROW-GR_07XQqd_d6idkJpirDW
+    type: CHART
+  CHART-200:
+    children: []
+    id: CHART-200
+    meta:
+      chartId: 200
+      height: 50
+      sliceName: "ISD m\xE1ximo"
+      uuid: d80c0607-94ab-4e26-b71d-27a7036897a5
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    - ROW-GR_07XQqd_d6idkJpirDW
+    type: CHART
+  CHART-201:
+    children: []
+    id: CHART-201
+    meta:
+      chartId: 201
+      height: 50
+      sliceName: "M\xE1ximo, Media y M\xEDnimo por Distrito"
+      uuid: cb7ff4d4-a7b9-497a-afa3-b8678b435fcc
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    - ROW-vLylyQQmqpmc-ay3Ns5_D
+    type: CHART
+  CHART-202:
+    children: []
+    id: CHART-202
+    meta:
+      chartId: 202
+      height: 50
+      sliceName: "Mapa de calor Distrito/d\xEDa"
+      uuid: c89e2efe-b868-414f-9807-ccb5f1cb0359
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    - ROW-4IVh39qv6Al5zA4_vqRz-
+    type: CHART
   CHART-40:
     children: []
     id: CHART-40
@@ -589,7 +669,7 @@ position:
     meta:
       chartId: 22
       height: 50
-      sliceName: "Evoluci\xF3n de la concentraci\xF3n de contaminantes"
+      sliceName: "Evoluci\xF3n de la concentraci\xF3n de contaminantes (MAX)"
       uuid: 4b5f8d0c-2001-4b3c-8a11-111111112001
       width: 12
     parents:
@@ -651,6 +731,18 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-H13gSIOzYdBRRJD5_E3_x
     type: ROW
+  ROW-4IVh39qv6Al5zA4_vqRz-:
+    children:
+    - CHART-202
+    id: ROW-4IVh39qv6Al5zA4_vqRz-
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    type: ROW
   ROW-5N6eCSJkIfBmLw2brEXNh:
     children:
     - CHART-103
@@ -696,6 +788,20 @@ position:
     - TAB-siClbnIE5qkaKKPhtksLn
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-0JZSwnGkxRGz1WB3j7-5H
+    type: ROW
+  ROW-GR_07XQqd_d6idkJpirDW:
+    children:
+    - CHART-198
+    - CHART-199
+    - CHART-200
+    id: ROW-GR_07XQqd_d6idkJpirDW
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
     type: ROW
   ROW-NmVqBAbbax-d1QUNot1oq:
     children:
@@ -892,6 +998,18 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     - TAB-0JZSwnGkxRGz1WB3j7-5H
     type: ROW
+  ROW-vLylyQQmqpmc-ay3Ns5_D:
+    children:
+    - CHART-201
+    id: ROW-vLylyQQmqpmc-ay3Ns5_D
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-EAcgjStdX3-MElq_9hBop
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
+    type: ROW
   ROW-xTa6kOx_pLqpiwx3IW8_m:
     children:
     - CHART-117
@@ -1036,12 +1154,15 @@ position:
     - TABS-pcT6LADoNgjkamUK_A98J
     type: TAB
   TAB-wfPVvW4tA9QF6PyJU2lrI:
-    children: []
+    children:
+    - ROW-GR_07XQqd_d6idkJpirDW
+    - ROW-vLylyQQmqpmc-ay3Ns5_D
+    - ROW-4IVh39qv6Al5zA4_vqRz-
     id: TAB-wfPVvW4tA9QF6PyJU2lrI
     meta:
       defaultText: Tab title
       placeholder: Tab title
-      text: Predictiva
+      text: ISD
     parents:
     - ROOT_ID
     - GRID_ID
@@ -1085,9 +1206,10 @@ metadata:
     controlValues:
       enableEmptyFilter: false
     scope:
-      excluded: []
       rootPath:
       - TAB-siClbnIE5qkaKKPhtksLn
+      - TAB-wfPVvW4tA9QF6PyJU2lrI
+      excluded: []
     defaultDataMask:
       extraFormData:
         time_range: 'DATEADD(DATETIME("2026-06-30T00:00:00"), -1, month) : 2026-06-30T00:00:00'
@@ -1095,14 +1217,21 @@ metadata:
         value: 'DATEADD(DATETIME("2026-06-30T00:00:00"), -1, month) : 2026-06-30T00:00:00'
     id: NATIVE_FILTER-mlWxxBBYmx4TGzyfW-QfQ
     chartsInScope:
-    - 2
     - 22
-    - 15
+    - 32
+    - 100
+    - 109
+    - 114
+    - 115
+    - 119
+    - 198
+    - 199
+    - 202
+    - 200
+    - 201
     - 26
     - 40
     - 41
-    - 32
-    - 100
     - 104
     - 102
     - 103
@@ -1111,42 +1240,48 @@ metadata:
     - 106
     - 107
     - 108
-    - 109
     - 110
     - 111
     - 112
     - 113
-    - 114
-    - 115
-    - 116
-    - 117
     - 118
-    - 119
+    - 117
+    - 116
+    - 15
+    - 2
     tabsInScope:
     - TAB-siClbnIE5qkaKKPhtksLn
     - TAB-uV3JLvuCPTSxjxvjgaOVW
     - TAB-0JZSwnGkxRGz1WB3j7-5H
     - TAB-H13gSIOzYdBRRJD5_E3_x
     - TAB-2wks2qHrftSCq0zpNAnVh
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
     - TAB-r5nQ2qVSuPyawoDkx1BnF
   - cascadeParentIds: []
     chartsInScope:
-    - 2
     - 7
-    - 13
-    - 19
-    - 17
-    - 25
     - 22
-    - 15
-    - 26
-    - 40
-    - 8
     - 16
-    - 18
-    - 41
     - 32
     - 100
+    - 109
+    - 114
+    - 115
+    - 119
+    - 198
+    - 199
+    - 202
+    - 200
+    - 201
+    - 17
+    - 18
+    - 25
+    - 13
+    - 19
+    - 8
+    - 26
+    - 40
+    - 41
     - 104
     - 102
     - 103
@@ -1155,17 +1290,15 @@ metadata:
     - 106
     - 107
     - 108
-    - 109
     - 110
     - 111
     - 112
     - 113
-    - 114
-    - 115
-    - 116
-    - 117
     - 118
-    - 119
+    - 117
+    - 116
+    - 15
+    - 2
     controlValues:
       creatable: true
       defaultToFirstItem: false
@@ -1187,12 +1320,13 @@ metadata:
       - ROOT_ID
     sortMetric: null
     tabsInScope:
-    - TAB-siClbnIE5qkaKKPhtksLn
     - TAB-sS7E1IHTjKYOqnMQp36lF
+    - TAB-siClbnIE5qkaKKPhtksLn
     - TAB-uV3JLvuCPTSxjxvjgaOVW
     - TAB-0JZSwnGkxRGz1WB3j7-5H
     - TAB-H13gSIOzYdBRRJD5_E3_x
     - TAB-2wks2qHrftSCq0zpNAnVh
+    - TAB-wfPVvW4tA9QF6PyJU2lrI
     - TAB-r5nQ2qVSuPyawoDkx1BnF
     targets:
     - column:
@@ -1239,6 +1373,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '7':
       id: 7
       crossFilters:
@@ -1278,6 +1417,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '8':
       id: 8
       crossFilters:
@@ -1317,6 +1461,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '13':
       id: 13
       crossFilters:
@@ -1356,6 +1505,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '22':
       id: 22
       crossFilters:
@@ -1395,6 +1549,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '25':
       id: 25
       crossFilters:
@@ -1434,6 +1593,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '26':
       id: 26
       crossFilters:
@@ -1473,6 +1637,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '32':
       id: 32
       crossFilters:
@@ -1512,6 +1681,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '40':
       id: 40
       crossFilters:
@@ -1551,6 +1725,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '41':
       id: 41
       crossFilters:
@@ -1590,6 +1769,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '100':
       id: 100
       crossFilters:
@@ -1629,6 +1813,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '101':
       id: 101
       crossFilters:
@@ -1668,6 +1857,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '102':
       id: 102
       crossFilters:
@@ -1707,6 +1901,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '103':
       id: 103
       crossFilters:
@@ -1746,6 +1945,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '104':
       id: 104
       crossFilters:
@@ -1785,6 +1989,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '105':
       id: 105
       crossFilters:
@@ -1824,6 +2033,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '106':
       id: 106
       crossFilters:
@@ -1863,6 +2077,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '107':
       id: 107
       crossFilters:
@@ -1902,6 +2121,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '108':
       id: 108
       crossFilters:
@@ -1941,6 +2165,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '109':
       id: 109
       crossFilters:
@@ -1980,6 +2209,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '110':
       id: 110
       crossFilters:
@@ -2019,6 +2253,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '111':
       id: 111
       crossFilters:
@@ -2058,6 +2297,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '112':
       id: 112
       crossFilters:
@@ -2097,6 +2341,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '113':
       id: 113
       crossFilters:
@@ -2136,6 +2385,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '114':
       id: 114
       crossFilters:
@@ -2175,6 +2429,11 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
     '115':
       id: 115
       crossFilters:
@@ -2214,6 +2473,187 @@ metadata:
         - 117
         - 118
         - 119
+        - 198
+        - 199
+        - 200
+        - 201
+        - 202
+    '198':
+      id: 198
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 32
+        - 40
+        - 41
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 199
+        - 200
+        - 201
+        - 202
+    '199':
+      id: 199
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 32
+        - 40
+        - 41
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 198
+        - 200
+        - 201
+        - 202
+    '200':
+      id: 200
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 32
+        - 40
+        - 41
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 198
+        - 199
+        - 201
+        - 202
+    '201':
+      id: 201
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 7
+        - 8
+        - 13
+        - 15
+        - 16
+        - 17
+        - 18
+        - 19
+        - 22
+        - 25
+        - 26
+        - 32
+        - 40
+        - 41
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 198
+        - 199
+        - 200
+        - 202
   global_chart_configuration:
     scope:
       rootPath:
@@ -2255,6 +2695,11 @@ metadata:
     - 117
     - 118
     - 119
+    - 198
+    - 199
+    - 200
+    - 201
+    - 202
   chart_customization_config: []
   color_scheme: supersetColors
   refresh_frequency: 0
@@ -2293,15 +2738,43 @@ metadata:
   - Razonablemente buena
   - Regular
   map_label_colors:
+    '28079004': '#E04355'
+    '28079008': '#FCC700'
+    '28079011': '#666666'
+    '28079016': '#454E7C'
+    '28079017': '#D1C6BC'
+    '28079018': '#9EE5E5'
+    '28079024': '#666666'
+    '28079027': '#D3B3DA'
+    '28079035': '#FDE380'
+    '28079036': '#EFA1AA'
+    '28079038': '#B2B2B2'
+    '28079039': '#E04355'
+    '28079040': '#FEC0A1'
+    '28079047': '#ACE1C4'
+    '28079048': '#A1A6BD'
+    '28079049': '#8FD3E4'
+    '28079050': '#5AC189'
+    '28079054': '#A38F79'
+    '28079055': '#FF7F44'
+    '28079056': '#FF7F44'
+    '28079057': '#3CCCCB'
+    '28079058': '#A868B7'
+    '28079059': '#5AC189'
+    '28079060': '#454E7C'
+    Razonablemente buena: '#1FA8C9'
+    Regular: '#454E7C'
+    Buena: '#5AC189'
+    MAX(nivelicageneral): '#1FA8C9'
     ? ''
     : '#1FA8C9'
+    "M\xE1ximo": '#1FA8C9'
+    Media: '#454E7C'
+    "M\xEDnimo": '#5AC189'
     O3: '#1FA8C9'
     PM10: '#454E7C'
     NO2: '#5AC189'
     PM2.5: '#FF7F44'
     SO2: '#666666'
-    "M\xE1ximo": '#1FA8C9'
-    Media: '#454E7C'
-    "M\xEDnimo": '#5AC189'
 theme_uuid: null
 version: 1.0.0

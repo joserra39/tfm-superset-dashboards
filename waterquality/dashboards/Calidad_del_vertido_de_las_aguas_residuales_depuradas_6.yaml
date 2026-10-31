@@ -818,18 +818,6 @@ position:
     - TAB-AGp1ww7GdkcdI0X_a-j9e
     - TABS-IGyUJ0KbkEvnKG0uYv1fd
     type: TAB
-  TAB-RNfxRRIatE_VKLES7kMlT:
-    children: []
-    id: TAB-RNfxRRIatE_VKLES7kMlT
-    meta:
-      defaultText: Tab title
-      placeholder: Tab title
-      text: Predictiva
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - TABS-0q54BCYNvHgSDFzmGh0-4
-    type: TAB
   TAB-gkSA_FCgxWvG_GPtnKRHz:
     children:
     - ROW-mjPqA4ZLJJ4GSr0b3nRur
@@ -900,7 +888,6 @@ position:
     children:
     - TAB-gkSA_FCgxWvG_GPtnKRHz
     - TAB-AGp1ww7GdkcdI0X_a-j9e
-    - TAB-RNfxRRIatE_VKLES7kMlT
     id: TABS-0q54BCYNvHgSDFzmGh0-4
     meta: {}
     parents:
@@ -1741,10 +1728,10 @@ metadata:
     - 122
     - 123
     - 120
-    - 124
     - 125
     - 126
     - 127
+    - 124
     tabsInScope:
     - TAB-AGp1ww7GdkcdI0X_a-j9e
     - TAB-pIAoqiyjwLhowM28ZlmJT
@@ -1780,14 +1767,9 @@ metadata:
     chartsInScope:
     - 92
     - 89
-    - 78
-    - 80
     - 79
     - 81
     - 82
-    - 83
-    - 84
-    - 85
     - 86
     - 87
     - 90
@@ -1800,14 +1782,19 @@ metadata:
     - 97
     - 98
     - 99
+    - 83
     - 121
     - 122
     - 123
     - 120
-    - 124
     - 125
     - 126
     - 127
+    - 85
+    - 84
+    - 80
+    - 78
+    - 124
     tabsInScope:
     - TAB-AGp1ww7GdkcdI0X_a-j9e
     - TAB-pIAoqiyjwLhowM28ZlmJT
@@ -1830,6 +1817,8 @@ metadata:
   - "M\xE1ximo"
   - "M\xEDnimo"
   map_label_colors:
+    Buena: '#1FA8C9'
+    Nivel ICA general: '#1FA8C9'
     EDAR La China: '#1FA8C9'
     EDAR Valdebebas: '#454E7C'
     EDAR Rejas: '#5AC189'
@@ -1840,13 +1829,13 @@ metadata:
     EDAR La Gavia: '#A868B7'
     ? ''
     : '#1FA8C9'
+    "M\xE1ximo": '#1FA8C9'
+    Media: '#454E7C'
+    "M\xEDnimo": '#5AC189'
     SS: '#1FA8C9'
     DBO5: '#454E7C'
     NT: '#5AC189'
     PT: '#FF7F44'
-    "M\xE1ximo": '#1FA8C9'
-    Media: '#454E7C'
-    "M\xEDnimo": '#5AC189'
   color_scheme_domain: []
 theme_uuid: null
 version: 1.0.0

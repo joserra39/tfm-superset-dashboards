@@ -1,0 +1,104 @@
+slice_name: "Mapa de calor Estaci\xF3n/d\xEDa"
+description: null
+certified_by: null
+certification_details: null
+viz_type: heatmap_v2
+params:
+  datasource: 11__table
+  viz_type: heatmap_v2
+  slice_id: 187
+  matrixify_enable: false
+  matrixify_mode_columns: disabled
+  matrixify_dimension_selection_mode_columns: members
+  matrixify_dimension_columns:
+    dimension: ''
+    values: []
+  matrixify_topn_value_columns: 10
+  matrixify_all_sort_by_columns: a_to_z
+  matrixify_topn_order_columns: true
+  matrixify_show_column_headers: true
+  matrixify_fit_columns_dynamically: true
+  matrixify_mode_rows: disabled
+  matrixify_dimension_selection_mode_rows: members
+  matrixify_dimension_rows:
+    dimension: ''
+    values: []
+  matrixify_topn_value_rows: 10
+  matrixify_all_sort_by_rows: a_to_z
+  matrixify_topn_order_rows: true
+  matrixify_show_row_labels: true
+  matrixify_row_height: 300
+  matrixify_charts_per_row: 4
+  matrixify_cell_title_template: ''
+  x_axis: dateobserved
+  time_grain_sqla: P1D
+  groupby: name
+  metric:
+    aggregate: AVG
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: l10
+      description: null
+      expression: ''
+      filterable: true
+      groupby: true
+      id: 277
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: NUMERIC
+      type_generic: 0
+      uuid: 4e4caf02-f937-42d5-bac9-f05d83e6230a
+      verbose_name: null
+      warning_markdown: null
+    datasourceWarning: false
+    expressionType: SIMPLE
+    hasCustomLabel: false
+    label: AVG(l10)
+    optionName: metric_1uycma58dwi_mwx7gh5furb
+    sqlExpression: null
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    isExtra: false
+    operator: TEMPORAL_RANGE
+    subject: dateobserved
+  row_limit: 10000
+  sort_x_axis: alpha_asc
+  sort_y_axis: value_asc
+  normalize_across: heatmap
+  legend_type: continuous
+  linear_color_scheme: superset_seq_2
+  border_color:
+    a: 1
+    b: 0
+    g: 0
+    r: 0
+  border_width: 0
+  xscale_interval: -1
+  yscale_interval: -1
+  left_margin: auto
+  bottom_margin: auto
+  value_bounds:
+  - null
+  - null
+  y_axis_format: SMART_NUMBER
+  x_axis_time_format: '%d/%m/%Y'
+  xAxisLabelRotation: 45
+  show_legend: true
+  show_percentage: false
+  show_values: false
+  normalized: false
+  extra_form_data: {}
+  dashboards:
+  - 4
+query_context: '{"datasource":{"id":11,"type":"table"},"force":false,"queries":[{"filters":[{"col":"dateobserved","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"time_grain_sqla":"P1D","having":"","where":""},"applied_time_extras":{},"columns":[{"timeGrain":"P1D","columnType":"BASE_AXIS","sqlExpression":"dateobserved","label":"dateobserved","expressionType":"SQL","isColumnReference":true},"name"],"metrics":[{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"l10","description":null,"expression":"","filterable":true,"groupby":true,"id":277,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"4e4caf02-f937-42d5-bac9-f05d83e6230a","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(l10)","optionName":"metric_1uycma58dwi_mwx7gh5furb","sqlExpression":null}],"orderby":[["dateobserved",true],["AVG(l10)",true]],"annotation_layers":[],"row_limit":10000,"series_limit":0,"group_others_when_limit_reached":false,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[{"operation":"rank","options":{"metric":"AVG(l10)"}}]}],"form_data":{"datasource":"11__table","viz_type":"heatmap_v2","slice_id":187,"matrixify_enable":false,"matrixify_mode_columns":"disabled","matrixify_dimension_selection_mode_columns":"members","matrixify_dimension_columns":{"dimension":"","values":[]},"matrixify_topn_value_columns":10,"matrixify_all_sort_by_columns":"a_to_z","matrixify_topn_order_columns":true,"matrixify_show_column_headers":true,"matrixify_fit_columns_dynamically":true,"matrixify_mode_rows":"disabled","matrixify_dimension_selection_mode_rows":"members","matrixify_dimension_rows":{"dimension":"","values":[]},"matrixify_topn_value_rows":10,"matrixify_all_sort_by_rows":"a_to_z","matrixify_topn_order_rows":true,"matrixify_show_row_labels":true,"matrixify_row_height":300,"matrixify_charts_per_row":4,"matrixify_cell_title_template":"","x_axis":"dateobserved","time_grain_sqla":"P1D","groupby":"name","metric":{"aggregate":"AVG","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"l10","description":null,"expression":"","filterable":true,"groupby":true,"id":277,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"NUMERIC","type_generic":0,"uuid":"4e4caf02-f937-42d5-bac9-f05d83e6230a","verbose_name":null,"warning_markdown":null},"datasourceWarning":false,"expressionType":"SIMPLE","hasCustomLabel":false,"label":"AVG(l10)","optionName":"metric_1uycma58dwi_mwx7gh5furb","sqlExpression":null},"adhoc_filters":[{"clause":"WHERE","comparator":"No
+  filter","expressionType":"SIMPLE","isExtra":false,"operator":"TEMPORAL_RANGE","subject":"dateobserved"}],"row_limit":10000,"sort_x_axis":"alpha_asc","sort_y_axis":"value_asc","normalize_across":"heatmap","legend_type":"continuous","linear_color_scheme":"superset_seq_2","border_color":{"a":1,"b":0,"g":0,"r":0},"border_width":0,"xscale_interval":-1,"yscale_interval":-1,"left_margin":"auto","bottom_margin":"auto","value_bounds":[null,null],"y_axis_format":"SMART_NUMBER","x_axis_time_format":"%d/%m/%Y","xAxisLabelRotation":45,"show_legend":true,"show_percentage":false,"show_values":false,"normalized":false,"extra_form_data":{},"dashboards":[4],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 58eecc71-4bb9-4ac1-9109-3d7a92bb5f99
+version: 1.0.0
+dataset_uuid: d1aac932-e5ab-4c45-992d-a84f2634cba5
